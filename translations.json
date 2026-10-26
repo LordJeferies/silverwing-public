@@ -1,0 +1,2286 @@
+{
+  "text.4f70d8c37e6a": {
+    "es": "Inicio",
+    "en": "Home"
+  },
+  "text.af5aec0ee2e7": {
+    "es": "Explorar",
+    "en": "Explore"
+  },
+  "text.cbbb0a761559": {
+    "es": "Cómo funciona",
+    "en": "How it works"
+  },
+  "text.0b4df18a884b": {
+    "es": "Planes",
+    "en": "Plans"
+  },
+  "text.2bed9dc00d7a": {
+    "es": "Configurar mi plan →",
+    "en": "Build my plan →"
+  },
+  "text.61a5d1fc23a8": {
+    "es": "Saltar al contenido",
+    "en": "Skip to content"
+  },
+  "text.966c7c4cad9a": {
+    "es": "Desde",
+    "en": "From"
+  },
+  "text.c5f125208116": {
+    "es": "Elige tu presencia.",
+    "en": "Choose your presence."
+  },
+  "text.d33192c0566f": {
+    "es": "Inner Circle incluido.",
+    "en": "Inner Circle included."
+  },
+  "text.efcd9b7588f4": {
+    "es": "Construir mi plan →",
+    "en": "Build my plan →"
+  },
+  "text.a51cf19d039e": {
+    "es": "Partículas",
+    "en": "Particles"
+  },
+  "text.0850b0e9714e": {
+    "es": "Vidrio / sólido",
+    "en": "Glass / solid"
+  },
+  "text.e5a98110aac7": {
+    "es": "Tu próximo capítulo.",
+    "en": "Your next chapter."
+  },
+  "text.d1caef3e1a06": {
+    "es": "Descargar propuesta HTML",
+    "en": "Download HTML proposal"
+  },
+  "text.fae5acd14e78": {
+    "es": "Imprimir / guardar PDF",
+    "en": "Print / save PDF"
+  },
+  "text.660ed6db4356": {
+    "es": "Editar selección",
+    "en": "Edit selection"
+  },
+  "text.b0af1597392c": {
+    "es": "Tu nombre o empresa",
+    "en": "Your name or business"
+  },
+  "text.018bb22580a5": {
+    "es": "Nombre para la propuesta",
+    "en": "Proposal name"
+  },
+  "text.d4e659e8a37c": {
+    "es": "Una fuente.",
+    "en": "One source."
+  },
+  "text.499af3c12b5c": {
+    "es": "Un sistema completo.",
+    "en": "One complete system."
+  },
+  "text.dd84a4db8ff9": {
+    "es": "Tu conocimiento",
+    "en": "Your expertise"
+  },
+  "text.eb2e97be47b2": {
+    "es": "Dirección editorial",
+    "en": "Editorial direction"
+  },
+  "text.23a72720aa73": {
+    "es": "Motor creativo",
+    "en": "Creative engine"
+  },
+  "text.e8b406dd91fb": {
+    "es": "Tu aprobación",
+    "en": "Your approval"
+  },
+  "text.6c6106a211bb": {
+    "es": "Material existente, guiones o hasta 2 entrevistas remotas.",
+    "en": "Existing footage, scripts or up to two remote interviews."
+  },
+  "text.a1b23100c8a0": {
+    "es": "Temas, hooks y formatos. El experto valida cada afirmación.",
+    "en": "Topics, hooks and formats. The expert approves all claims."
+  },
+  "text.047a035bbbde": {
+    "es": "Reels, carouseles y visuales. Revisión humana de edición e IA.",
+    "en": "Reels, carousels and visuals. Human review of editing and AI."
+  },
+  "text.ce39ce5e3e61": {
+    "es": "Lotes semanales listos para publicar. Una ronda consolidada.",
+    "en": "Weekly delivery batches ready to publish. One consolidated revision round."
+  },
+  "text.03fae2d14e51": {
+    "es": "Tu visión. En todas partes.",
+    "en": "Your vision. Everywhere."
+  },
+  "text.9a66de134702": {
+    "es": "Tu experiencia. En todas partes.",
+    "en": "Your expertise. Everywhere."
+  },
+  "text.5aaac07e1d52": {
+    "es": "Tu experiencia.",
+    "en": "Your expertise."
+  },
+  "text.59fcdd5343f0": {
+    "es": "En todas partes.",
+    "en": "Everywhere."
+  },
+  "text.c0cbdbc168b9": {
+    "es": "Una perspectiva diferente lo cambia todo.",
+    "en": "A different perspective changes everything."
+  },
+  "text.49eaf9dbf26d": {
+    "es": "Ve más allá.",
+    "en": "See the bigger picture."
+  },
+  "text.cb642c66f851": {
+    "es": "Cada detalle importa.",
+    "en": "Make every detail count."
+  },
+  "text.77dea1f1407d": {
+    "es": "Sigue presente.",
+    "en": "Keep showing up."
+  },
+  "text.427c29ad219b": {
+    "es": "Tus ideas. En todas sus dimensiones.",
+    "en": "Your ideas. In every dimension."
+  },
+  "text.a6702c8a4592": {
+    "es": "Haz que la",
+    "en": "Make the"
+  },
+  "text.2df26cb65eaa": {
+    "es": "idea imposible",
+    "en": "idea impossible"
+  },
+  "text.0428dff51119": {
+    "es": "de ignorar.",
+    "en": "to ignore."
+  },
+  "text.76127abc8405": {
+    "es": "La complejidad",
+    "en": "Complexity"
+  },
+  "text.a8519b735da3": {
+    "es": "se vuelve claridad.",
+    "en": "becomes clarity."
+  },
+  "text.f4b312164863": {
+    "es": "Una conversación.",
+    "en": "One conversation."
+  },
+  "text.82e5a846ef0d": {
+    "es": "Muchas historias.",
+    "en": "Many stories."
+  },
+  "text.3eaff09a8716": {
+    "es": "Reels editoriales",
+    "en": "Editorial Reels"
+  },
+  "text.a391b59fcd2d": {
+    "es": "Carouseles de conocimiento",
+    "en": "Knowledge Carousels"
+  },
+  "text.5f6ef24b35c5": {
+    "es": "De la entrevista al contenido",
+    "en": "Interview to Content"
+  },
+  "text.973be0215d12": {
+    "es": "THE SILVERWING COLLECTION · CINEMATIC STORIES",
+    "en": "COLECCIÓN SILVERWING · HISTORIAS CINEMATOGRÁFICAS"
+  },
+  "text.75b0929a5e1c": {
+    "es": "LA COLECCIÓN SILVERWING",
+    "en": "THE SILVERWING COLLECTION"
+  },
+  "text.0f05eb67bbbc": {
+    "es": "Descubre el sistema →",
+    "en": "Discover the system →"
+  },
+  "text.7f1405b1b1f8": {
+    "es": "Explora los acabados →",
+    "en": "Explore creative finishes →"
+  },
+  "text.aad8afb9c5cf": {
+    "es": "Prueba la beta de Inner Circle →",
+    "en": "Try Inner Circle beta →"
+  },
+  "text.f2a5c3c11d90": {
+    "es": "Explora la beta de Inner Circle →",
+    "en": "Explore Inner Circle beta →"
+  },
+  "text.836ed220f4cc": {
+    "es": "Explorar planes →",
+    "en": "Explore plans →"
+  },
+  "text.1b3cf85a9a52": {
+    "es": "DEL CONOCIMIENTO A TODAS PARTES",
+    "en": "FROM EXPERTISE TO EVERYWHERE"
+  },
+  "text.47311b95e612": {
+    "es": "Menos esfuerzo para ti. Más historias por nuestra parte.",
+    "en": "Less effort from you. More stories from us."
+  },
+  "text.42e0d59ed4fd": {
+    "es": "Tú aportas el conocimiento.",
+    "en": "You bring the expertise."
+  },
+  "text.7e73c66c5ba3": {
+    "es": "Nosotros hacemos el trabajo creativo.",
+    "en": "We do the creative work."
+  },
+  "text.1180bff86447": {
+    "es": "Diseñado para simplificar",
+    "en": "Effortless by design"
+  },
+  "text.d1a45d3c1b3e": {
+    "es": "¿Ya tienes contenido?",
+    "en": "Already have content?"
+  },
+  "text.0b5060077f14": {
+    "es": "¿Necesitas ideas?",
+    "en": "Need ideas?"
+  },
+  "text.432a730e965a": {
+    "es": "¿No tienes tiempo para crear?",
+    "en": "Have no time to create?"
+  },
+  "text.2f6f9c2eada7": {
+    "es": "¿Qué ocurre después de suscribirte?",
+    "en": "What happens after you subscribe?"
+  },
+  "text.043b2e0ccf39": {
+    "es": "01 Discover",
+    "en": "01 Descubrir"
+  },
+  "text.d1c33b61cb73": {
+    "es": "02 Plan",
+    "en": "02 Planificar"
+  },
+  "text.296ed43f632a": {
+    "es": "03 Create",
+    "en": "03 Crear"
+  },
+  "text.5af82462ca03": {
+    "es": "04 Deliver",
+    "en": "04 Entregar"
+  },
+  "text.8fc2823ea6f3": {
+    "es": "Elige tu plan",
+    "en": "Choose your plan"
+  },
+  "text.4ee34a014caa": {
+    "es": "Consistency, made simple.",
+    "en": "Constancia, sin complicaciones."
+  },
+  "text.06283ac14b2a": {
+    "es": "Te damos la bienvenida a",
+    "en": "Welcome to"
+  },
+  "text.b172426c2979": {
+    "es": "the Inner Circle.",
+    "en": "Inner Circle."
+  },
+  "text.d11ef0ffb686": {
+    "es": "Explorar los planes",
+    "en": "Explore membership plans"
+  },
+  "text.f2173dc2b666": {
+    "es": "Private community",
+    "en": "Comunidad privada"
+  },
+  "text.1d784f8c332e": {
+    "es": "Classes & resources",
+    "en": "Clases y recursos"
+  },
+  "text.d51b3bdeee66": {
+    "es": "Servicios para miembros",
+    "en": "Member services"
+  },
+  "text.0f5e5200ed11": {
+    "es": "Rewards & perks",
+    "en": "Recompensas y ventajas"
+  },
+  "text.0c5627b96c63": {
+    "es": "Tu contenido. Tu impulso.",
+    "en": "Your content. Your momentum."
+  },
+  "text.2284eba1a045": {
+    "es": "Tu impulso creativo.",
+    "en": "Your creative momentum."
+  },
+  "text.005501591468": {
+    "es": "Good morning, Creator.",
+    "en": "Hola, creador."
+  },
+  "text.bc4f986ecbca": {
+    "es": "Deliveries",
+    "en": "Entregas"
+  },
+  "text.a580d59821a0": {
+    "es": "Estadísticas",
+    "en": "Insights"
+  },
+  "text.2f4f4b7fbc81": {
+    "es": "Rewards",
+    "en": "Recompensas"
+  },
+  "text.19a5493219ea": {
+    "es": "Tus próximas publicaciones.",
+    "en": "Your next publications."
+  },
+  "text.0855684c1444": {
+    "es": "Publications",
+    "en": "Publicaciones"
+  },
+  "text.ef56856942a5": {
+    "es": "Listo para publicar",
+    "en": "Ready to publish"
+  },
+  "text.35a3f559ba93": {
+    "es": "Links submitted",
+    "en": "Enlaces registrados"
+  },
+  "text.642a2be767cf": {
+    "es": "Sample reach",
+    "en": "Alcance de ejemplo"
+  },
+  "text.868db573427b": {
+    "es": "Rewards balance",
+    "en": "Saldo de puntos"
+  },
+  "text.56a6c399a04b": {
+    "es": "Los puntos reales no están disponibles en esta beta",
+    "en": "Real points unavailable in beta"
+  },
+  "text.8b02f3de3906": {
+    "es": "Not connected",
+    "en": "Sin conectar"
+  },
+  "text.eea956cde875": {
+    "es": "Delivered",
+    "en": "Entregado"
+  },
+  "text.483bf2075c12": {
+    "es": "Published",
+    "en": "Publicado"
+  },
+  "text.9550373e8b9b": {
+    "es": "Measured",
+    "en": "Medido"
+  },
+  "text.8e7733279192": {
+    "es": "Rewarded",
+    "en": "Recompensado"
+  },
+  "text.19cc80e6223c": {
+    "es": "Descubre qué funciona.",
+    "en": "Understand what works."
+  },
+  "text.6cf25a8d043a": {
+    "es": "Consistency, rewarded.",
+    "en": "Constancia recompensada."
+  },
+  "text.aa6082f157fc": {
+    "es": "Registrar publicación ↗",
+    "en": "Register publication ↗"
+  },
+  "text.e963907dac5c": {
+    "es": "Remove",
+    "en": "Eliminar"
+  },
+  "text.d5b610cdb961": {
+    "es": "Abrir publicación registrada",
+    "en": "Open submitted link"
+  },
+  "text.0e183b9a02d4": {
+    "es": "Pendiente de verificación",
+    "en": "Waiting for verification"
+  },
+  "text.705e2551939f": {
+    "es": "Sin métricas reales",
+    "en": "No live metrics"
+  },
+  "text.865cc39ea3f6": {
+    "es": "SAMPLE DATA ONLY",
+    "en": "SOLO DATOS DE EJEMPLO"
+  },
+  "text.1b39f2679aee": {
+    "es": "BETA PREVIEW · SAMPLE DATA",
+    "en": "VISTA BETA · DATOS SIMULADOS"
+  },
+  "text.70804e9477ec": {
+    "es": "ESPACIO DEL CLIENTE / DEMO",
+    "en": "CLIENT WORKSPACE / DEMO"
+  },
+  "text.20c7c5522fc2": {
+    "es": "Ready",
+    "en": "Preparado"
+  },
+  "text.1f059eaf63cf": {
+    "es": "Por publicar",
+    "en": "To publish"
+  },
+  "text.24be61285e09": {
+    "es": "Views",
+    "en": "Visualizaciones"
+  },
+  "text.0b3583ecaaa3": {
+    "es": "Interactions",
+    "en": "Interacciones"
+  },
+  "text.6a29f08e06f5": {
+    "es": "Saves",
+    "en": "Guardados"
+  },
+  "text.640a55a90ddd": {
+    "es": "Elige la frecuencia, cómo aportarás el contenido y el acabado visual que prefieres. Inner Circle incluido.",
+    "en": "Select how often you want to show up, how you'd like to create, and the visual finish you prefer. Inner Circle included."
+  },
+  "text.0fd9a0ef0a15": {
+    "es": "Un sistema sencillo para profesionales, empresarios y especialistas con poco tiempo.",
+    "en": "A simple system built for busy professionals, entrepreneurs and experts."
+  },
+  "text.da04a8570e4e": {
+    "es": "Un estudio creativo para las ideas que solo tú puedes aportar.",
+    "en": "A creative studio for the ideas only you can bring."
+  },
+  "text.9905f7c58906": {
+    "es": "Tu conocimiento merece ser visto.",
+    "en": "Your expertise deserves to be seen."
+  },
+  "text.44c4844e9320": {
+    "es": "SILVERWING · THE BUSINESS ACADEMY",
+    "en": "SILVERWING · ACADEMIA DE NEGOCIO"
+  },
+  "text.f64e0c6d7413": {
+    "es": "Empieza aquí",
+    "en": "Start here"
+  },
+  "text.0efc2e6be4c2": {
+    "es": "Overview",
+    "en": "Resumen"
+  },
+  "text.a0b1baee7768": {
+    "es": "Guía de uso",
+    "en": "User guide"
+  },
+  "text.fc0b0fb9dbc4": {
+    "es": "¿Qué quieres hacer?",
+    "en": "What do you want to do?"
+  },
+  "text.3aeb6426db84": {
+    "es": "Negocio y servicios",
+    "en": "Business and services"
+  },
+  "text.b35d88643bb8": {
+    "es": "Catálogo interno",
+    "en": "Internal catalogue"
+  },
+  "text.b95b624d7c9d": {
+    "es": "Nuevas oportunidades",
+    "en": "New opportunities"
+  },
+  "text.ddccb6bdef43": {
+    "es": "Ventas y ejecución",
+    "en": "Sales and operations"
+  },
+  "text.b93c69d5b130": {
+    "es": "Producción y entregas",
+    "en": "Production and delivery"
+  },
+  "text.e9f511b42b0b": {
+    "es": "Rentabilidad",
+    "en": "Profitability"
+  },
+  "text.42150c3b87fd": {
+    "es": "Datos y tarifas",
+    "en": "Data and pricing"
+  },
+  "text.37719711c96a": {
+    "es": "Propuesta generada",
+    "en": "Generated proposal"
+  },
+  "text.69cc527f7a5d": {
+    "es": "Secciones",
+    "en": "Sections"
+  },
+  "text.a8ee1bb0493d": {
+    "es": "Entiende lo que vendemos. Aprende a entregarlo.",
+    "en": "Understand what we sell. Learn how to deliver it."
+  },
+  "text.822f0c944589": {
+    "es": "Qué y para quién.",
+    "en": "What and for whom."
+  },
+  "text.e2057cf6f917": {
+    "es": "Qué haríamos en cada caso.",
+    "en": "What we would do in each case."
+  },
+  "text.afb603797965": {
+    "es": "Cuánto cobramos y cuándo.",
+    "en": "What we charge and when."
+  },
+  "text.ee5d6533dd80": {
+    "es": "Ver catálogo →",
+    "en": "View catalogue →"
+  },
+  "text.3f4f00cc64c5": {
+    "es": "Simular cliente →",
+    "en": "Simulate client →"
+  },
+  "text.cef89d09700f": {
+    "es": "Ver rentabilidad →",
+    "en": "View profitability →"
+  },
+  "text.1c762bc8abc7": {
+    "es": "Qué hacemos. Cómo. Y por qué.",
+    "en": "What we do. How. And why."
+  },
+  "text.bd75acaca76e": {
+    "es": "Aprende tomando decisiones.",
+    "en": "Learn by making decisions."
+  },
+  "text.a432cfe7e866": {
+    "es": "Un servicio. Distintas necesidades.",
+    "en": "One service. Different needs."
+  },
+  "text.2c3c5fe3956b": {
+    "es": "Simula antes de prometer.",
+    "en": "Simulate before you promise."
+  },
+  "text.99e91f5c780c": {
+    "es": "De la idea a la entrega.",
+    "en": "From idea to delivery."
+  },
+  "text.93aae5325a49": {
+    "es": "Cambiar precios",
+    "en": "Change prices"
+  },
+  "text.f34465d92123": {
+    "es": "Guardar tarifas",
+    "en": "Save prices"
+  },
+  "text.409bf3084fb9": {
+    "es": "Precio no es rentabilidad.",
+    "en": "Price is not profitability."
+  },
+  "text.f09bef80ae6b": {
+    "es": "Controla el modelo.",
+    "en": "Control the model."
+  },
+  "text.19630d41bcda": {
+    "es": "Qué pasa si cambiamos los precios?",
+    "en": "What happens if we change prices?"
+  },
+  "text.8217b1f16bcf": {
+    "es": "¿Qué pasa si cambiamos los precios?",
+    "en": "What happens if we change prices?"
+  },
+  "text.94f89755c2fa": {
+    "es": "Publicar precios en la web comercial",
+    "en": "Publish prices to the commercial website"
+  },
+  "text.08aede0c5bc3": {
+    "es": "Abrir catálogo público en GitHub ↗",
+    "en": "Open public catalogue on GitHub ↗"
+  },
+  "text.bd9a09a1cea7": {
+    "es": "Descargar catálogo para revisión pública",
+    "en": "Download catalogue for public review"
+  },
+  "text.90149e897a59": {
+    "es": "Ver la web comercial actual ↗",
+    "en": "Open current commercial website ↗"
+  },
+  "text.0107556cabf7": {
+    "es": "Especialista médico · Poco tiempo",
+    "en": "Healthcare specialist · Little free time"
+  },
+  "text.36c33a0e0c1c": {
+    "es": "Abogado · Tiene conferencias grabadas",
+    "en": "Lawyer · Has recorded talks"
+  },
+  "text.d204d581caa3": {
+    "es": "Consultor · Necesita guiones",
+    "en": "Consultant · Needs scripts"
+  },
+  "text.f2d08b63098d": {
+    "es": "Clínica · Muchos especialistas",
+    "en": "Clinic · Many specialists"
+  },
+  "text.3d2f02f21aed": {
+    "es": "Podcaster · Episodios semanales",
+    "en": "Podcaster · Weekly episodes"
+  },
+  "text.d4ae5c01e1c4": {
+    "es": "Operación sin incidencias",
+    "en": "Operation without incidents"
+  },
+  "text.cabf8c7ff89e": {
+    "es": "El cliente no entrega los materiales (+3 días)",
+    "en": "Client delivers materials late (+3 days)"
+  },
+  "text.c23670ecd02d": {
+    "es": "Se retrasa una aprobación (+2 días)",
+    "en": "Approval is delayed (+2 days)"
+  },
+  "text.0b6f32e41fd0": {
+    "es": "Solicita cambios de alcance (+4 días)",
+    "en": "Client requests scope changes (+4 days)"
+  },
+  "text.f7aa40f54c9d": {
+    "es": "Cliente / contexto",
+    "en": "Client / context"
+  },
+  "text.334d16c2fc56": {
+    "es": "Evento durante el proyecto",
+    "en": "Event during the project"
+  },
+  "text.d1602b35c634": {
+    "es": "Retraso adicional del cliente (días)",
+    "en": "Additional client delay (days)"
+  },
+  "text.bacec152e3f4": {
+    "es": "Inicio previsto del ciclo",
+    "en": "Expected cycle start"
+  },
+  "text.9de21897c257": {
+    "es": "RECOMENDACIÓN",
+    "en": "RECOMMENDATION"
+  },
+  "text.c082a1877005": {
+    "es": "CALENDARIO ESTIMADO",
+    "en": "ESTIMATED TIMELINE"
+  },
+  "text.0fc6affa50a2": {
+    "es": "Aplicar al Plan Builder →",
+    "en": "Apply to Plan Builder →"
+  },
+  "text.b51348b39e3a": {
+    "es": "Ver Production System →",
+    "en": "View Production System →"
+  },
+  "text.2d46ba69d748": {
+    "es": "Qué debemos aprender:",
+    "en": "What we should learn:"
+  },
+  "text.c5c7d5ee3d61": {
+    "es": "Cliente",
+    "en": "Client"
+  },
+  "text.18e0707ea726": {
+    "es": "Precio",
+    "en": "Price"
+  },
+  "text.74bd5f402882": {
+    "es": "Costo",
+    "en": "Cost"
+  },
+  "text.2916581636fa": {
+    "es": "Margen",
+    "en": "Margin"
+  },
+  "text.2aaa048cd74c": {
+    "es": "Aprobado",
+    "en": "Approved"
+  },
+  "text.7d63af37f69e": {
+    "es": "Pendiente",
+    "en": "Pending"
+  },
+  "text.f88f7779e99a": {
+    "es": "Producción",
+    "en": "Production"
+  },
+  "text.efb87a29756b": {
+    "es": "Revisión",
+    "en": "Review"
+  },
+  "text.cea554aaea7e": {
+    "es": "Entregado",
+    "en": "Delivered"
+  },
+  "text.1693c1902298": {
+    "es": "Día 1–2",
+    "en": "Day 1–2"
+  },
+  "text.c0d243fcf278": {
+    "es": "Día 3–4",
+    "en": "Day 3–4"
+  },
+  "text.9343eb2af866": {
+    "es": "Día 5–8",
+    "en": "Day 5–8"
+  },
+  "text.7f76576ff9dc": {
+    "es": "Día 9–28",
+    "en": "Day 9–28"
+  },
+  "text.170adbd8641b": {
+    "es": "Abrir estrategia",
+    "en": "Open strategy"
+  },
+  "text.a8c2ad1bc067": {
+    "es": "Ver servicios",
+    "en": "View services"
+  },
+  "text.8a1aa6c5c924": {
+    "es": "Abrir configurador",
+    "en": "Open configurator"
+  },
+  "text.f7cb232d6600": {
+    "es": "Ver rentabilidad",
+    "en": "View profitability"
+  },
+  "text.3f4e4c28dde9": {
+    "es": "Ver página comercial",
+    "en": "Open commercial website"
+  },
+  "text.aea916d4702f": {
+    "es": "Configurar precios",
+    "en": "Configure pricing"
+  },
+  "text.b1a40d93348e": {
+    "es": "Ciclo de 4 semanas",
+    "en": "4-week cycle"
+  },
+  "text.4434455b43d2": {
+    "es": "Planes de frecuencia",
+    "en": "Frequency plans"
+  },
+  "text.0f5d33d12307": {
+    "es": "Fuentes",
+    "en": "Sources"
+  },
+  "text.b2e6a424605a": {
+    "es": "Calidad",
+    "en": "Quality"
+  },
+  "text.91d1fb940f90": {
+    "es": "Interno",
+    "en": "Internal"
+  },
+  "text.e063f09b2249": {
+    "es": "Comercial",
+    "en": "Commercial"
+  },
+  "text.427baa1f4b9d": {
+    "es": "Diseñado para dos trabajos.",
+    "en": "Designed for two jobs."
+  },
+  "text.0172ffed8af4": {
+    "es": "Pensar y operar Silverwing.",
+    "en": "Plan and operate Silverwing."
+  },
+  "text.e2509f8f2b8c": {
+    "es": "Mostrar el valor sin complejidad.",
+    "en": "Demonstrate value without complexity."
+  },
+  "text.9f9389cfa66a": {
+    "es": "Cómo usar esta herramienta.",
+    "en": "How to use this tool."
+  },
+  "text.929c3103cb80": {
+    "es": "Comienza por Strategy Lab",
+    "en": "Start with Strategy Lab"
+  },
+  "text.e1dec4641955": {
+    "es": "Consulta el Catálogo interno",
+    "en": "Check the internal catalogue"
+  },
+  "text.cdd0b05d6b12": {
+    "es": "Arma un plan y simula un cliente",
+    "en": "Build a plan and simulate a client"
+  },
+  "text.66f2c5fd5b4d": {
+    "es": "Verifica viabilidad y entrega",
+    "en": "Check feasibility and delivery"
+  },
+  "text.2bda9724d022": {
+    "es": "Activa el modo comercial",
+    "en": "Activate commercial mode"
+  },
+  "text.927b0122d8e8": {
+    "es": "Tu copia de trabajo.",
+    "en": "Your working copy."
+  },
+  "text.56a08f65bdb8": {
+    "es": "Exportar datos JSON",
+    "en": "Export JSON data"
+  },
+  "text.935b8c8d0274": {
+    "es": "Importar copia JSON",
+    "en": "Import JSON backup"
+  },
+  "text.604cf7db609f": {
+    "es": "Guardadas en este navegador",
+    "en": "Saved in this browser"
+  },
+  "text.e6c1f1416ab2": {
+    "es": "No hay datos disponibles.",
+    "en": "No data available."
+  },
+  "text.9d2d6bed5d60": {
+    "es": "Producto",
+    "en": "Product"
+  },
+  "text.96d9b1fd2e3f": {
+    "es": "Servicio",
+    "en": "Service"
+  },
+  "text.51d3e479f4c1": {
+    "es": "Servicios",
+    "en": "Services"
+  },
+  "text.8d50bebeb8b4": {
+    "es": "Costo por pieza",
+    "en": "Cost per piece"
+  },
+  "text.43a5284cb96e": {
+    "es": "Precio por pieza",
+    "en": "Price per piece"
+  },
+  "text.b7b3a65e5fbf": {
+    "es": "Cuatro semanas",
+    "en": "Four weeks"
+  },
+  "text.ceafa55d9c71": {
+    "es": "Haz que la constancia sea extraordinaria.",
+    "en": "Make consistency extraordinary."
+  },
+  "text.eb1d7ce2b253": {
+    "es": "Precios sencillos · Cada cuatro semanas",
+    "en": "Simple pricing • Every four weeks"
+  },
+  "text.cc11457173d1": {
+    "es": "Incluido en todos los planes",
+    "en": "Included with every plan"
+  },
+  "text.7ae236245622": {
+    "es": "Más que contenido: un lugar para aprender, conectar, acceder a oportunidades y seguir creciendo.",
+    "en": "More than content. A place to learn, connect, access member opportunities and keep growing."
+  },
+  "text.eb320066c156": {
+    "es": "Conecta con otros especialistas y emprendedores.",
+    "en": "Connect with fellow experts and entrepreneurs."
+  },
+  "text.0b486b241349": {
+    "es": "Talleres prácticos de iniciación y asesoramiento.",
+    "en": "Practical introductory workshops and guidance."
+  },
+  "text.3dc0b73fcac7": {
+    "es": "Producción de pódcast opcional, ediciones especiales y proyectos personalizados.",
+    "en": "Optional podcast production, special edits and tailored projects."
+  },
+  "text.f854cde23c2d": {
+    "es": "Beneficios vinculados a la constancia, la participación y la fidelidad.",
+    "en": "Benefits tied to consistency, participation and loyalty."
+  },
+  "text.e0f96d23a5d6": {
+    "es": "Los cursos avanzados y los servicios creativos opcionales pueden tener un costo adicional. Los programas y horarios disponibles se comunicarán a los miembros.",
+    "en": "Advanced classes and optional creative services may have additional fees. Available programs and schedules are communicated to members."
+  },
+  "text.6bdbb7dde467": {
+    "es": "INNER CIRCLE / PUBLIC PREVIEW",
+    "en": "INNER CIRCLE / VISTA PÚBLICA"
+  },
+  "text.953859aae4c3": {
+    "es": "We'll keep creating.",
+    "en": "Nosotros seguiremos creando."
+  },
+  "text.86d96f53402e": {
+    "es": "BETA DEMO · SIN CUENTA REAL",
+    "en": "BETA DEMO · NO REAL ACCOUNT"
+  },
+  "text.fa3ae632b5f4": {
+    "es": "CICLO: 4 SEMANAS",
+    "en": "CYCLE: 4 WEEKS"
+  },
+  "text.d2b3af940eb7": {
+    "es": "Piezas por publicar",
+    "en": "Pieces to publish"
+  },
+  "text.164a070db097": {
+    "es": "Ejemplos entregados",
+    "en": "Sample deliverables"
+  },
+  "text.1816e39c3fad": {
+    "es": "Pendientes de verificación",
+    "en": "Awaiting verification"
+  },
+  "text.4d41b65cd628": {
+    "es": "Alcance de ejemplo",
+    "en": "Sample reach"
+  },
+  "text.c663ae58eb62": {
+    "es": "Ficticio, no conectado",
+    "en": "Fictional, not connected"
+  },
+  "text.1e1443446ace": {
+    "es": "Puntos canjeables",
+    "en": "Redeemable points"
+  },
+  "text.dabf179cc71f": {
+    "es": "Programa no activo",
+    "en": "Program not active"
+  },
+  "text.2eb9058e5ca3": {
+    "es": "Métricas",
+    "en": "Metrics"
+  },
+  "text.f0cc7b603cf4": {
+    "es": "Estas cuatro piezas son ficticias. Para probar el flujo, selecciona una y registra un enlace de publicación real.",
+    "en": "These four deliverables are fictional. To test the flow, select one and register a real published post link."
+  },
+  "text.e35991730cb6": {
+    "es": "Un error frecuente en tu especialidad",
+    "en": "A common mistake in your specialty"
+  },
+  "text.fea78c67afba": {
+    "es": "Reel educativo · Semana 1",
+    "en": "Educational reel · Week 1"
+  },
+  "text.b22b3a6dface": {
+    "es": "5 conceptos que vale la pena explicar",
+    "en": "Five concepts worth explaining"
+  },
+  "text.084784f6cf35": {
+    "es": "Carrusel · Semana 1",
+    "en": "Carousel · Week 1"
+  },
+  "text.dd24066a9949": {
+    "es": "Lo que aprendimos de una entrevista",
+    "en": "What we learned from an interview"
+  },
+  "text.009df612044b": {
+    "es": "Reel · Semana 2",
+    "en": "Reel · Week 2"
+  },
+  "text.eeaae99c5df8": {
+    "es": "Una idea, una imagen",
+    "en": "One idea, one image"
+  },
+  "text.2adcc3921837": {
+    "es": "Gráfico estático · Semana 2",
+    "en": "Static visual · Week 2"
+  },
+  "text.dec473d4058f": {
+    "es": "Pieza entregada",
+    "en": "Delivered asset"
+  },
+  "text.eb9da06f1dd8": {
+    "es": "01 · Reel educativo",
+    "en": "01 · Educational reel"
+  },
+  "text.6528702d99e5": {
+    "es": "02 · Carrusel",
+    "en": "02 · Carousel"
+  },
+  "text.0f6b7ea5e704": {
+    "es": "03 · Reel entrevista",
+    "en": "03 · Interview reel"
+  },
+  "text.5683b4c0d32e": {
+    "es": "04 · Visual estático",
+    "en": "04 · Static visual"
+  },
+  "text.476b7aaea00d": {
+    "es": "Enlace a la publicación",
+    "en": "Link to published post"
+  },
+  "text.99815f98d8d4": {
+    "es": "Registrar link ↗",
+    "en": "Register link ↗"
+  },
+  "text.d2e12bf7f8d1": {
+    "es": "Así se verán los resultados cuando existan conexiones oficiales con las cuentas de cada plataforma. No se han obtenido métricas reales.",
+    "en": "This is how results will appear once official account connections are available. No real statistics have been retrieved."
+  },
+  "text.1b81540d3698": {
+    "es": "Views · Ejemplo",
+    "en": "Vistas · Ejemplo"
+  },
+  "text.cfb6af8f8cc5": {
+    "es": "Interacciones · Ejemplo",
+    "en": "Interactions · Example"
+  },
+  "text.a1fe6a06a47d": {
+    "es": "Guardados · Ejemplo",
+    "en": "Saves · Example"
+  },
+  "text.4b36ebe227ca": {
+    "es": "Actividad ilustrativa · Semana 1 a 4",
+    "en": "Illustrative activity · Weeks 1–4"
+  },
+  "text.142d0a7bc532": {
+    "es": "Pegar una URL no permite consultar estadísticas privadas. Las métricas reales requieren permisos de Meta, TikTok, LinkedIn u otras plataformas y un backend conectado.",
+    "en": "Pasting a URL does not provide access to private statistics. Real metrics require permissions from Meta, TikTok, LinkedIn or other platforms and a connected backend."
+  },
+  "text.1fef6acbda55": {
+    "es": "Propuesta de programa de fidelidad: las piezas verificadas generarían puntos y los clientes podrían usarlos para solicitar determinados beneficios.",
+    "en": "Proposed loyalty program: verified posts could earn points that clients could redeem for selected benefits."
+  },
+  "text.8018ebf9b5e0": {
+    "es": "PUBLICAR · HIPÓTESIS",
+    "en": "PUBLISHING · CONCEPT"
+  },
+  "text.a5fa90f65689": {
+    "es": "Por publicación verificada.",
+    "en": "Per verified publication."
+  },
+  "text.38274d3af3e4": {
+    "es": "RACHA · HIPÓTESIS",
+    "en": "STREAK · CONCEPT"
+  },
+  "text.a5da1075133a": {
+    "es": "Por completar una meta de publicación semanal.",
+    "en": "For completing a weekly publishing target."
+  },
+  "text.7c210e6321e3": {
+    "es": "CANJE · HIPÓTESIS",
+    "en": "REDEMPTION · CONCEPT"
+  },
+  "text.1736ff1470fa": {
+    "es": "Acceso a recursos o descuentos creativos, sujetos a disponibilidad y aprobación.",
+    "en": "Access to resources or creative discounts, subject to availability and approval."
+  },
+  "text.404be2b4488f": {
+    "es": "Esta beta no concede ni permite canjear puntos reales. Las reglas y los costos del programa todavía deben aprobarse.",
+    "en": "This beta does not grant or redeem real points. Program rules and costs still require approval."
+  },
+  "text.477941bda6bb": {
+    "es": "Tu selección / USD por ciclo de 4 semanas",
+    "en": "Your selection / USD per 4-week cycle"
+  },
+  "text.5ddf07df5a52": {
+    "es": "Próximo paso: comparte la propuesta descargada con el equipo de Silverwing para confirmar alcance, disponibilidad y condiciones. No se ha enviado ninguna solicitud ni cobrado ningún servicio.",
+    "en": "Next: share the downloaded proposal with Silverwing to confirm scope, availability and terms. No request has been submitted and no payment has been taken."
+  },
+  "text.200524e7461f": {
+    "es": "Instalar Silverwing ↗",
+    "en": "Install Silverwing ↗"
+  },
+  "text.4db049b4a625": {
+    "es": "12 piezas / 4 semanas.",
+    "en": "12 pieces / 4 weeks."
+  },
+  "text.c5943c2ab119": {
+    "es": "Convertimos lo que sabes en contenido que merece ser visto. Dirección editorial, producción y un motor creativo que trabaja alrededor de tu tiempo.",
+    "en": "We turn what you know into content worth seeing. Editorial direction, production and a creative engine that works around your schedule."
+  },
+  "text.504f4dc0b427": {
+    "es": "Ejemplos conceptuales de cómo transformar una sesión de conocimiento en contenido consistente. Cada formato cuenta una parte de la historia.",
+    "en": "Conceptual examples of turning one session of expertise into consistent content. Each format tells a different part of the story."
+  },
+  "text.b1f9e023f390": {
+    "es": "Hooks, ritmo, subtítulos y edición orientada a comunicar con claridad.",
+    "en": "Hooks, pacing, captions and editing designed to communicate clearly."
+  },
+  "text.6c7a25f1a3fb": {
+    "es": "Conceptos técnicos explicados con lenguaje visual y diseño editorial.",
+    "en": "Technical concepts explained through visual storytelling and editorial design."
+  },
+  "text.63235049fb7e": {
+    "es": "Una fuente de conocimiento puede convertirse en múltiples piezas, según el plan y el material disponible.",
+    "en": "One source of expertise can become multiple pieces, depending on the plan and available material."
+  },
+  "text.c22afa575852": {
+    "es": "Visuales conceptuales originales que expresan la ambición creativa de Silverwing. Son referencias de dirección artística, no trabajos encargados por clientes.",
+    "en": "Original conceptual visuals expressing Silverwing's creative ambition. These are art-direction references, not commissioned client projects."
+  },
+  "text.15f8b84a81be": {
+    "es": "Convertimos experiencia especializada en temas, formatos y narrativas coherentes para una presencia reconocible.",
+    "en": "We turn specialist knowledge into themes, formats and cohesive narratives for a recognizable presence."
+  },
+  "text.52dffca6c29a": {
+    "es": "Un acabado creativo uniforme: edición, ritmo, diseño y ejemplos de producción adaptables a tu voz.",
+    "en": "Consistent creative craft: editing, pacing, design and production studies adaptable to your voice."
+  },
+  "text.73e268183735": {
+    "es": "Un ciclo de cuatro semanas con entregas en lotes y una demo de Inner Circle para ayudar a mantener la constancia.",
+    "en": "A four-week cycle with batch delivery and an Inner Circle demo to encourage consistency."
+  },
+  "text.b97e30c0cb26": {
+    "es": "Recibe contenido, registra tus publicaciones y descubre cómo sería dar seguimiento a los resultados y recibir beneficios por tu constancia.",
+    "en": "Receive content, register publications and explore how performance tracking and consistency rewards could work."
+  },
+  "text.fe3b0380b4e1": {
+    "es": "Así transformamos conocimiento en piezas de contenido. Cada etapa tiene un responsable y un punto de aprobación.",
+    "en": "Here's how we transform expertise into content. Every stage has an owner and an approval point."
+  },
+  "text.c0f249ff43d2": {
+    "es": "La membresía está incluida con una suscripción activa. La disponibilidad de comunidad, actividades y recompensas debe confirmarse con Silverwing antes de contratar.",
+    "en": "Membership is included with an active subscription. Confirm community, activities and reward availability with Silverwing before purchasing."
+  },
+  "text.e88da6c6e73c": {
+    "es": "Un lugar para ver qué hemos entregado, qué queda por publicar, registrar enlaces y seguir la constancia de tus contenidos.",
+    "en": "A place to see what's delivered, what's pending publication, register links and track your content consistency."
+  },
+  "text.877168d322be": {
+    "es": "Datos de demostración. Los enlaces que registres se guardan únicamente durante esta sesión del navegador.",
+    "en": "Demo data. Links you register are stored only for this browser session."
+  },
+  "text.49969d404888": {
+    "es": "Piezas",
+    "en": "Pieces"
+  },
+  "text.3779a164212f": {
+    "es": "Tu conocimiento, con claridad.",
+    "en": "Your expertise, clearly presented."
+  },
+  "text.435f0043c4d4": {
+    "es": "Un negocio creativo, con enfoque",
+    "en": "A creative business, in focus"
+  },
+  "text.c010eab8afc6": {
+    "es": "Client Experience ↗",
+    "en": "Experiencia comercial ↗"
+  },
+  "text.4ec575bc2f15": {
+    "es": "Tu centro de aprendizaje y operación. Explora el catálogo, decide una solución para un cliente, simula producción y prueba precios antes de vender.",
+    "en": "Your learning and operations center. Explore the catalogue, choose a client solution, simulate delivery and test prices before selling."
+  },
+  "text.195239556291": {
+    "es": "01 / Qué ofrecemos ↗",
+    "en": "01 / What we offer ↗"
+  },
+  "text.e085037b3c7b": {
+    "es": "02 / Simular cliente",
+    "en": "02 / Simulate client"
+  },
+  "text.de6607ffc0db": {
+    "es": "03 / Configurar precios",
+    "en": "03 / Set prices"
+  },
+  "text.041dbf96ae20": {
+    "es": "APRENDER",
+    "en": "LEARN"
+  },
+  "text.69309b8f85a0": {
+    "es": "PRACTICAR",
+    "en": "PRACTICE"
+  },
+  "text.790228b98346": {
+    "es": "COMPROBAR",
+    "en": "VERIFY"
+  },
+  "text.2825e3803dae": {
+    "es": "Producto, problema, materiales necesarios, entregables, límites y cuándo recomendarlo.",
+    "en": "Product, problem, required materials, deliverables, limits and when to recommend it."
+  },
+  "text.5a8f614f4e0d": {
+    "es": "Recomendaciones razonadas, objeciones comerciales y escenarios de retrasos.",
+    "en": "Reasoned recommendations, sales objections and delay scenarios."
+  },
+  "text.80980f42cdee": {
+    "es": "Pricing Lab, capacidad, costo de producción, rentabilidad y estimaciones de entrega.",
+    "en": "Pricing Lab, capacity, production costs, profitability and delivery estimates."
+  },
+  "text.60f7311e5be9": {
+    "es": "Material · guiones · entrevistas",
+    "en": "Materials · scripts · interviews"
+  },
+  "text.f475f1ff18f0": {
+    "es": "Entender por qué existen los servicios, definir precios, estimar capacidad, documentar procesos y evaluar nuevas oportunidades.",
+    "en": "Understand why services exist, set prices, estimate capacity, document processes and evaluate new opportunities."
+  },
+  "text.bbb7d62cec3c": {
+    "es": "Explorar el modelo →",
+    "en": "Explore the business model →"
+  },
+  "text.d768ac3a43ec": {
+    "es": "Una experiencia premium para prospectos: cómo funciona, planes, resultados visuales y acceso a Inner Circle.",
+    "en": "A premium experience for prospects: how it works, plans, visual examples and access to Inner Circle."
+  },
+  "text.990fbf17756d": {
+    "es": "Abrir Client Experience →",
+    "en": "Open Client Experience →"
+  },
+  "text.76e7a3a3f9c2": {
+    "es": "Getting started",
+    "en": "Primeros pasos"
+  },
+  "text.9d3ee6685ac3": {
+    "es": "El estudio guarda tus datos en este navegador. La experiencia comercial tiene un archivo separado sin información operativa. Cada módulo responde una pregunta específica.",
+    "en": "Studio saves your data in this browser. The commercial experience is separate from operational information. Each module answers a specific question."
+  },
+  "text.f065044b7fc3": {
+    "es": "Lee las hipótesis y criterios que justifican la estructura del negocio. Revisa qué está validado y qué falta comprobar.",
+    "en": "Read the assumptions and criteria behind the business structure. See what has been validated and what still needs checking."
+  },
+  "text.cf3b50e2c340": {
+    "es": "Cada producto indica problema, lógica, entregable, fuentes y límites. Úsalo para alinear a todo el equipo.",
+    "en": "Each service explains the problem, reasoning, deliverables, source materials and limits. Use it to align the team."
+  },
+  "text.3c1588c4c8a4": {
+    "es": "Selecciona frecuencia, método de creación y estilo. El precio y la propuesta se actualizan automáticamente.",
+    "en": "Select frequency, capture method and style. The quote and proposal update automatically."
+  },
+  "text.b5e8eda5fa14": {
+    "es": "Contrasta el precio con tu costo real; revisa las etapas y plazos de onboarding y producción.",
+    "en": "Compare prices with actual costs; review onboarding, production phases and estimated timelines."
+  },
+  "text.075071200729": {
+    "es": "Navegación rápida",
+    "en": "Quick navigation"
+  },
+  "text.89a191126ade": {
+    "es": "¿Qué quieres hacer hoy?",
+    "en": "What do you want to do today?"
+  },
+  "text.0d0e1f139b73": {
+    "es": "Selecciona una pregunta y ve directamente a la herramienta que te ayuda a resolverla.",
+    "en": "Choose a question to open the tool that helps you answer it."
+  },
+  "text.e9f960644b7a": {
+    "es": "Laboratorio estratégico / Razones del negocio",
+    "en": "Strategy Lab / Business rationale"
+  },
+  "text.13eb82c853ed": {
+    "es": "Por qué existe Silverwing.",
+    "en": "Why Silverwing exists."
+  },
+  "text.fa777bbfdd46": {
+    "es": "No vendemos algoritmos ni viralidad garantizada. Convertimos conocimiento en un sistema de publicación consistente y de calidad, con más oportunidades para aprender qué funciona.",
+    "en": "We do not sell algorithms or guaranteed virality. We turn expertise into a consistent, high-quality publishing system with more opportunities to learn what works."
+  },
+  "text.81bb429aa5f7": {
+    "es": "Una decisión, una hipótesis, una medición.",
+    "en": "One decision, one hypothesis, one measurement."
+  },
+  "text.5c2a3bfe3494": {
+    "es": "Decisión",
+    "en": "Decision"
+  },
+  "text.619de4471dca": {
+    "es": "Razonamiento",
+    "en": "Rationale"
+  },
+  "text.9c596a813dba": {
+    "es": "Qué validar",
+    "en": "What to validate"
+  },
+  "text.084affe60c6b": {
+    "es": "Frecuencia con opciones para distintas necesidades",
+    "en": "Frequency options for different needs"
+  },
+  "text.4670ead7ced7": {
+    "es": "Calidad sostenida, resultado y margen por ciclo",
+    "en": "Sustained quality, outcomes and margin per cycle"
+  },
+  "text.dabbcc94fb0e": {
+    "es": "Mix de Reels, carouseles y memes",
+    "en": "Mix of Reels, carousels and memes"
+  },
+  "text.e470794e309d": {
+    "es": "Distintos formatos sirven a distintos objetivos",
+    "en": "Different formats serve different purposes"
+  },
+  "text.d613e82fb5b0": {
+    "es": "Retención, compartidos, guardados y conversiones",
+    "en": "Retention, shares, saves and conversions"
+  },
+  "text.760f701d6def": {
+    "es": "Guiones y entrevistas",
+    "en": "Scripts and interviews"
+  },
+  "text.1bf68cce59bb": {
+    "es": "Reducir dependencia del tiempo del profesional",
+    "en": "Reduce dependence on the expert's time"
+  },
+  "text.e9adb2422d10": {
+    "es": "Horas de preparación y contenido útil generado",
+    "en": "Preparation hours and useful content created"
+  },
+  "text.86eb2ceb6f47": {
+    "es": "Visuales IA",
+    "en": "AI visuals"
+  },
+  "text.b645afcab53b": {
+    "es": "Complementar y explicar sin grabar siempre",
+    "en": "Add clarity and context without always recording"
+  },
+  "text.0e432610119b": {
+    "es": "Costos, precisión y aceptación del cliente",
+    "en": "Costs, accuracy and client approval"
+  },
+  "text.9d5ff37a8a55": {
+    "es": "Relación continua y oportunidades complementarias",
+    "en": "Ongoing relationships and add-on opportunities"
+  },
+  "text.6e7569e6a23c": {
+    "es": "Participación, renovación y compras adicionales",
+    "en": "Participation, renewals and add-on purchases"
+  },
+  "text.8751349a0ba2": {
+    "es": "Internal service encyclopedia",
+    "en": "Enciclopedia de servicios internos"
+  },
+  "text.5edffa1cf884": {
+    "es": "Una explicación operativa para el equipo, diferenciada del lenguaje comercial. Abre cada servicio para ver su lógica, entregables y límites.",
+    "en": "An operational guide for the team, distinct from sales copy. Open each service for its rationale, deliverables and limitations."
+  },
+  "text.f952ab7e666c": {
+    "es": "Qué más podríamos vender.",
+    "en": "What else could we offer?"
+  },
+  "text.7bfc01fd9e2c": {
+    "es": "Oportunidades alineadas con el motor creativo, sin asumir responsabilidades propias de un departamento externo de marketing.",
+    "en": "Opportunities aligned with the creative engine, without taking on the responsibilities of an outsourced marketing department."
+  },
+  "text.9bcb39497b0e": {
+    "es": "Priorizar oportunidades que aumentan el valor del contenido existente. Probar demanda, tiempos y márgenes antes de añadirlas al catálogo comercial.",
+    "en": "Prioritize opportunities that increase the value of existing content. Test demand, timelines and margins before adding them to the commercial catalogue."
+  },
+  "text.f1800f6d5e63": {
+    "es": "Plan Builder / Internal",
+    "en": "Configurador / Interno"
+  },
+  "text.4ab0f965bdc3": {
+    "es": "Construye la oferta adecuada.",
+    "en": "Build the right offer."
+  },
+  "text.ae756ae226d6": {
+    "es": "El cliente elige resultados fáciles de entender. Silverwing determina el mix de formatos y el trabajo detrás.",
+    "en": "Clients choose outcomes they understand. Silverwing decides the format mix and production workflow."
+  },
+  "text.655e8b269da4": {
+    "es": "Los mejores procesos se diseñan antes de que llegue el primer imprevisto.",
+    "en": "The best processes are designed before the first unexpected issue."
+  },
+  "text.be7038987d48": {
+    "es": "Explora prospectos habituales, sus problemas y la combinación de servicios que les recomendaríamos.",
+    "en": "Explore typical prospects, their problems and the service combinations we would recommend."
+  },
+  "text.8cdbc400c88e": {
+    "es": "BUSINESS ACADEMY · SIMULADOR INTERACTIVO",
+    "en": "BUSINESS ACADEMY · INTERACTIVE SIMULATOR"
+  },
+  "text.3b2748fd25af": {
+    "es": "Cambia el perfil, plantea un imprevisto y observa qué recomendaríamos, por qué y cómo impactaría en la primera entrega. Son hipótesis operativas, no garantías.",
+    "en": "Change the client profile, simulate an issue and see the recommended offer, reasoning and impact on initial delivery. These are operational hypotheses, not guarantees."
+  },
+  "text.93678d889b12": {
+    "es": "Sales reasoning",
+    "en": "Razonamiento comercial"
+  },
+  "text.3ad8fba8a929": {
+    "es": "Cómo presentar la solución",
+    "en": "How to present the solution"
+  },
+  "text.ff8e993d4deb": {
+    "es": "Aplicar al configurador →",
+    "en": "Apply to configurator →"
+  },
+  "text.47d243e7f3d4": {
+    "es": "Delivery System",
+    "en": "Sistema de entregas"
+  },
+  "text.a39b0cd70f1c": {
+    "es": "Un ciclo de cuatro semanas con lotes recurrentes, responsabilidades, puntos de aprobación y límites operativos.",
+    "en": "A four-week cycle with recurring batches, responsibilities, approvals and operational limits."
+  },
+  "text.18bd9f2bb037": {
+    "es": "Incorporación",
+    "en": "Onboarding"
+  },
+  "text.7c551291e6a5": {
+    "es": "Brief, materiales, identidad, acceso, permisos, voz de marca.",
+    "en": "Brief, materials, brand identity, access, permissions and brand voice."
+  },
+  "text.a58b1ef1f0bf": {
+    "es": "Editorial",
+    "en": "Editorial"
+  },
+  "text.42840b23c0a3": {
+    "es": "Pilares, temas, guiones si aplican, agenda de entrevistas.",
+    "en": "Content pillars, themes, scripts where relevant and interview scheduling."
+  },
+  "text.40a93826b18b": {
+    "es": "Producción inicial",
+    "en": "Initial production"
+  },
+  "text.aceb9387995b": {
+    "es": "Primer lote, QA y aprobación. Objetivo: primer paquete listo.",
+    "en": "First batch, quality assurance and approval. Goal: first package ready."
+  },
+  "text.fe9b5216deb2": {
+    "es": "Cadencia semanal",
+    "en": "Weekly cadence"
+  },
+  "text.f3afae4bdb68": {
+    "es": "Producción, revisión, entrega y preparación del próximo ciclo.",
+    "en": "Production, revision, delivery and preparation for the next cycle."
+  },
+  "text.bdcb25fbdba2": {
+    "es": "Acuerdos operativos recomendados",
+    "en": "Recommended operating agreements"
+  },
+  "text.e8f1ed6e7341": {
+    "es": "Elemento",
+    "en": "Item"
+  },
+  "text.e1d743a70fe5": {
+    "es": "Regla de referencia",
+    "en": "Reference rule"
+  },
+  "text.44b58814d9cd": {
+    "es": "Responsable",
+    "en": "Owner"
+  },
+  "text.eddb4ec4ca00": {
+    "es": "Material inicial",
+    "en": "Initial materials"
+  },
+  "text.7dbc47be1f8a": {
+    "es": "Entregado antes de iniciar producción",
+    "en": "Delivered before production begins"
+  },
+  "text.8bd94dd194e9": {
+    "es": "Guiones",
+    "en": "Scripts"
+  },
+  "text.4f1c1f13272b": {
+    "es": "Hasta 8 por ciclo en modalidad Guided",
+    "en": "Up to eight per cycle with Guided"
+  },
+  "text.a233ca888e80": {
+    "es": "Silverwing + aprobación cliente",
+    "en": "Silverwing + client approval"
+  },
+  "text.5a01a5ede3a0": {
+    "es": "Entrevistas",
+    "en": "Interviews"
+  },
+  "text.6dcdfa4f6561": {
+    "es": "Hasta 2 sesiones remotas de 45–60 minutos",
+    "en": "Up to two 45–60-minute remote sessions"
+  },
+  "text.f7f45649b475": {
+    "es": "Silverwing coordina / cliente asiste",
+    "en": "Silverwing coordinates / client attends"
+  },
+  "text.01dd029f3842": {
+    "es": "Primer lote",
+    "en": "First batch"
+  },
+  "text.1a2e4d167f31": {
+    "es": "Objetivo: 5–8 días hábiles tras insumos completos",
+    "en": "Target: five to eight business days after receiving all materials"
+  },
+  "text.85a9f5f395c7": {
+    "es": "Lotes siguientes",
+    "en": "Subsequent batches"
+  },
+  "text.99a067c8d76a": {
+    "es": "Semanalmente en fecha acordada",
+    "en": "Weekly on an agreed date"
+  },
+  "text.188d9cb9ad1d": {
+    "es": "1. Elige tu frecuencia de contenido",
+    "en": "1. Choose your content frequency"
+  },
+  "text.ff388446b5d6": {
+    "es": "2. ¿Cómo quieres crear?",
+    "en": "2. How would you like to create?"
+  },
+  "text.cb80b1959868": {
+    "es": "3. Elige el estilo visual",
+    "en": "3. Choose your visual style"
+  },
+  "text.2d3b8f0dd47f": {
+    "es": "Tu total",
+    "en": "Your total"
+  },
+  "text.5ffd91f9b5e5": {
+    "es": "Por ciclo",
+    "en": "Per cycle"
+  },
+  "text.e26e61b11431": {
+    "es": "Qué está incluido",
+    "en": "What is included"
+  },
+  "text.4d6c380eed90": {
+    "es": "Crea tu propuesta",
+    "en": "Build your proposal"
+  },
+  "text.d10a1d178d61": {
+    "es": "Constancia, sin complicaciones.",
+    "en": "Consistency, made simple."
+  },
+  "text.83ba1b5bbb9a": {
+    "es": "Crear mi propuesta",
+    "en": "Create my proposal"
+  },
+  "text.8cdaa7950c0a": {
+    "es": "Crear mi propuesta →",
+    "en": "Create my proposal →"
+  },
+  "text.62c7a69e5a27": {
+    "es": "Incluido",
+    "en": "Included"
+  },
+  "text.9a707ed69e0b": {
+    "es": "Tu plan de contenido",
+    "en": "Your content plan"
+  },
+  "text.57f1dd05b519": {
+    "es": "Frecuencia",
+    "en": "Frequency"
+  },
+  "text.4e62d930aabb": {
+    "es": "Creación",
+    "en": "Creation"
+  },
+  "text.943483f906d2": {
+    "es": "Acabado",
+    "en": "Finish"
+  },
+  "text.fec96c97916d": {
+    "es": "Siguiente paso",
+    "en": "Next step"
+  },
+  "text.c732d4bf4945": {
+    "es": "Nuevo cliente",
+    "en": "New client"
+  },
+  "text.9ad50a6ade04": {
+    "es": "Alcance y entrega",
+    "en": "Scope and delivery"
+  },
+  "text.81780fc3dc7d": {
+    "es": "Solo una demo",
+    "en": "Demo only"
+  },
+  "text.36781639b0d8": {
+    "es": "Simulación",
+    "en": "Simulation"
+  },
+  "text.831d46b9be9c": {
+    "es": "Guardar cambios",
+    "en": "Save changes"
+  },
+  "text.674e29209d4b": {
+    "es": "Introducir datos",
+    "en": "Enter details"
+  },
+  "text.c8cf472f38bc": {
+    "es": "Límites de servicio",
+    "en": "Service limits"
+  },
+  "text.8f33b0b001d6": {
+    "es": "No se han enviado solicitudes ni realizado cobros.",
+    "en": "No request has been sent and no payment has been taken."
+  },
+  "text.ab95d00fec10": {
+    "es": "Catálogo aprobado",
+    "en": "Approved catalog"
+  },
+  "text.1eba9d878d78": {
+    "es": "Borrador",
+    "en": "Draft"
+  },
+  "text.df857d02a611": {
+    "es": "Revisión pendiente",
+    "en": "Pending review"
+  },
+  "text.9df643f06945": {
+    "es": "Publicar",
+    "en": "Publish"
+  },
+  "text.22eeacefb84a": {
+    "es": "Restaurar valores",
+    "en": "Restore values"
+  },
+  "text.527e63dd0bb0": {
+    "es": "Descargar borrador",
+    "en": "Download draft"
+  },
+  "text.d656090fee90": {
+    "es": "Preparar catálogo aprobado",
+    "en": "Prepare approved catalog"
+  },
+  "text.a68eb230823a": {
+    "es": "Playground",
+    "en": "Playground"
+  },
+  "text.1791499bd4d1": {
+    "es": "Conoce Inner Circle ↗",
+    "en": "Discover Inner Circle ↗"
+  },
+  "text.7c4737fa1f42": {
+    "es": "Del conocimiento a todas partes",
+    "en": "From expertise to everywhere"
+  },
+  "text.5be546d9a218": {
+    "es": "01 / Arpía",
+    "en": "01 / Harpy"
+  },
+  "text.b4478b499c18": {
+    "es": "03 / Amazonía",
+    "en": "03 / Amazon"
+  },
+  "text.80d6411bd001": {
+    "es": "05 / Estudio",
+    "en": "05 / Studio"
+  },
+  "text.fa08ffaf831a": {
+    "es": "Ⅱ Pausar",
+    "en": "Ⅱ Pause"
+  },
+  "text.4d29b47b7774": {
+    "es": "▶ Reanudar",
+    "en": "▶ Resume"
+  },
+  "text.d14b933b669a": {
+    "es": "/ ciclo",
+    "en": "/ cycle"
+  },
+  "text.0cb594d71ad8": {
+    "es": "Convierte lo que sabes en un flujo constante de Reels, carouseles y contenido creativo. Tú te enfocas en tu profesión. Nosotros hacemos que tus ideas merezcan ser compartidas.",
+    "en": "Turn what you know into a consistent stream of Reels, carousels and creative content. You focus on your profession. We make your ideas worth sharing."
+  },
+  "text.e8ae5ee19aa9": {
+    "es": "SILVERWING / ESTUDIOS VISUALES",
+    "en": "SILVERWING / VISUAL STUDIES"
+  },
+  "text.f3f924565947": {
+    "es": "01 / CARRUSEL",
+    "en": "01 / CAROUSEL"
+  },
+  "text.df7946a157d7": {
+    "es": "03 / ENTREVISTA",
+    "en": "03 / INTERVIEW"
+  },
+  "text.b066a952d286": {
+    "es": "CAPTURAR → EDITAR → ENTREGAR",
+    "en": "CAPTURE → EDIT → DELIVER"
+  },
+  "text.d3f48287ba93": {
+    "es": "01 / VISIÓN",
+    "en": "01 / VISION"
+  },
+  "text.53ad704966d4": {
+    "es": "02 / OFICIO",
+    "en": "02 / CRAFT"
+  },
+  "text.b722265a0f18": {
+    "es": "03 / CONSTANCIA",
+    "en": "03 / MOMENTUM"
+  },
+  "text.adfd671b2741": {
+    "es": "INNER CIRCLE · INCLUIDO EN TODOS LOS PLANES",
+    "en": "INNER CIRCLE · INCLUDED WITH EVERY PLAN"
+  },
+  "text.b0d514c9eccf": {
+    "es": "La entrega es el comienzo.",
+    "en": "Delivery is the start."
+  },
+  "text.1b21d9f84ff0": {
+    "es": "La constancia es la ventaja.",
+    "en": "Consistency is the advantage."
+  },
+  "text.653f32914d38": {
+    "es": "◎ Contenido con dirección",
+    "en": "◎ Strategy-led content"
+  },
+  "text.585f05bf2745": {
+    "es": "✦ Creatividad apoyada en IA",
+    "en": "✦ AI-assisted creativity"
+  },
+  "text.66198b3d089b": {
+    "es": "◷ Entregas constantes",
+    "en": "◷ Consistent delivery"
+  },
+  "text.57a2ac585227": {
+    "es": "♛ Membresía Inner Circle",
+    "en": "♛ Inner Circle membership"
+  },
+  "text.a6514e7bed73": {
+    "es": "Una fuente de conocimiento.",
+    "en": "One knowledge source."
+  },
+  "text.d8804ab29712": {
+    "es": "Muchas maneras de estar presente.",
+    "en": "Many ways to show up."
+  },
+  "text.6b556b3ba584": {
+    "es": "Reels y videos cortos",
+    "en": "Reels & short videos"
+  },
+  "text.d6ac91049f64": {
+    "es": "Clips que comunican ideas con claridad, subtítulos profesionales y edición intencional.",
+    "en": "Clips that communicate ideas clearly, with professional captions and intentional editing."
+  },
+  "text.cd2503a6bb3f": {
+    "es": "Carouseles y explicaciones visuales",
+    "en": "Carousels & visual explainers"
+  },
+  "text.f770a787779b": {
+    "es": "Temas complejos convertidos en historias visuales sencillas y útiles.",
+    "en": "Complex topics turned into simple, useful visual stories."
+  },
+  "text.0f25c1e85b37": {
+    "es": "Visuales creativos con IA",
+    "en": "Creative AI visuals"
+  },
+  "text.16664aa99e13": {
+    "es": "Imágenes, animaciones e historias visuales coherentes con tu marca cuando no hay grabaciones nuevas.",
+    "en": "Brand-aligned imagery, animations and relevant visual storytelling when new recordings aren't available."
+  },
+  "text.392dff293af5": {
+    "es": "El detalle",
+    "en": "The detail"
+  },
+  "text.ae7a1aa8470b": {
+    "es": "hace la diferencia.",
+    "en": "makes the difference."
+  },
+  "text.9fc068215779": {
+    "es": "Tres niveles de tratamiento. Ejemplos tipográficos demostrativos; no son trabajos de clientes ni videos renderizados.",
+    "en": "Three levels of treatment. Typographic demonstrations, not client projects or rendered videos."
+  },
+  "text.747bd919012f": {
+    "es": "Ideas que",
+    "en": "Ideas that"
+  },
+  "text.0918aaaf9906": {
+    "es": "se entienden.",
+    "en": "make sense."
+  },
+  "text.b551ee978c20": {
+    "es": "Subtítulos, identidad y ritmo profesional.",
+    "en": "Captions, identity and professional pacing."
+  },
+  "text.cfe2c07f049b": {
+    "es": "Incluido en todas las piezas.",
+    "en": "Included in every piece."
+  },
+  "text.b6a9cc2ec882": {
+    "es": "Una idea.",
+    "en": "One idea."
+  },
+  "text.0301e0d1894c": {
+    "es": "Más energía.",
+    "en": "More energy."
+  },
+  "text.006992954b42": {
+    "es": "Motion, ritmo y B-roll.",
+    "en": "Motion, pace and B-roll."
+  },
+  "text.d5665491615b": {
+    "es": "Motion, edición con mayor ritmo y B-roll.",
+    "en": "Motion, faster-paced editing and B-roll."
+  },
+  "text.984cc1174a4b": {
+    "es": "+$199 · 4 Reels seleccionados.",
+    "en": "+$199 · 4 selected Reels."
+  },
+  "text.2b3cfe4ccd56": {
+    "es": "Un acabado",
+    "en": "A distinctive"
+  },
+  "text.47a5b6906250": {
+    "es": "distintivo.",
+    "en": "finish."
+  },
+  "text.622ed2dbbc9f": {
+    "es": "X-roll y diseño sonoro.",
+    "en": "X-roll and sound design."
+  },
+  "text.9cd68a9d4652": {
+    "es": "X-roll avanzado, efectos y diseño sonoro.",
+    "en": "Advanced X-roll, effects and sound design."
+  },
+  "text.e693d63fc19e": {
+    "es": "+$399 · 4 Reels seleccionados.",
+    "en": "+$399 · 4 selected Reels."
+  },
+  "text.70b9259cd563": {
+    "es": "01 / Material",
+    "en": "01 / Upload"
+  },
+  "text.6e99a2cdbd57": {
+    "es": "Envía videos, podcasts, entrevistas, fotos o recursos existentes. Los convertimos en contenido listo para publicar.",
+    "en": "Send videos, podcasts, interviews, photos or existing assets. We turn them into publishable content."
+  },
+  "text.c7f3af353ec0": {
+    "es": "02 / Guiones",
+    "en": "02 / Guided"
+  },
+  "text.be3bab200b83": {
+    "es": "Desarrollamos temas, hooks y guiones para que puedas grabar sin planificar todo por tu cuenta.",
+    "en": "We develop topics, hooks and scripts so you can record without planning everything yourself."
+  },
+  "text.feab733ac9e3": {
+    "es": "03 / Entrevista",
+    "en": "03 / Interview"
+  },
+  "text.18459242087e": {
+    "es": "Conéctate a una entrevista remota dirigida. Hacemos las preguntas y transformamos tus respuestas en contenido.",
+    "en": "Join a guided remote interview. We ask the questions and transform your answers into content."
+  },
+  "text.e3a05274bfef": {
+    "es": "Conocemos tu experiencia, objetivos y voz preferida.",
+    "en": "We learn your expertise, goals and preferred voice."
+  },
+  "text.e5064a399a78": {
+    "es": "Identificamos temas, formatos y fuentes de contenido.",
+    "en": "We identify themes, formats and source material."
+  },
+  "text.2f5373202eee": {
+    "es": "Nuestro equipo edita, diseña y revisa el contenido.",
+    "en": "Our team edits, designs and checks the content."
+  },
+  "text.c3ea36db9aad": {
+    "es": "Revisas y recibes el contenido en lotes periódicos.",
+    "en": "You review and receive content in regular batches."
+  },
+  "text.744f62ad4be9": {
+    "es": "TU PRESENCIA CREATIVA",
+    "en": "YOUR CREATIVE PRESENCE"
+  },
+  "text.d260bd7785a6": {
+    "es": "Inner Circle tiene su propia experiencia.",
+    "en": "Inner Circle has its own experience."
+  },
+  "text.0b86d7636622": {
+    "es": "Descubre qué recibe el cliente, cómo registrará publicaciones y qué significan las métricas y las recompensas.",
+    "en": "Discover what clients receive, how to register posts, and what metrics and rewards mean."
+  },
+  "text.6d26496c3f73": {
+    "es": "Conocer Inner Circle ↗",
+    "en": "Explore Inner Circle ↗"
+  },
+  "text.dce8f18e4bee": {
+    "es": "SILVERWING — POWERED BY ABRAXAS · USD / cada 4 semanas ·",
+    "en": "SILVERWING — POWERED BY ABRAXAS · USD / every 4 weeks ·"
+  },
+  "text.62c8baa77420": {
+    "es": "1. Elige la frecuencia de contenido",
+    "en": "1. Choose your content frequency"
+  },
+  "text.1d167e690056": {
+    "es": "2. ¿Cómo prefieres crear?",
+    "en": "2. How would you like to create?"
+  },
+  "text.e5dd25b99ec9": {
+    "es": "3. Elige el acabado visual",
+    "en": "3. Choose your visual style"
+  },
+  "text.6631c7aff090": {
+    "es": "Cantidad de piezas",
+    "en": "Content pieces"
+  },
+  "text.44a763cf1cb0": {
+    "es": "Reels / Carouseles / Memes y visuales",
+    "en": "Reels / Carousels / Memes & visuals"
+  },
+  "text.b1ae36e6ad52": {
+    "es": "Método de creación",
+    "en": "Creation method"
+  },
+  "text.029c13d92950": {
+    "es": "Acabado visual",
+    "en": "Visual style"
+  },
+  "text.476d441c6d29": {
+    "es": "Membresía Inner Circle",
+    "en": "Inner Circle membership"
+  },
+  "text.2804640f8047": {
+    "es": "Incluido ✓",
+    "en": "Included ✓"
+  },
+  "text.2e9df8d0124f": {
+    "es": "Generar propuesta",
+    "en": "Generate proposal"
+  },
+  "text.67d364c8fa59": {
+    "es": "Se requiere revisión y aprobación del cliente. El mix de formatos puede adaptarse al alcance acordado. Algunos servicios premium se cotizan aparte.",
+    "en": "Client review and approval required. Content format mix may be adapted within agreed output. Some premium services billed separately."
+  },
+  "text.7010d056c9c8": {
+    "es": "Sube grabaciones, entrevistas y materiales aprobados.",
+    "en": "Upload existing footage, interviews and approved materials."
+  },
+  "text.61e8950835b5": {
+    "es": "Temas editoriales, hasta 8 guiones, hooks y orientación por ciclo.",
+    "en": "Monthly editorial themes, up to 8 scripts, hooks and guidance."
+  },
+  "text.948ebb1df927": {
+    "es": "Planificación editorial y hasta 2 entrevistas remotas dirigidas.",
+    "en": "Editorial planning and up to 2 guided remote interviews."
+  },
+  "text.9acf78d98f47": {
+    "es": "Edición profesional, marca, subtítulos y B-roll simple selectivo.",
+    "en": "Professional editing, branded templates, captions and selective simple B-roll."
+  },
+  "text.3376bf3ef743": {
+    "es": "4 Reels seleccionados con motion, más ritmo y B-roll mejorado.",
+    "en": "4 selected Reels get dynamic motion, stronger pacing and enhanced B-roll."
+  },
+  "text.e496f6367e00": {
+    "es": "4 Reels seleccionados con X-roll, diseño, efectos y sonido cinematográfico.",
+    "en": "4 selected Reels get advanced X-roll, design, effects and cinematic sound."
+  },
+  "text.c8b28b3acb96": {
+    "es": "Publicaciones por verificar",
+    "en": "Posts awaiting verification"
+  },
+  "text.d1126c01de92": {
+    "es": "Guardado únicamente en este navegador",
+    "en": "Saved only in this browser"
+  },
+  "text.df591d3cbd68": {
+    "es": "Usa una URL HTTPS válida de una red compatible.",
+    "en": "Use a valid HTTPS URL from a supported platform."
+  },
+  "text.448b4234b604": {
+    "es": "Este enlace ya está registrado.",
+    "en": "This link is already registered."
+  },
+  "text.0db6bea19a0d": {
+    "es": "No se pudo guardar. Descarga una copia antes de cerrar.",
+    "en": "Could not save. Download a copy before closing."
+  },
+  "text.788cd20de48b": {
+    "es": "No hay verificación automática ni conexión con redes sociales.",
+    "en": "No automatic verification or social-network connection is available."
+  },
+  "text.8d9e54455a57": {
+    "es": "No hay puntos reales ni canjes activos.",
+    "en": "No real points or active redemptions are available."
+  },
+  "ic.nav1": {
+    "es": "Concepto",
+    "en": "Concept"
+  },
+  "ic.nav2": {
+    "es": "Cómo funciona",
+    "en": "How it works"
+  },
+  "ic.nav3": {
+    "es": "La app",
+    "en": "The app"
+  },
+  "ic.nav4": {
+    "es": "Explorar planes",
+    "en": "Explore plans"
+  },
+  "ic.hero": {
+    "es": "Lo que creas merece ser publicado.",
+    "en": "What you create deserves to be published."
+  },
+  "ic.intro": {
+    "es": "Inner Circle es la experiencia de acompañamiento de Silverwing. Organizamos las piezas que recibes, facilitamos el seguimiento de tus publicaciones y proponemos recompensar la constancia.",
+    "en": "Inner Circle is Silverwing's member experience. It organizes your delivered assets, helps track what you publish, and proposes rewards for consistency."
+  },
+  "ic.cta1": {
+    "es": "Conocer la experiencia ↗",
+    "en": "Explore the experience ↗"
+  },
+  "ic.cta2": {
+    "es": "Probar demo de publicaciones →",
+    "en": "Try the publishing demo →"
+  },
+  "ic.why": {
+    "es": "Entregar contenido es solo el comienzo.",
+    "en": "Delivery is only the beginning."
+  },
+  "ic.whybody": {
+    "es": "El verdadero valor llega cuando ese contenido se publica de manera sostenida. Queremos que sepas qué tienes listo, qué publicaste y cómo progresa tu hábito creativo, sin perder archivos ni enlaces.",
+    "en": "The real value begins when content is published consistently. We want you to know what's ready, what's live and how your creative habit develops."
+  },
+  "ic.v1": {
+    "es": "Claridad",
+    "en": "Clarity"
+  },
+  "ic.v1b": {
+    "es": "Un inventario visible de piezas entregadas, listas, programadas y publicadas.",
+    "en": "One clear inventory of delivered, ready, scheduled and published assets."
+  },
+  "ic.v2": {
+    "es": "Medición",
+    "en": "Measurement"
+  },
+  "ic.v2b": {
+    "es": "Un lugar para consultar resultados de las publicaciones cuando haya conexiones autorizadas.",
+    "en": "A place to view your post results when authorized integrations become available."
+  },
+  "ic.v3": {
+    "es": "Motivación",
+    "en": "Motivation"
+  },
+  "ic.v3b": {
+    "es": "Un programa propuesto de puntos por publicaciones verificadas y metas de constancia.",
+    "en": "A proposed points system for verified publications and consistency goals."
+  },
+  "ic.how": {
+    "es": "Cuatro pasos. Un hábito sostenible.",
+    "en": "Four steps. One sustainable habit."
+  },
+  "ic.s1": {
+    "es": "Recibe",
+    "en": "Receive"
+  },
+  "ic.s1b": {
+    "es": "Silverwing entrega las piezas acordadas en lotes organizados.",
+    "en": "Silverwing delivers the agreed assets in organized batches."
+  },
+  "ic.s2": {
+    "es": "Publica",
+    "en": "Publish"
+  },
+  "ic.s2b": {
+    "es": "Publicas en tu cuenta y registras el enlace correspondiente.",
+    "en": "Publish on your account and submit the corresponding link."
+  },
+  "ic.s3": {
+    "es": "Comprueba",
+    "en": "Verify"
+  },
+  "ic.s3b": {
+    "es": "La publicación se valida y, con permisos, se consultan las métricas disponibles.",
+    "en": "The post is checked and available metrics can be retrieved with permission."
+  },
+  "ic.s4": {
+    "es": "Progresa",
+    "en": "Progress"
+  },
+  "ic.s4b": {
+    "es": "Tu actividad verificada podría generar puntos y beneficios.",
+    "en": "Verified activity could earn points and benefits."
+  },
+  "ic.moment": {
+    "es": "Cada publicación cuenta.",
+    "en": "Every publication counts."
+  },
+  "ic.momentb": {
+    "es": "La recompensa no dependería de volverse viral. Buscamos reconocer el esfuerzo real de publicar de forma consistente, incluso cuando las cifras varían de una semana a otra.",
+    "en": "Rewards would not depend on going viral. We want to recognize consistent effort even when reach changes week by week."
+  },
+  "ic.app": {
+    "es": "Así sería tu espacio de miembro.",
+    "en": "Your member workspace, envisioned."
+  },
+  "ic.stat1": {
+    "es": "Listos para publicar",
+    "en": "Ready to publish"
+  },
+  "ic.stat2": {
+    "es": "Publicados / ejemplo",
+    "en": "Published / sample"
+  },
+  "ic.stat3": {
+    "es": "Puntos / concepto",
+    "en": "Points / concept"
+  },
+  "ic.tab1": {
+    "es": "Mis contenidos",
+    "en": "My content"
+  },
+  "ic.tab2": {
+    "es": "Mis estadísticas",
+    "en": "My analytics"
+  },
+  "ic.tab3": {
+    "es": "Mis recompensas",
+    "en": "My rewards"
+  },
+  "ic.contenttitle": {
+    "es": "Todo ordenado por estado.",
+    "en": "Organized by status."
+  },
+  "ic.c1": {
+    "es": "Reel educativo — listo para publicar",
+    "en": "Educational Reel — ready to publish"
+  },
+  "ic.c2": {
+    "es": "Carrusel de consejos — en revisión",
+    "en": "Tips carousel — in review"
+  },
+  "ic.c3": {
+    "es": "Clip de entrevista — publicado",
+    "en": "Interview clip — published"
+  },
+  "ic.mtitle": {
+    "es": "Comprende lo que conecta.",
+    "en": "Understand what connects."
+  },
+  "ic.mbody": {
+    "es": "Visualizaciones, alcance, interacciones y guardados, solamente cuando estén disponibles mediante APIs autorizadas. Aquí todavía no hay métricas reales.",
+    "en": "Views, reach, interactions and saves, only where available from authorized APIs. No real metrics are shown here yet."
+  },
+  "ic.rtitle": {
+    "es": "Beneficios por constancia.",
+    "en": "Benefits for consistency."
+  },
+  "ic.rbody": {
+    "es": "Puntos hipotéticos por cada publicación verificada y bonos por metas semanales; los canjes se definirán según costos y disponibilidad.",
+    "en": "Proposed points for verified publications and weekly goals. Redemptions will depend on cost and availability."
+  },
+  "ic.disclaimer": {
+    "es": "Esta pantalla es ilustrativa. La beta pública no crea cuentas, no recupera métricas reales ni otorga puntos canjeables.",
+    "en": "This screen is illustrative. The public beta does not create real accounts, collect live metrics or grant redeemable points."
+  },
+  "ic.cta3": {
+    "es": "Abrir la demo interactiva ↗",
+    "en": "Open the interactive demo ↗"
+  },
+  "ic.included": {
+    "es": "Incluido con tu plan Silverwing.",
+    "en": "Included with your Silverwing plan."
+  },
+  "ic.includedb": {
+    "es": "La membresía se contempla dentro de los planes activos de cuatro semanas. Las clases, los beneficios y el programa de puntos siguen sujetos a desarrollo y confirmación.",
+    "en": "Membership is envisioned within active four-week plans. Classes, perks and points are still subject to development and confirmation."
+  },
+  "ic.cta4": {
+    "es": "Configurar mi plan ↗",
+    "en": "Build my plan ↗"
+  },
+  "ic.back": {
+    "es": "Volver a la web comercial",
+    "en": "Return to commercial website"
+  },
+  "explicit.537": {
+    "es": "En todas partes.",
+    "en": "Everywhere."
+  },
+  "explicit.538": {
+    "es": "imposible",
+    "en": "impossible"
+  },
+  "explicit.539": {
+    "es": "de ignorar.",
+    "en": "to ignore."
+  },
+  "explicit.540": {
+    "es": "se vuelve claridad.",
+    "en": "becomes clarity."
+  },
+  "explicit.541": {
+    "es": "Muchas historias.",
+    "en": "Many stories."
+  },
+  "explicit.542": {
+    "es": "Sigue presente.",
+    "en": "Keep showing up."
+  },
+  "explicit.543": {
+    "es": "Explorar planes →",
+    "en": "Explore plans →"
+  },
+  "explicit.544": {
+    "es": "Carouseles de conocimiento",
+    "en": "Knowledge Carousels"
+  },
+  "explicit.545": {
+    "es": "Reels editoriales",
+    "en": "Editorial Reels"
+  },
+  "explicit.546": {
+    "es": "Incluido",
+    "en": "Included"
+  },
+  "explicit.547": {
+    "es": "Incluido ✓",
+    "en": "Included ✓"
+  },
+  "explicit.548": {
+    "es": "✓ Inner Circle incluido",
+    "en": "✓ Inner Circle included"
+  },
+  "explicit.549": {
+    "es": "USD / cada 4 semanas",
+    "en": "USD / every 4 weeks"
+  },
+  "explicit.550": {
+    "es": "3 publicaciones por semana",
+    "en": "3 posts per week"
+  },
+  "explicit.551": {
+    "es": "1 publicación al día",
+    "en": "1 post every day"
+  },
+  "explicit.552": {
+    "es": "2 publicaciones casi todos los días, 3 martes y miércoles",
+    "en": "2 posts most days, 3 on Tue & Wed"
+  },
+  "explicit.553": {
+    "es": "Recomendado",
+    "en": "Recommended"
+  },
+  "explicit.554": {
+    "es": "Tú grabas, nosotros creamos",
+    "en": "You Record, We Create"
+  },
+  "explicit.555": {
+    "es": "Planificamos, tú grabas",
+    "en": "We Plan, You Record"
+  },
+  "explicit.556": {
+    "es": "Te entrevistamos, creamos",
+    "en": "We Interview, We Create"
+  },
+  "explicit.557": {
+    "es": "12 piezas / ciclo",
+    "en": "12 pieces / cycle"
+  },
+  "explicit.558": {
+    "es": "28 piezas / ciclo",
+    "en": "28 pieces / cycle"
+  },
+  "explicit.559": {
+    "es": "64 piezas / ciclo",
+    "en": "64 pieces / cycle"
+  },
+  "explicit.560": {
+    "es": "Tu experiencia.",
+    "en": "Your expertise."
+  },
+  "explicit.561": {
+    "es": "Alcance y entrega",
+    "en": "Scope and delivery"
+  },
+  "explicit.562": {
+    "es": "USD / 4 semanas",
+    "en": "USD / 4 weeks"
+  },
+  "explicit.563": {
+    "es": "✓ Inner Circle incluido con la suscripción activa. Confirmar disponibilidad de beneficios.",
+    "en": "✓ Inner Circle included with an active subscription. Confirm benefit availability."
+  },
+  "explicit.564": {
+    "es": "Mix de formatos sujeto a acuerdo editorial. Guided: hasta 8 guiones por ciclo. Interview: hasta 2 entrevistas remotas de 45–60 minutos. Dynamic y Cinematic: tratamiento mejorado en 4 Reels seleccionados; el resto conserva acabado Clean.",
+    "en": "Format mix subject to editorial agreement. Guided: up to 8 scripts per cycle. Interview: up to 2 remote interviews of 45–60 minutes. Dynamic and Cinematic: enhanced treatment on 4 selected Reels; all other assets retain Clean finish."
+  },
+  "explicit.565": {
+    "es": "Primer lote: objetivo de 5–8 días hábiles desde insumos completos. Lotes siguientes semanales. Una ronda consolidada de revisión por lote como regla de referencia a acordar. Los retrasos de insumos o aprobación desplazan las entregas.",
+    "en": "First batch: target of 5–8 business days after complete inputs. Following batches weekly. One consolidated revision round per batch as a reference rule to agree. Delays in inputs or approval shift delivery dates."
+  },
+  "explicit.566": {
+    "es": "Estimación comercial, pendiente de confirmación de alcance, disponibilidad y condiciones. Impuestos, pagos y contratación por acordar. No incluye gestión de pauta, garantía de alcance, viralidad ni producción presencial. La propuesta no constituye una compra. El cliente valida afirmaciones y autoriza materiales e IA.",
+    "en": "Commercial estimate pending confirmation of scope, availability and terms. Taxes, payments and contracting to be agreed. Does not include ad management, guaranteed reach, virality or on-site production. The proposal is not a purchase. The client validates claims and authorizes materials and AI."
+  },
+  "explicit.567": {
+    "es": "Frecuencia",
+    "en": "Frequency"
+  },
+  "explicit.568": {
+    "es": "Creación",
+    "en": "Creation"
+  },
+  "explicit.569": {
+    "es": "Acabado:",
+    "en": "Finish:"
+  },
+  "explicit.570": {
+    "es": "Propuesta descargada. No contiene datos internos.",
+    "en": "Proposal downloaded. No internal data included."
+  }
+}

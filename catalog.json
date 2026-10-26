@@ -8,19 +8,28 @@
       "name": "Stay Present",
       "price": 399,
       "pieces": 12,
-      "frequency": "3 posts per week"
+      "frequency": "3 posts per week",
+      "reels": 6,
+      "carousels": 4,
+      "visuals": 2
     },
     "daily": {
       "name": "Daily Authority",
       "price": 799,
       "pieces": 28,
-      "frequency": "1 post every day"
+      "frequency": "1 post every day",
+      "reels": 12,
+      "carousels": 8,
+      "visuals": 8
     },
     "maximum": {
       "name": "Maximum Visibility",
       "price": 999,
       "pieces": 64,
-      "frequency": "2 posts most days, 3 on Tue & Wed"
+      "frequency": "2 posts most days, 3 on Tue & Wed",
+      "reels": 24,
+      "carousels": 20,
+      "visuals": 20
     }
   },
   "sources": {
@@ -56,5 +65,17 @@
       "price": 399,
       "description": "4 selected Reels get advanced X-roll, design, effects and cinematic sound."
     }
+  },
+  "limits": {
+    "periodWeeks": 4,
+    "guidedScripts": 8,
+    "remoteInterviews": 2,
+    "interviewMinutes": [
+      45,
+      60
+    ],
+    "enhancedReels": 4,
+    "innerCircleIncluded": true,
+    "benefitsSubjectToAvailability": true
   }
 }
