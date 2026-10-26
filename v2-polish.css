@@ -1,0 +1,33 @@
+/* Silverwing V2: responsive quality and accessible glass surfaces.
+   Shared finishing layer, never stores secrets or changes price calculations. */
+:root{--swv2-touch:44px;--swv2-focus:#ffcc75;--swv2-ink:#f6faff;--swv2-muted:#d5e3f5;--swv2-outline:rgba(213,232,255,.55)}
+html{scroll-behavior:smooth;scroll-padding-top:115px}body{overflow-x:clip}
+button,a,input,select,textarea{font:inherit}
+button,a[role="button"],.btn,.client-subnav a,.client-subnav button,.sw-language-switch button{min-height:var(--swv2-touch);touch-action:manipulation}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[role=tab]:focus-visible{outline:3px solid var(--swv2-focus)!important;outline-offset:3px!important}
+input,select,textarea{max-width:100%;min-height:44px}
+img,video,canvas{max-width:100%}
+button,.btn,a{overflow-wrap:anywhere}
+.section h1,.section h2,.section h3{text-wrap:balance}
+.section p,.section li{line-height:1.65}
+.sw-language-switch{isolation:isolate;box-shadow:0 8px 32px #04101cc9;border:1px solid #cce6ff91!important;background:#0d2441ed!important}
+.sw-language-switch button{min-width:46px;color:#e7f1ff!important}
+.sw-language-switch button[aria-pressed=true]{background:#e9f3ff!important;color:#152f55!important}
+.clientmode .top,body:not(.clientmode) .top{min-height:72px;gap:12px}
+.clientmode .client-subnav{gap:8px!important}
+.clientmode .client-subnav button,.clientmode .client-subnav a{padding:9px 14px!important;white-space:normal;text-align:center}
+.clientmode .sw-scenic-frost,.clientmode .cinema-offer{background-color:#0a2346c9!important;border-color:#e3f1ffad!important;box-shadow:0 20px 54px #020b1d95,inset 0 1px #f6fbff65!important}
+.clientmode .sw-scenic-frost p,.clientmode .cinema-copy p{color:#f3f8ff!important}
+.clientmode .sw-gallery-card p{color:#deebfa!important}
+.clientmode .sw-circle-dashboard,.clientmode .sw-coach,.clientmode .sw-price-lab{color:#173757}
+.clientmode #sw-circle-form input,.clientmode #sw-circle-form select{background:#fff!important;color:#153559!important}
+body:not(.clientmode) .sw-studio-hero-copy p{color:#e1ecfa!important}
+body:not(.clientmode) .sw-studio-learning-map p{color:#d2e3f5!important}
+body:not(.clientmode) .sw-studio-learning-map article{backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%)}
+body:not(.clientmode) #sw-price-lab input,body:not(.clientmode) #sw-price-lab select,body:not(.clientmode) #sw-learning-sim input,body:not(.clientmode) #sw-learning-sim select{color:#153457!important;background:#fff!important}
+.sw-gallery-grid,.sw-work-grid,.sw-ic-kpis,.sw-circle-stats{min-width:0}
+.sw-gallery-grid>*,.sw-work-grid>*,.sw-circle-stats>*{min-width:0}
+@media(max-width:860px){.clientmode .top{flex-wrap:wrap}.clientmode .client-subnav{justify-content:flex-start!important;overflow-x:auto;flex-wrap:nowrap!important;scrollbar-width:thin}.clientmode .client-subnav>*{white-space:nowrap!important;flex:0 0 auto}.sw-gallery-grid,.sw-work-grid{grid-template-columns:1fr!important}}
+@media(max-width:540px){html{scroll-padding-top:75px}.clientmode .content,.internal{min-width:0}.clientmode .cinema-copy h1{font-size:clamp(40px,10vw,62px)!important}.sw-language-switch{right:10px;bottom:max(10px,env(safe-area-inset-bottom));top:auto!important}.sw-studio-hero-copy h1{font-size:clamp(34px,10vw,48px)!important}.sw-ic-form,.sw-circle-form{grid-template-columns:1fr!important}.sw-scenic-chapter{padding:12px!important}.sw-scenic-frost{padding:20px!important}.sw-scenic-frost h3{font-size:clamp(31px,9vw,44px)!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+@media(prefers-reduced-transparency:reduce){.sw-language-switch{backdrop-filter:none!important}.clientmode .sw-scenic-frost,.clientmode .cinema-offer{backdrop-filter:none!important;background:#0a2340!important}}
