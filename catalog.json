@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "status": "approved",
+  "currency": "USD",
+  "period": "4-weeks",
+  "plans": {
+    "stay": {
+      "name": "Stay Present",
+      "price": 399,
+      "pieces": 12,
+      "frequency": "3 posts per week"
+    },
+    "daily": {
+      "name": "Daily Authority",
+      "price": 799,
+      "pieces": 28,
+      "frequency": "1 post every day"
+    },
+    "maximum": {
+      "name": "Maximum Visibility",
+      "price": 999,
+      "pieces": 64,
+      "frequency": "2 posts most days, 3 on Tue & Wed"
+    }
+  },
+  "sources": {
+    "own": {
+      "name": "You Record, We Create",
+      "price": 0,
+      "description": "Upload existing footage, interviews and approved materials."
+    },
+    "guided": {
+      "name": "We Plan, You Record",
+      "price": 500,
+      "description": "Monthly editorial themes, up to 8 scripts, hooks and guidance."
+    },
+    "interview": {
+      "name": "We Interview, We Create",
+      "price": 1000,
+      "description": "Editorial planning and up to 2 guided remote interviews."
+    }
+  },
+  "styles": {
+    "clean": {
+      "name": "Clean & Professional",
+      "price": 0,
+      "description": "Professional editing, branded templates, captions and selective simple B-roll."
+    },
+    "dynamic": {
+      "name": "Dynamic & Engaging",
+      "price": 199,
+      "description": "4 selected Reels get dynamic motion, stronger pacing and enhanced B-roll."
+    },
+    "cinematic": {
+      "name": "Cinematic & Premium",
+      "price": 399,
+      "description": "4 selected Reels get advanced X-roll, design, effects and cinematic sound."
+    }
+  }
+}
