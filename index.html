@@ -114,4 +114,39 @@ $('clientProspect').addEventListener('input',renderClientProposal);render();clie
 function sceneSelect(index){const hero=document.querySelector('.cinema-hero');if(!hero)return;const sources=['assets/landscape.jpg','assets/silverwing-hero.jpg','assets/landscape.jpg'];hero.querySelector('.scene-bg').src=sources[index];hero.classList.toggle('sculpture',index===1);hero.querySelector('.scene-bg').style.objectPosition=index===2?'center 80%':'center';hero.querySelectorAll('[data-scene]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.scene===index)));const texts=[['From expertise to everywhere','Your expertise. Everywhere.'],['Crafted with intention','Ideas into impact. At scale.'],['A studio around your time','Create more. Delegate better.']];hero.querySelector('.cinema-copy .eyebrow').textContent=texts[index][0];hero.querySelector('h1').textContent=texts[index][1];hero.querySelector('.scene-bg').onload=()=>glassInstance?.markChanged();glassInstance?.markChanged()}
 function toggleParticles(){document.body.classList.toggle('particles-off');document.querySelectorAll('[data-particles]').forEach(b=>b.setAttribute('aria-pressed',String(!document.body.classList.contains('particles-off'))))}
 (function(){const layer=document.createElement('div');layer.className='particle-field';layer.setAttribute('aria-hidden','true');layer.innerHTML=Array.from({length:24},(_,i)=>`<i style="--x:${(i*47)%100}%;--y:${(i*31)%100}%;--t:${12+i%9}s"></i>`).join('');document.body.prepend(layer);const bg=document.createElement('div');bg.className='ambient-texture';bg.setAttribute('aria-hidden','true');document.body.prepend(bg)})();
-</script><script type="module" src="glass-module.js"></script><script>window.addEventListener('load',()=>requestAnimationFrame(()=>requestAnimationFrame(()=>window.scrollTo(0,0))),{once:true});</script></body></html>
+</script><script type="module" src="glass-module.js"></script><script>window.addEventListener('load',()=>requestAnimationFrame(()=>requestAnimationFrame(()=>window.scrollTo(0,0))),{once:true});</script><style id="sw-2026-cinema">
+:root{--sw-electric:#a7bdff;--sw-night:#080e19}
+.clientmode{background:#070c16!important}
+.clientmode .main{background:linear-gradient(145deg,#070b14,#10182a 60%,#060c14)!important;color:#f8faff}
+.clientmode .content{max-width:1640px!important}
+.clientmode .top{background:rgba(11,17,29,.63)!important;backdrop-filter:blur(26px) saturate(165%);-webkit-backdrop-filter:blur(26px) saturate(165%);border-bottom:1px solid #e6eeff25!important;color:#fff!important}
+.clientmode .top button{transition:transform .25s,box-shadow .25s}
+.clientmode .client-subnav{background:#0e1422a8!important;backdrop-filter:blur(22px);border-color:#b2c4e420!important}
+.clientmode .client-subnav button,.clientmode .client-subnav strong{color:#dee8f8!important}
+.clientmode .hero.atelier-hero{display:none!important}
+.clientmode .cinema-hero{isolation:isolate;min-height:min(900px,88vh);background:#0a1325;border:1px solid #a2baf039;border-radius:30px;overflow:hidden;box-shadow:0 45px 130px #02040995;margin-bottom:48px}
+.clientmode .cinema-hero:before{content:'';position:absolute;inset:-35%;z-index:-1;pointer-events:none;background:radial-gradient(circle at 66% 45%,#8ad1ff5e 0,transparent 20%),radial-gradient(circle at 76% 65%,#9d85eb5a 0,transparent 30%),conic-gradient(from 150deg at 76% 58%,transparent,#6b87c833,transparent,#b9a2e630,transparent);filter:blur(28px);animation:swDrift 17s ease-in-out infinite alternate;transform:translate3d(0,var(--sw-parallax,0px),0)}
+.clientmode .cinema-hero .scene-bg{transform:scale(1.07) translate3d(0,calc(var(--sw-parallax,0px) * .24),0);filter:saturate(.96) brightness(.72);transition:transform .15s linear,opacity .5s ease}
+.clientmode .cinema-hero .scene-shade{background:linear-gradient(0deg,#050b16f5 0%,#0a142569 63%,#070e1880 100%),linear-gradient(90deg,#060c19ba 0%,transparent 72%)}
+.clientmode .cinema-copy h1{font-size:clamp(54px,7.4vw,118px);letter-spacing:-.07em;line-height:.97;color:white!important;text-shadow:0 10px 45px #0008}
+.clientmode .cinema-copy .lead{font-size:clamp(16px,1.7vw,21px);color:#e6eeff!important}
+.clientmode .cinema-offer{backdrop-filter:blur(24px) saturate(175%);-webkit-backdrop-filter:blur(24px) saturate(175%);background:linear-gradient(140deg,#d8e5ff31,#5b769e18)!important;border:1px solid #f5f8ff70!important;box-shadow:inset 0 1px #ffffff6b,0 25px 65px #0308117a}
+.clientmode .cinema-offer .btn{background:#e5ecff!important;border:0!important;color:#15243b!important}
+.clientmode .specimen,.clientmode .card,.clientmode .plan{transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s,border-color .5s}
+.clientmode .specimen:hover,.clientmode .card:hover,.clientmode .plan:hover{transform:translateY(-7px);box-shadow:0 25px 70px #0008;border-color:#98bafa88}
+.clientmode .editorial h2{font-size:clamp(40px,6vw,95px);letter-spacing:-.065em}
+.clientmode .section h2{color:#f6f9ff!important}
+.clientmode .section p{line-height:1.75}
+.clientmode .specimen-preview{background:radial-gradient(ellipse at 70% 15%,#7799dc,#172437 58%,#0a101b 100%);min-height:300px}
+.clientmode .btn{transition:transform .25s,box-shadow .25s}
+.clientmode .btn:hover{transform:translateY(-3px) scale(1.012);box-shadow:0 15px 30px #5683c755}
+.sw-2026-grain{position:fixed;inset:0;pointer-events:none;z-index:2;opacity:.065;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.74' numOctaves='3' seed='8' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
+.sw-2026-reveal{animation:swReveal .85s cubic-bezier(.2,.75,.2,1) both}
+@keyframes swReveal{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes swDrift{from{transform:translate3d(-2%,0,0) rotate(-3deg)}to{transform:translate3d(2%,2%,0) rotate(4deg)}}
+@media(max-width:800px){.clientmode .cinema-hero{min-height:780px;border-radius:19px}.clientmode .cinema-copy h1{font-size:clamp(47px,11.5vw,73px)}.clientmode .cinema-hero .scene-bg{transform:scale(1.08)}}
+@media(prefers-reduced-motion:reduce){.clientmode .cinema-hero:before{animation:none}.sw-2026-reveal{animation:none}.clientmode .cinema-hero .scene-bg{transition:none!important}}
+</style>
+<script id="sw-2026-cinema-script">
+(()=>{const root=document.body;const grain=document.createElement('div');grain.className='sw-2026-grain';grain.setAttribute('aria-hidden','true');root.appendChild(grain);const motion=matchMedia('(prefers-reduced-motion: reduce)');let queued=false;function update(){queued=false;if(motion.matches)return;const hero=document.querySelector('.cinema-hero');if(!hero)return;const rect=hero.getBoundingClientRect();const offset=Math.max(-100,Math.min(100,-rect.top*.13));hero.style.setProperty('--sw-parallax',offset+'px')}addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(update)}},{passive:true});update();if('IntersectionObserver'in window){const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('sw-2026-reveal');obs.unobserve(e.target)}})},{threshold:.09});document.querySelectorAll('.client-page .card,.client-page .specimen,.client-page .editorial').forEach(el=>obs.observe(el))}})();
+</script></body></html>
