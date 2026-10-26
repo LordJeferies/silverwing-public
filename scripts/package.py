@@ -4,9 +4,12 @@ import shutil
 r=Path(__file__).resolve().parent.parent;out=r/'_site'
 if out.exists():shutil.rmtree(out)
 out.mkdir()
-common=['index.html','app.js','design.css','components.css','i18n.js','translations.json','release.js','sw.js','glass-module.js','manifest.webmanifest','offline.html','playground.html','playground.js','product-pages.css']
+common=['index.html','app.js','design.css','components.css','i18n.js','translations.json','release.js','sw.js','glass-module.js','manifest.webmanifest','offline.html','playground.html','playground.js','product-pages.css','v2-polish.css']
 extra=['inner-circle.html','member-demo.js','catalog.json']if(r/'catalog.json').exists()else['theme.css','commercial.html','catalog-review.js']
 for name in common+extra:shutil.copy2(r/name,out/name)
-for name in ['assets','licenses']:shutil.copytree(r/name,out/name)
+for name in ['assets','licenses','silverwinglanding']:
+    source=r/name
+    if source.is_dir():shutil.copytree(source,out/name)
+    elif name=='silverwinglanding':raise FileNotFoundError('Missing silverwinglanding directory')
 (out/'.nojekyll').touch()
 print('Packaged',len(list(out.rglob('*'))),'public runtime entries')
