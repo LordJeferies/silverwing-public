@@ -370,4 +370,34 @@ addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(p
 if('serviceWorker'in navigator&&location.protocol==='https:')addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(()=>{}));
 let installEvent=null;const install=document.getElementById('sw-install-app');addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvent=e;install.hidden=false;install.classList.add('available')});install?.addEventListener('click',async()=>{if(!installEvent)return;const p=installEvent;installEvent=null;install.hidden=true;install.classList.remove('available');await p.prompt()});addEventListener('appinstalled',()=>{install.hidden=true;install.classList.remove('available')});
 })();
-</script><script id="sw-approved-catalog-sync">(async function(){try{const response=await fetch('./catalog.json',{cache:'no-store'});if(!response.ok)return;const cat=await response.json();if(cat.version!==1||cat.status!=='approved'||cat.period!=='4-weeks')return;const groups=[[PLAN,cat.plans],[SOURCE,cat.sources],[STYLE,cat.styles]];for(const [current,values] of groups){if(!values||Object.keys(current).some(k=>!values[k]||!Number.isFinite(values[k].price)||values[k].price<0||values[k].price>100000))return;}if(cat.sources.own.price!==0||cat.styles.clean.price!==0)return;for(const [current,values] of groups)for(const id of Object.keys(current))current[id].price=values[id].price;const offer=document.querySelector('#cinema-root .cinema-offer .price');if(offer){const cost=Math.min(...Object.values(PLAN).map(p=>p.price));offer.textContent=String.fromCharCode(36)+cost.toLocaleString('en-US')+' / ciclo';}render();document.documentElement.dataset.swCatalog='approved';}catch(error){console.warn('Using fallback')}})();</script></body></html>
+</script><script id="sw-approved-catalog-sync">(async function(){try{const response=await fetch('./catalog.json',{cache:'no-store'});if(!response.ok)return;const cat=await response.json();if(cat.version!==1||cat.status!=='approved'||cat.period!=='4-weeks')return;const groups=[[PLAN,cat.plans],[SOURCE,cat.sources],[STYLE,cat.styles]];for(const [current,values] of groups){if(!values||Object.keys(current).some(k=>!values[k]||!Number.isFinite(values[k].price)||values[k].price<0||values[k].price>100000))return;}if(cat.sources.own.price!==0||cat.styles.clean.price!==0)return;for(const [current,values] of groups)for(const id of Object.keys(current))current[id].price=values[id].price;const offer=document.querySelector('#cinema-root .cinema-offer .price');if(offer){const cost=Math.min(...Object.values(PLAN).map(p=>p.price));offer.textContent=String.fromCharCode(36)+cost.toLocaleString('en-US')+' / ciclo';}render();document.documentElement.dataset.swCatalog='approved';}catch(error){console.warn('Using fallback')}})();</script><style id="sw-contrast-language-2026">
+/* Accessibility layer: text remains legible over cinematic imagery and translucent panels. */
+:root{color-scheme:dark}
+.sw-language-switch{position:fixed;right:16px;top:136px;z-index:550;display:flex;gap:4px;border:1px solid rgba(225,238,255,.75);border-radius:999px;padding:5px;background:rgba(9,24,47,.92);backdrop-filter:blur(24px) saturate(150%);-webkit-backdrop-filter:blur(24px) saturate(150%);box-shadow:0 8px 30px #0009}
+.sw-language-switch button{appearance:none;background:transparent;border:0;border-radius:999px;padding:9px 13px;color:#e3ecfa;font:700 12px/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.09em;cursor:pointer}
+.sw-language-switch button.active,.sw-language-switch button[aria-pressed=true]{background:#e6f1ff;color:#122f56;box-shadow:0 3px 12px #0005}
+.sw-language-switch button:focus-visible{outline:3px solid #f1bf63;outline-offset:2px}
+body .client-page .sw-kicker,body .client-page .eyebrow,body:not(.clientmode) .internal .eyebrow{color:#bfd8ff!important}
+.clientmode .section h1,.clientmode .section h2,.clientmode .section h3{color:#f7faff}
+.clientmode .section .muted,.clientmode .section .small,.clientmode .section .caption{color:#c9d7ec}
+.clientmode .sw-circle-dashboard,.clientmode .sw-circle-dashboard h3,.clientmode .sw-circle-dashboard h4{color:#193b66!important}
+.clientmode .sw-circle-dashboard p,.clientmode .sw-circle-dashboard small,.clientmode .sw-circle-dashboard span{color:#405d80}
+.clientmode .sw-circle-dashboard .sw-circle-stats strong,.clientmode .sw-circle-dashboard .sw-circle-metrics strong{color:#1d477b}
+.clientmode #clientClub .notice{background:rgba(232,240,255,.15);color:#e4edfb;border:1px solid #c0d7f85e}
+.clientmode #clientPlans .choice,.clientmode #clientPlans .plan,.clientmode #clientPlans .summary{color:#f4f8ff}
+.clientmode #clientPlans .choice .sub,.clientmode #clientPlans .plan small{color:#d2dff2!important}
+.clientmode #clientPlans input,.clientmode #clientPlans select{accent-color:#9ec5ff}
+body:not(.clientmode) .internal .sw-coach,body:not(.clientmode) .internal .sw-price-lab{color:#1a385e!important}
+body:not(.clientmode) .internal .sw-coach h2,body:not(.clientmode) .internal .sw-coach h3,body:not(.clientmode) .internal .sw-price-lab h2,body:not(.clientmode) .internal .sw-price-lab h3{color:#18395f!important}
+body:not(.clientmode) .internal .sw-coach p,body:not(.clientmode) .internal .sw-price-lab p,body:not(.clientmode) .internal .sw-coach small{color:#405c7e!important}
+body:not(.clientmode) .internal .sw-coach .eyebrow,body:not(.clientmode) .internal .sw-price-lab .eyebrow{color:#31598d!important}
+body:not(.clientmode) .internal .sw-price-lab input,body:not(.clientmode) .internal .sw-price-lab select,body:not(.clientmode) .internal .sw-coach input,body:not(.clientmode) .internal .sw-coach select{color:#163b65!important;background:#fff!important;border-color:#829fc5!important}
+body:not(.clientmode) .internal #settings .sw-publish-explanation,body:not(.clientmode) .internal #settings .sw-publish-explanation p{color:#1d446f!important}
+body:not(.clientmode) .internal .card .muted,body:not(.clientmode) .internal .card .small{color:#c8d9ee!important}
+body:not(.clientmode) .internal .sw-coach-results .notice{color:#375677!important}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #f4ba68!important;outline-offset:3px}
+body button[disabled]{opacity:.55}
+@media(max-width:720px){.sw-language-switch{top:auto;right:12px;bottom:12px;padding:4px}.sw-language-switch button{padding:9px 12px}body .sw-film-controls{padding-bottom:15px}}
+@media(prefers-reduced-transparency:reduce){.sw-language-switch{background:#101f36;backdrop-filter:none}}
+@media print{.sw-language-switch{display:none!important}}
+</style><script defer src="i18n.js"></script></body></html>
