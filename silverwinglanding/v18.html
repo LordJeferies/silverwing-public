@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#000000" name="theme-color"/><meta content="Silverwing transforma tus ideas y videos en contenido profesional para mantener una presencia diaria." name="description"/><title>Silverwing — Daily Content System · V18</title><style>
+:root{--bg:#0d0d0d;--night:#141414;--card:#1d1d1d;--ink:#f6f7fa;--dim:#b3b3b3;--gold:#e3c081;--line:rgba(222,235,251,.13);--blu:#9a9a9a;--radius:22px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.52;-webkit-font-smoothing:antialiased}button,input,select{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #f7d790;outline-offset:3px}h1,h2,h3,p{margin-top:0}h1,h2{letter-spacing:-.055em;line-height:1.04}h1{font-size:clamp(3.2rem,6.6vw,7.4rem)}h2{font-size:clamp(2.2rem,4.2vw,4.6rem)}h3{font-size:1.18rem;letter-spacing:-.022em}p{color:var(--dim)}.wrap{width:min(1190px,calc(100% - 44px));margin:auto}.top{position:sticky;top:0;z-index:90;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);background:#101010ca;border-bottom:1px solid #ffffff13}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:15px;letter-spacing:.21em;font-weight:900;white-space:nowrap}.brand em{font-style:normal;color:var(--gold)}.links{display:flex;gap:27px;align-items:center}.links a{font-size:13px;color:#d0d0d0;font-weight:600}.action{display:inline-flex;justify-content:center;align-items:center;background:linear-gradient(135deg,#f4dfa9,#c99b51);border:1px solid #f9e8b4;color:#202020;min-height:46px;padding:0 22px;border-radius:999px;font-weight:850;box-shadow:0 10px 26px #d2ad5940;transition:transform .2s}.action:hover{transform:translateY(-2px)}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.2em;color:var(--gold);font-weight:900}.sub{font-size:clamp(17px,1.9vw,22px);max-width:720px;color:#dddddd}.quiet{font-size:13px;color:var(--dim)}.section{padding:100px 0}.sectionHead{max-width:750px;margin-bottom:38px}.sectionHead h2{margin:12px 0 15px}.glass{background:linear-gradient(145deg,#2d2d2dcb,#1c1c1ccc);border:1px solid #ffffff21;box-shadow:0 22px 62px #0007,inset 0 1px 0 #ffffff17;backdrop-filter:blur(16px);border-radius:var(--radius)}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.muted{color:var(--dim)}.gold{color:var(--gold)}.line{border-top:1px solid var(--line)}.section.dark{background:linear-gradient(180deg,#161616,#121212)}.section.alt{background:radial-gradient(circle at 95% 25%,#3434346b,transparent 37%),#0d0d0d}.foot{padding:42px 0;border-top:1px solid var(--line);color:#959595;font-size:12px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}@media(max-width:850px){.links a:not(.action){display:none}.section{padding:76px 0}.grid3,.grid2{grid-template-columns:1fr}.wrap{width:min(100% - 30px,1190px)}.nav{height:65px}}
+
+.hero{position:relative;isolation:isolate;min-height:min(890px,90svh);display:flex;align-items:center;overflow:hidden;background:#171717}.heroPhoto{position:absolute;inset:0;z-index:-2;background-image:url('https://lordjeferies.github.io/silverwing-public/assets/harpy-flight-cinema.png');background-position:56% 44%;background-size:cover;filter:saturate(.82) contrast(1.09)}.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#101010f5 0%,#121212e0 33%,#1414147b 65%,#1111117e 100%),linear-gradient(0deg,#0d0d0d 0%,transparent 34%,#12121252)}.heroContent{padding:115px 0 125px}.hero h1{max-width:960px;margin:20px 0 22px}.hero h1 span{color:var(--gold)}.hero p{max-width:680px}.heroCtas{display:flex;gap:13px;flex-wrap:wrap;margin:30px 0 35px}.outline{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border:1px solid #f5f5f57c;border-radius:999px;color:#fff;font-weight:700;background:#ffffff0b}.proof{display:flex;flex-wrap:wrap;gap:14px}.proof span{font-size:12px;padding:6px 0;color:#e8e8e8}.proof b{color:#f5d392}.tickerWrap{background:#202020;border-top:1px solid #ffffff26;border-bottom:1px solid #ffffff26}.tickerInner{display:flex;gap:25px;align-items:center;padding:12px 0}.tickerTitle{font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:900;color:var(--gold);white-space:nowrap}.ticker{flex:1;position:relative;min-height:49px;display:flex;align-items:center;overflow:hidden}.tickerMessage{font-size:clamp(14px,1.7vw,21px);font-weight:750;line-height:1.3;letter-spacing:-.025em;transition:opacity .35s,transform .35s}.tickerMessage.switch{opacity:0;transform:translateY(9px)}.dots{display:flex;gap:7px}.dot{width:7px;height:7px;border:0;border-radius:50%;background:#8b8b8b;padding:0}.dot.active{background:var(--gold);width:23px;border-radius:10px}.problem{padding:24px;min-height:215px}.problem .num{font-size:11px;color:var(--gold);font-weight:900}.problem h3{font-size:22px;margin:22px 0 10px}.problem p{font-size:14px}.visualComparison{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;max-width:940px;margin:0 auto}.phone{width:min(100%,325px);margin:auto;border:7px solid #292929;border-radius:41px;background:#f5f5f1;color:#1f1f1f;overflow:hidden;box-shadow:0 22px 65px #000c,0 0 0 2px #747474}.phoneHead{height:40px;background:#f9f9fa;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:13px}.island{width:66px;height:15px;border-radius:20px;background:#111111;margin:auto}.feedTop{padding:13px 18px;display:flex;justify-content:space-between;font-size:12px;border-bottom:1px solid #e3e3e3}.feedGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;padding:4px}.feedSquare{aspect-ratio:1;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#bababa,#7e7e7e);color:white}.feedSquare.filled:nth-child(4n){background:linear-gradient(145deg,#c3aa7b,#625744)}.feedSquare.filled:nth-child(3n){background:linear-gradient(145deg,#747474,#282828)}.feedSquare.empty{background:#e6e8e9;color:#aeaeae}.feedSquare strong{font-size:18px}.feedSquare small{position:absolute;bottom:7px;left:7px;font-size:9px;font-weight:900;letter-spacing:.03em}.phoneBottom{display:flex;justify-content:space-around;border-top:1px solid #e3e3e3;padding:12px;font-size:14px}.underPhone{text-align:center;margin-top:18px}.underPhone strong{display:block;font-size:23px}.underPhone p{font-size:13px}.range{width:100%;accent-color:#d7b46f}.sliderCard{margin:32px auto 0;padding:18px 22px;max-width:600px;display:flex;align-items:center;gap:20px}.sliderCard label{font-size:12px;font-weight:800;color:#e2e2e2}.sliderCard output{font-size:25px;font-weight:900;color:var(--gold);min-width:25px}.stepsTile{padding:30px}.stepsTile .bigNum{font-size:42px;letter-spacing:-.08em;color:var(--gold);font-weight:850}.stepsTile h3{margin:4px 0}.stepsTile p{font-size:14px}.calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px}.calday{padding:8px 2px;aspect-ratio:1;display:grid;place-items:center;border-radius:10px;background:linear-gradient(145deg,#474747,#303030);border:1px solid #ffffff26;font-size:12px;font-weight:900}.calday:nth-child(4n){background:linear-gradient(145deg,#9c8357,#4f4230)}.calendarCard{padding:26px}.calendarCard strong{font-size:22px}.configLayout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(280px,.9fr);gap:24px;align-items:start}.configMain{display:grid;gap:24px}.configStep{padding:26px}.stepHeading{display:flex;align-items:center;gap:13px;margin-bottom:12px}.stepNum{height:34px;width:34px;display:grid;place-items:center;background:#e0b975;color:#242424;border-radius:50%;font-weight:900}.stepHeading h3{font-size:24px;margin:0}.options{display:grid;gap:10px}.selectCard{position:relative;display:block;cursor:pointer;border-radius:16px;border:1px solid #ffffff2a;background:linear-gradient(125deg,#242424,#191919);padding:19px 20px;transition:border-color .2s,transform .2s,background .2s}.selectCard:hover{border-color:#ffffff72;transform:translateY(-1px)}.selectCard:has(input:checked){border-color:#e4be79;background:linear-gradient(120deg,#3a3a3a,#242424);box-shadow:inset 0 0 0 1px #e4be7977}.selectCard input{position:absolute;right:18px;top:23px;accent-color:var(--gold);height:18px;width:18px}.cardLine{display:flex;align-items:center;justify-content:space-between;padding-right:30px;gap:12px}.cardTitle{font-size:16px;font-weight:850;letter-spacing:-.015em}.cardPrice{font-size:15px;font-weight:900;color:var(--gold);white-space:nowrap}.cardDesc{color:#bdbdbd;font-size:12px;line-height:1.5;margin:5px 0 0}.optionTag{font-size:10px;color:#e8cc8d;font-weight:850;text-transform:uppercase;letter-spacing:.1em}.miniStats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:13px}.miniStats div{padding:11px 5px;border-radius:11px;background:#131313ab;text-align:center}.miniStats b{display:block;font-size:22px}.miniStats span{font-size:10px;color:var(--dim)}.styleMix{display:flex;gap:4px;height:8px;margin:16px 0 8px;border-radius:15px;overflow:hidden}.styleMix i{flex:1;background:#868686}.styleMix i:nth-child(2){background:#d4b274}.styleMix.clean i:nth-child(2){background:#868686}.styleMix.dynamic i:nth-child(2),.styleMix.mix i:first-child{background:#848484}.styleText{font-size:12px;color:var(--dim);margin:0}.addons{display:grid;gap:10px}.addon{display:grid;grid-template-columns:20px 1fr auto;gap:12px;align-items:start;padding:15px 0;border-bottom:1px solid #ffffff16;cursor:pointer}.addon:last-child{border-bottom:0}.addon input{accent-color:var(--gold);height:18px;width:18px;margin-top:2px}.addon b{display:block;font-size:14px}.addon p{font-size:12px;margin:4px 0 0}.addon strong{font-size:13px;color:var(--gold);white-space:nowrap}select{border:1px solid #ffffff45;border-radius:9px;background:#1a1a1a;color:white;padding:11px;width:100%}.priceSticky{position:sticky;top:100px;padding:27px}.priceSticky .amount{font-size:clamp(39px,4vw,57px);font-weight:900;letter-spacing:-.065em;line-height:1.1;color:#f6e6bc}.priceSticky .break{display:flex;justify-content:space-between;gap:9px;font-size:12px;margin:11px 0}.priceSticky .break span{color:#b7b7b7}.priceSticky .sep{border-top:1px solid #ffffff2a;margin:18px 0}.priceSticky .action{width:100%;margin-top:14px}.priceSticky .quiet{font-size:11px}.showcase{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.finishSample{height:190px;display:flex;flex-direction:column;justify-content:end;padding:20px;background:linear-gradient(145deg,#424242,#1b1b1b);border-radius:18px;border:1px solid #ffffff20;overflow:hidden}.finishSample:nth-child(2){background:linear-gradient(140deg,#5c5c5c,#1b1b1b)}.finishSample:nth-child(3){background:linear-gradient(140deg,#836b52,#272727)}.finishSample strong{font-size:25px}.finishSample small{color:#dcdcdc;font-size:12px}.innerDemo{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}.dashboard{padding:24px}.dashRow{padding:14px;margin:9px 0;border-radius:12px;background:#ffffff09;border:1px solid #ffffff16;display:flex;justify-content:space-between;gap:12px;font-size:13px}.dashRow span{color:#cfcfcf}.finalCta{text-align:center;padding:95px 20px;background:radial-gradient(ellipse at center,#3b3b3b,#141414 70%);border-top:1px solid #ffffff15}.finalCta h2{max-width:850px;margin:15px auto}.finalCta p{max-width:600px;margin:0 auto 25px}.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pills span{padding:8px 13px;border:1px solid #ffffff25;border-radius:999px;color:#cacaca;font-size:11px}.lang{color:#f1e1b7;background:none;border:1px solid #ffffff4a;border-radius:30px;padding:8px 11px;font-size:12px;font-weight:800}.navCta{padding:9px 16px;min-height:37px}.controls{display:flex;align-items:center;gap:8px}@media(max-width:850px){.hero{min-height:650px}.heroContent{padding:85px 0}.heroPhoto{background-position:61% center}.tickerInner{flex-wrap:wrap;gap:7px}.dots{margin-left:auto}.visualComparison{gap:12px}.configLayout{grid-template-columns:1fr}.priceSticky{position:relative;top:auto}.innerDemo{grid-template-columns:1fr}.links .navCta{display:inline-flex}.finishSample{height:135px}.showcase{grid-template-columns:1fr 1fr}}@media(max-width:540px){.hero h1{font-size:clamp(3rem,12vw,4.2rem)}.hero:before{background:linear-gradient(90deg,#101010f2,#121212c2 75%,#11111191),linear-gradient(0deg,#0d0d0d,transparent 45%)}.visualComparison{grid-template-columns:1fr 1fr;gap:7px}.phone{border-width:4px;border-radius:23px}.phoneHead{height:25px}.feedTop{padding:7px 9px;font-size:9px}.island{width:35px;height:7px}.feedSquare strong{font-size:12px}.feedSquare small{font-size:7px}.phoneBottom{padding:7px;font-size:10px}.underPhone strong{font-size:16px}.underPhone p{font-size:11px}.sliderCard{flex-wrap:wrap}.configStep{padding:18px}.stepHeading h3{font-size:20px}.cardTitle{font-size:14px}.cardLine{align-items:start}.cardPrice{font-size:13px}.miniStats b{font-size:18px}.miniStats span{font-size:9px}.showcase{grid-template-columns:1fr 1fr}.finishSample{height:140px;padding:13px}}
+
+/* Silverwing V17 art direction — independent rotating hero and comparator */
+:root{--gold:#e7c17e}
+.hero{min-height:760px;isolation:isolate;background:#101010;overflow:hidden}.heroPhotoBase,.heroSlidePhoto{position:absolute;inset:0;z-index:-3;background-position:center;background-size:cover;transition:opacity 900ms cubic-bezier(.2,.7,.2,1),transform 8s ease;opacity:0;transform:scale(1.035)}.heroPhotoBase.isActive,.heroSlidePhoto.isActive{opacity:1;transform:scale(1)}
+.heroSlideMountain{background-image:url("../assets/patagonia-cinema.png");background-position:center 53%}.heroSlideVista{background-image:url("../assets/amazon-cinema.png");background-size:cover;background-position:54% 80%;filter:sepia(.2) hue-rotate(5deg) saturate(.85)}
+.hero::before{z-index:-1!important;background:linear-gradient(90deg,#0b0b0bf2 0%,#121212db 37%,#12121271 72%,#11111169),linear-gradient(0deg,#121212 0%,transparent 28%,#12121251 100%)!important}
+.heroContent{position:relative;z-index:1}.hero h1{font-size:clamp(3.1rem,6.9vw,6.7rem);max-width:900px;line-height:1.01;text-wrap:balance}.hero h1 span{color:#e7c17e}.hero .sub{max-width:630px;line-height:1.65}.heroGlassNote{position:absolute;z-index:0;right:6%;bottom:80px;color:#f9ebd5b0;font-size:10px;letter-spacing:.18em;display:flex;gap:16px;align-items:center;pointer-events:none}.heroGlassNote .heroSeries{font-weight:850;color:#f4d092}
+.heroRotatorControls{display:flex;align-items:center;gap:13px;margin-top:33px}.heroRotatorControls button{background:#181818aa;color:#f3e8d6;border:1px solid #ffffff49;border-radius:50%;width:39px;height:39px;font-size:20px;cursor:pointer;transition:background .2s}.heroRotatorControls button:hover{background:#d5af6e;color:#121212}.heroDots{display:flex;gap:8px}.heroDots button{width:27px;height:4px;border:0;border-radius:9px;background:#ffffff75;cursor:pointer;padding:0;transition:width .2s,background .2s}.heroDots button.active{width:51px;background:#edc788}
+.opportunityGrid{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:15px;margin-top:38px}.opportunityCard{padding:28px;min-height:290px;display:flex;flex-direction:column;position:relative;overflow:hidden;border-color:#e7c17e22;background:linear-gradient(145deg,#2e2e2ebf,#181818d9)}.opportunityCard:before{content:'';position:absolute;inset:auto -20% -50% -20%;height:70%;background:radial-gradient(ellipse,#ba98532c,transparent 72%);pointer-events:none}.opportunityCard .num{font-size:10px;color:#edc785;font-weight:850;letter-spacing:.15em}.opportunityCard h3{font-size:clamp(21px,2.35vw,29px);line-height:1.13;margin:37px 0 12px;letter-spacing:-.045em}.opportunityCard p{font-size:13px;line-height:1.7;margin:0;max-width:290px}.opportunityVisual{margin-top:auto;padding-top:25px;display:flex;gap:9px}.tickday{border-radius:8px;background:#e3ba73;color:#212121;width:26px;height:30px;display:grid;place-items:center;font-size:11px;font-weight:900}.tickday.off{background:#414141;color:#868686}.opportunitySignals i{height:28px;flex:1;background:linear-gradient(180deg,#d7b477,#5d5d5d);border-radius:8px;opacity:.7}.opportunitySignals i:nth-child(even){height:15px;align-self:end;opacity:.45}.opportunityClock{color:#daba81;font-size:40px;font-weight:900;align-items:center}.opportunityClock span{font-size:15px;color:#c1c1c1}
+.visualComparison{max-width:1010px;gap:26px;align-items:start}.phonePlanTabs{min-height:54px;display:grid;grid-template-columns:1fr 1fr;gap:5px;max-width:325px;margin:0 auto 17px;background:#272727;border:1px solid #ffffff2a;padding:5px;border-radius:999px}.phoneTab{border:0;border-radius:100px;background:transparent;color:#b8b8b8;cursor:pointer;font-size:11px;font-weight:900;line-height:1.25;padding:8px 5px}.phoneTab small{display:block;margin-top:3px;font-size:10px;font-weight:600}.phoneTab.active{background:linear-gradient(145deg,#f3dba8,#cf9f4a);color:#242424;box-shadow:0 2px 19px #d2b06d29}.phoneTab:focus-visible{outline:2px solid #f5d590;outline-offset:2px}.visualComparison>div:first-child{padding-top:71px}.phone{background:#1c1c1c;color:#f5f5f5;border-color:#262626;box-shadow:0 30px 85px #000c,0 0 0 1px #997c5277}.phoneHead,.feedTop,.phoneBottom{background:#1b1b1b;border-color:#ffffff22}.island{background:#070707}.feedGrid{gap:3px;background:#171717}.feedSquare.empty{background:linear-gradient(145deg,#272727,#1d1d1d);color:#565656}.feedSquare.filled{background:linear-gradient(145deg,#717171,#2f2f2f)}.feedSquare.filled:nth-child(4n){background:linear-gradient(135deg,#b79b62,#322f32)}.feedSquare.filled:nth-child(3n){background:linear-gradient(135deg,#5e5e5e,#1f1f1f)}.underPhone strong{color:#f6e0ae}.weeklyBars{display:flex;justify-content:center;gap:7px;align-items:end;margin:13px auto 0}.weeklyBars span{display:flex;flex-direction:column;align-items:center;gap:4px}.weeklyBars b{display:flex;align-items:end;gap:2px;height:28px}.weeklyBars i{display:block;width:8px;height:8px;border-radius:50%;background:#e8bb76;box-shadow:0 0 12px #d9a85c66}.weeklyBars i.off{background:#424242;box-shadow:none}.weeklyBars small{font-size:9px;color:#a5a5a5}.quiet{line-height:1.65}
+@media(max-width:850px){.opportunityGrid{grid-template-columns:1fr 1fr}.opportunityCard:last-child{grid-column:span 2;min-height:200px}.heroGlassNote{display:none}}@media(max-width:540px){.hero{min-height:710px}.heroContent{padding:82px 0 56px}.hero h1{font-size:clamp(3rem,11.8vw,4.5rem)}.opportunityGrid{grid-template-columns:1fr}.opportunityCard{min-height:230px}.opportunityCard:last-child{grid-column:auto}.phonePlanTabs{min-height:62px}.phoneTab{font-size:9px;padding:5px 3px}.phoneTab small{font-size:8px}.visualComparison>div:first-child{padding-top:78px}.heroGlassNote{display:none}.weeklyBars{gap:4px}.weeklyBars i{width:6px;height:6px}}
+@media(prefers-reduced-motion:reduce){.heroPhotoBase,.heroSlidePhoto{transition:none;transform:none!important}}
+</style><style>:root{
+  --bg:#000;--night:#080808;--card:#141414;--ink:#faf9f6;--dim:#b9b7b2;
+  --gold:#dec095;--line:#ffffff26;--blu:#bdbbb5;--radius:24px;
+  --amazon:url('../assets/amazon-cinema.png');--andes:url('../assets/andes-cinema.png');
+  --patagonia:url('../assets/patagonia-cinema.png');--editorial:url('../assets/editorial-glass-cinema.png');
+  color-scheme:dark;
+}
+body,.section.dark{background:#000}
+.section.alt{background:#070707}
+.section{border-top:1px solid #ffffff12}
+section[id]{scroll-margin-top:105px}
+.wrap{width:min(100% - 64px,1200px)}
+.sectionHead{margin-bottom:38px}
+.sectionHead h2,.innerDemo h2,.finalCta h2{font-weight:660;letter-spacing:-.06em;text-wrap:balance}
+.sectionHead p{max-width:59ch}
+.eyebrow{color:var(--gold);letter-spacing:.15em}
+.top,.glass,.phonePlanTabs,.heroRotatorControls{
+  background:linear-gradient(145deg,#ffffff19,#ffffff04 50%,#ffffff0c),#14141470;
+  border:1px solid #ffffff30;
+  box-shadow:inset 0 1px 0 #ffffff26,inset 0 -1px 0 #ffffff0b,0 18px 40px #0005;
+  -webkit-backdrop-filter:blur(25px) saturate(145%);
+  backdrop-filter:blur(25px) saturate(145%);
+}
+.top{top:12px;margin:12px auto 0;width:min(100% - 40px,1232px);border-radius:999px}
+.top .wrap{width:calc(100% - 36px)}
+.nav{min-height:62px}
+.action{background:#ead8bb;color:#111;border:1px solid #f5e5cb}
+.action:hover{background:#fff1d9}
+.action.outline,.lang{background:#1118;border-color:#ffffff36;color:#fff}
+.hero{margin:-74px 0 0;background:#000;min-height:clamp(660px,91svh,940px)}
+.hero::before{background:linear-gradient(90deg,#000e 0%,#000a 35%,transparent 72%),linear-gradient(0deg,#000 0%,transparent 26%,#0005 100%)!important}
+.heroPhotoBase{background-position:56% center}
+.heroSlideVista{filter:none;background-position:57% center}
+.heroContent{padding-top:143px;padding-bottom:80px}
+.hero h1{max-width:9.5ch;min-height:2em;letter-spacing:-.078em;font-weight:690;text-wrap:initial}
+.hero h1 span{color:#f6deb7}
+.hero .sub{max-width:43ch;color:#f0eeea}
+.heroGlassNote,.hero .proof{display:none}
+.heroRotatorControls{display:inline-flex;border-radius:99px;padding:4px 8px;gap:7px}
+.heroRotatorControls button{width:44px;height:44px;background:transparent;border-color:transparent}
+.heroRotatorControls button:hover{background:#ffffff24;color:white}
+.heroDots{gap:1px}
+.heroDots button,.heroDots button.active{display:grid;place-items:center;width:29px;height:44px;background:transparent}
+.heroDots button::after{content:'';width:14px;height:3px;background:#ffffff70;border-radius:8px}
+.heroDots button.active::after{background:#f6deb7}
+.heroRotatorControls .heroPause{width:38px;font-size:14px}
+.opportunityCard{min-height:220px;display:flex;flex-direction:column}
+.opportunityVisual{margin-top:auto;padding-top:18px}
+.opportunityCard h3{font-size:clamp(20px,2.3vw,28px);letter-spacing:-.05em}
+.visualComparison{align-items:start}
+.phoneContext{min-height:54px;margin:0 auto 17px;display:grid;place-items:center;font-size:13px;color:var(--dim)}
+.phone{background:#101010;border-color:#242424;box-shadow:0 30px 65px #000b,0 0 0 1px #ffffff42}
+.phoneHead,.feedTop,.phoneBottom{background:#151515;border-color:#ffffff20}
+.feedSquare.empty{background:#1b1b1b;color:#aaa}
+.feedSquare.filled{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;text-align:left;background-size:cover;background-position:center;color:#fff;padding:8%;gap:3px}
+.feedSquare.filled strong{font-size:clamp(6px,1.05vw,13px);font-weight:730;line-height:1;letter-spacing:-.025em}
+.feedSquare.filled small{font-size:clamp(5px,.7vw,8px);letter-spacing:.04em}
+.feedSquare.tileArt0,.feedSquare.tileArt5{background-image:linear-gradient(0deg,#000e,transparent),var(--amazon)}
+.feedSquare.tileArt1{background-image:linear-gradient(0deg,#000e,transparent),var(--andes)}
+.feedSquare.tileArt2{background-image:linear-gradient(0deg,#000e,transparent),var(--patagonia)}
+.feedSquare.tileArt3{background-image:linear-gradient(0deg,#000d,transparent),var(--editorial)}
+.feedSquare.tileArt4{background-image:linear-gradient(45deg,#3c352c,#161513)}
+.phoneTab{color:#efebe6;min-height:44px}
+.phoneTab.active{background:#ead8bb;color:#111}
+.selectCard,.addon,.miniStats>div,.dashRow,.calday{background:#ffffff09;border-color:#ffffff27}
+.selectCard:has(input:checked),.addon:has(input:checked){background:#dec09514;border-color:#dec095a6}
+.selectCard:focus-within,.addon:focus-within{outline:2px solid #ead8bb;outline-offset:2px}
+.configStep h3{font-size:clamp(20px,3vw,29px)}
+.priceSticky{background:linear-gradient(155deg,#252421,#111 60%);top:106px}
+.finalCta{background:radial-gradient(ellipse at bottom,#2b2318,transparent 63%),#000}
+.foot{background:#000}
+.previewLink{display:inline-flex;color:var(--gold);margin:16px 0 5px;text-decoration:underline;text-underline-offset:4px}
+.sampleTabs{display:inline-flex;gap:3px;border-radius:18px;padding:4px;max-width:100%}
+.sampleTabs button,.sampleNavigation button{color:#eee;border:1px solid transparent;background:transparent;border-radius:13px;padding:0 14px;min-height:44px;font-weight:680;cursor:pointer}
+.sampleTabs button[aria-pressed="true"]{background:#f0e2cd;color:#14120f;box-shadow:0 2px 12px #0004}
+.sampleLayout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);margin-top:18px;gap:clamp(24px,6vw,80px);align-items:center}
+.sampleStage{min-width:0;display:grid;place-items:center;min-height:530px;padding:24px;background:radial-gradient(ellipse at 60% 15%,#a899752d,transparent 65%),#111;border:1px solid #ffffff1a;border-radius:30px;overflow:hidden}
+.sampleArt{isolation:isolate;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;width:min(100%,260px);aspect-ratio:9/16;border-radius:12px;background:var(--amazon) center/cover;box-shadow:0 22px 55px #0009;color:#fff}
+.sampleArt::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#000e,transparent 76%,#0006)}
+.sampleStamp{align-self:flex-start;background:#0c0c0caa;border:1px solid #fff6;border-radius:100px;padding:5px 9px;margin:16px;font-size:10px;font-weight:750;letter-spacing:.1em}
+.sampleCopy{padding:22px;display:grid;gap:11px}
+.sampleCopy strong{font-size:32px;line-height:1.03;letter-spacing:-.045em}
+.sampleCopy span{font-size:13px;line-height:1.35;color:#f8ecdc}
+.sampleCopy span:empty,.sampleCutaway,[hidden]{display:none!important}
+.sampleArt.clean .sampleCopy strong{font-size:24px}
+.sampleArt.clean .sampleCopy span{background:#090909d9;padding:7px 9px;border-radius:5px}
+.sampleArt.dynamic .sampleCutaway{display:block!important;width:48%;aspect-ratio:4/3;border:2px solid #f5dec1;border-radius:7px;position:absolute;left:23px;top:30%;background:var(--andes) center/cover;transform:rotate(-6deg)}
+.sampleArt.dynamic.frame2 .sampleCutaway{background-image:var(--patagonia);transform:rotate(5deg)}
+.sampleArt.dynamic .sampleCopy strong{color:#ffe1ad}
+.sampleArt.cinematic{background-position:60% center}
+.sampleArt.cinematic.frame1{background-image:var(--andes)}
+.sampleArt.cinematic.frame2{background-image:var(--patagonia)}
+.sampleArt.cinematic .sampleCopy{border-top:1px solid #f6e6d090;margin:0 20px;padding-inline:0}
+.sampleArt.cinematic .sampleCopy strong,.sampleArt.quote .sampleCopy strong{font:normal 40px/1.02 Georgia,serif;letter-spacing:-.055em}
+.sampleArt.carousel,.sampleArt.quote{width:min(100%,344px);aspect-ratio:4/5}
+.sampleArt.carousel.frame1{background-image:var(--andes)}
+.sampleArt.carousel.frame2{background-image:var(--patagonia)}
+.sampleArt.story{background-image:var(--patagonia)}
+.sampleArt.story .sampleCopy{padding-bottom:52px}
+.sampleArt.quote{background:#ded0b8;color:#221e19;justify-content:center}
+.sampleArt.quote::before{background:radial-gradient(ellipse at top,#fff6,transparent 75%)}
+.sampleArt.quote .sampleStamp{background:#252019;color:#fff;position:absolute;top:0}
+.sampleDetails h3{font-size:clamp(24px,3.5vw,44px);line-height:1.03;letter-spacing:-.05em;margin:24px 0 10px}
+.sampleDetails p{color:var(--dim);max-width:42ch}
+.sampleNavigation{display:flex;align-items:center;gap:12px;margin:22px 0}
+.sampleNavigation button{border-color:#ffffff40;background:#ffffff10;font-size:22px;min-width:44px}
+.sampleNavigation button:disabled{opacity:.35;cursor:default}
+:focus-visible{outline:2px solid #ffe0a7;outline-offset:4px}
+@media(max-width:700px){
+ .wrap{width:calc(100% - 32px)}.top{width:calc(100% - 22px);top:8px}
+ .top .wrap{width:calc(100% - 22px)}
+ .hero{min-height:745px;align-items:end}
+ .heroPhotoBase{background-position:65% top}
+ .hero::before{background:linear-gradient(0deg,#000 0%,#000e 28%,#0009 56%,transparent 92%)!important}
+ .heroContent{padding-top:225px;padding-bottom:55px}
+ .hero h1{font-size:clamp(2.7rem,10.8vw,4.8rem);min-height:0}
+ .sectionHead{margin-bottom:25px}
+ .phoneContext,.phonePlanTabs{min-height:65px;margin-bottom:10px}
+ .sampleLayout{grid-template-columns:1fr;gap:18px}
+ .sampleStage{min-height:0;padding:20px}
+ .sampleArt{width:min(100%,210px)}
+ .sampleArt.carousel,.sampleArt.quote{width:min(100%,290px)}
+ .sampleTabs button{padding-inline:10px;font-size:13px}
+ .sampleCopy{padding:17px}
+ .sampleCopy strong,.sampleArt.cinematic .sampleCopy strong,.sampleArt.quote .sampleCopy strong{font-size:29px}
+}
+@media(max-width:370px){.phoneTab{font-size:9px}.phoneTab small{font-size:8px}.sampleTabs button{padding-inline:7px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){.top,.glass,.phonePlanTabs,.heroRotatorControls{background:#181818;backdrop-filter:none;-webkit-backdrop-filter:none}}
+</style><style>
+.visualComparison{grid-template-columns:repeat(2,minmax(0,1fr))}
+.visualComparison>div,.weeklyBars>span,.feedSquare{min-width:0}
+@media(max-width:700px){
+ .visualComparison{gap:13px}
+ .top .nav{gap:7px}
+ .top .brand{font-size:12px;letter-spacing:.12em}
+ .top .links{gap:6px}
+ .top .navCta{font-size:11px;padding-inline:9px;white-space:nowrap}
+ .top .lang{padding-inline:7px}
+ .weeklyBars{gap:3px;padding-inline:0}
+ .weeklyBars span b{gap:2px}
+ .phonePlanTabs{border-radius:19px}
+ .phoneTab{overflow-wrap:anywhere}
+}
+</style><style>.top .links a.navCta,.top .links a.navCta:hover{color:#14120f}.configMain{min-width:0}.hero .heroCtas .action:not(.outline){color:#14120f}</style><style>#problema{scroll-margin-top:110px}
+#comparador .sectionHead{margin-bottom:22px}
+#comparador .sliderCard{width:min(100%,560px);margin:0 auto 24px}
+.visualComparison{max-width:710px;gap:clamp(12px,5vw,64px)}
+.phone{width:min(100%,228px);border-radius:29px}
+.phoneHead{height:25px}
+.feedTop{padding:7px 9px}
+.feedGrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.feedSquare.filled{padding:5%;justify-content:flex-end}
+.feedSquare.filled strong{font-size:clamp(7px,1.3vw,10px);line-height:1.04;position:static}
+.phonePlanTabs,.phoneContext{height:64px;min-height:64px;width:min(100%,248px);margin-bottom:9px}
+.phoneFoot{text-align:center;margin:20px auto 0}
+.underPhone strong{font-size:clamp(15px,3vw,25px)}
+.priceSticky:has(#priceStyles:not([hidden])){position:relative;top:auto}
+#priceStyles{margin-top:18px;border-top:1px solid var(--line);padding-top:13px}
+#priceStyles .sampleArt{width:100%;aspect-ratio:4/3;margin-top:10px}
+#priceStyles .sampleCopy{margin-top:auto;padding:15px}
+#priceStyles .sampleCopy strong{font-size:20px}
+.miniStyleTabs{display:flex;flex-wrap:wrap;gap:4px}
+.miniStyleTabs button,.previewLink[type=button]{background:#181715;color:#ebdac0;border:1px solid #ffffff30;border-radius:12px;min-height:44px;padding:5px 9px;cursor:pointer}
+.miniStyleTabs button[aria-pressed=true]{background:#ead8bb;color:#151310}
+.editorialNote,.appBenefits{padding:22px;margin-top:20px}
+.appBenefits p{margin:7px 0}
+.sampleArt.carousel .sampleCopy{background:#e7d9be;color:#221a12;margin:0;padding:22px}
+.sampleArt.carousel .sampleCopy span{color:#403729}
+.sampleArt.carousel .sampleCopy strong{font-family:Georgia,serif}
+.sampleArt.story .sampleCopy{background:#15130fcc;margin:15px;padding:16px;border:1px solid #ead8bb55;border-radius:14px}
+.sampleArt.quote{background:linear-gradient(100deg,#1b140ceb,#21160cdd),var(--editorial) center/cover;color:#f3dfb7}
+.sampleArt.quote .sampleCopy{border-left:2px solid #d4ad73;margin-left:16px}
+.sampleArt.reel.clean{background-image:var(--andes)}
+.sampleArt.reel.dynamic{background-image:var(--patagonia)}
+.sampleArt.reel.cinematic{background-image:var(--amazon)}
+.evidenceGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.evidenceGrid figure{margin:0;padding:clamp(15px,3vw,26px)}
+.evidenceGrid figcaption{font-size:1.2rem;font-weight:730;margin-bottom:14px}
+.evidenceGrid p{color:var(--dim)}
+.evidenceBars{display:grid;gap:10px;padding:0;list-style:none}
+.evidenceBars li{display:grid;grid-template-columns:72px 1fr 42px;gap:10px;align-items:center;font-size:13px}
+.evidenceBars i{height:8px;border-radius:99px;background:#fff2}
+.evidenceBars i::before{content:'';display:block;width:var(--fill);height:100%;border-radius:inherit;background:#dec095}
+.evidenceGrid a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.evidenceGrid{grid-template-columns:1fr}.phone{border-radius:20px}.phonePlanTabs,.phoneContext{height:70px;min-height:70px}.phone .feedSquare{aspect-ratio:1}.phoneFoot{font-size:12px}}
+</style><style>#comparador{background:radial-gradient(ellipse at 50% 80%,#221b11,#080808 65%);padding-bottom:clamp(45px,7vw,90px)}
+#comparador .sectionHead{max-width:720px;margin:0 auto 22px;text-align:center}
+#comparador .sectionHead p{margin-inline:auto}
+#comparador .sliderCard{background:#121210;border-color:#ffffff25}
+.comparisonStage{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(8px,4vw,54px);max-width:690px;margin:auto;align-items:start}
+.deviceColumn{display:grid;justify-items:center;min-width:0}
+.deviceSelector{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:center;width:100%;max-width:282px;min-height:58px;gap:4px;padding:4px;margin-bottom:10px;background:#ffffff0b;border:1px solid #ffffff21;border-radius:16px}
+.currentSelector{grid-template-columns:1fr;text-align:center;color:#e8e3da;font-size:13px;font-weight:650}
+.deviceSelector .phoneTab{font-size:clamp(9px,1.7vw,12px);border-radius:11px;padding:4px 2px;overflow-wrap:normal;line-height:1.15}
+.device{width:min(100%,248px);padding:8px clamp(6px,1.4vw,14px) 14px;background:linear-gradient(145deg,#22201e,#080808 35%);border:2px solid #6e6961;border-radius:clamp(19px,4vw,34px);box-shadow:0 0 0 3px #0b0b0b,0 20px 35px #0008,inset 0 0 0 2px #000}
+.silverDevice{border-color:#9e8864}
+.deviceIsland{width:32%;max-width:66px;height:12px;background:#030303;border-radius:99px;margin:3px auto 8px}
+.deviceHeader{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:1px 5px;border-bottom:1px solid #ffffff2a;padding-bottom:8px;margin-bottom:2px;font-size:clamp(11px,1.9vw,16px)}
+.deviceHeader span{font-size:clamp(9px,1.35vw,11px);color:#e6c99c;white-space:nowrap}
+.deviceDay{display:grid;grid-template-columns:clamp(21px,4vw,34px) minmax(0,1fr) 12px;align-items:center;min-height:clamp(33px,5vw,45px);gap:4px;border-bottom:1px solid #ffffff13;font-size:clamp(9px,1.5vw,12px)}
+.deviceDay:last-child{border:0}
+.deviceDay span{display:flex;gap:3px;color:#a5a19a;align-items:center}
+.deviceDay small{color:#e6c99c;text-align:center}
+.postThumb{display:block;width:calc((100% - 6px)/3);max-width:39px;aspect-ratio:1.2;border-radius:4px;background-size:cover;background-position:center;box-shadow:inset 0 0 0 1px #ffffff30}
+.art0{background-image:var(--shot0,var(--amazon))}.art1{background-image:var(--shot1,var(--andes))}.art2{background-image:var(--shot2,var(--patagonia))}.art3{background-image:var(--shot3,var(--amazon))}.art4{background-image:var(--shot4,var(--editorial))}.art5{background-image:var(--shot5,var(--patagonia))}
+#planPrice,#priceStyles{scroll-margin-top:104px}
+#priceStyles{display:grid;gap:10px;margin-top:19px}
+#priceStyles .sampleArt{margin:0;aspect-ratio:16/10}
+#priceStyles .miniStyleTabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;border:1px solid #ffffff25;border-radius:12px;padding:3px}
+#priceStyles .miniStyleTabs button{border:0;padding:4px 2px;font-size:clamp(10px,1.3vw,13px)}
+#priceStyles .sampleCopy{margin-top:auto;padding:12px}
+#priceStyles .sampleCopy strong{font-size:clamp(15px,2vw,21px)}
+#priceStyles .sampleArt.clean .sampleCopy strong{background:#000d;padding:5px 8px;width:fit-content}
+#priceStyles .sampleArt.dynamic .sampleCutaway{width:40%;left:auto;right:12px;top:12px}
+#priceStyles .sampleArt.cinematic .sampleCopy{margin-inline:12px}
+#priceStyles h3,#priceStyles p,#priceStyles .previewLink{margin:0}
+.closeStyles{width:fit-content;color:#ded8cf;background:transparent;border:1px solid #ffffff3b;border-radius:9px;padding:8px 11px;cursor:pointer}
+.sampleArt.reel.clean,.sampleArt.reel.dynamic{background-image:var(--shot0,var(--andes));background-position:55% center}
+.sampleArt.reel.dynamic .sampleCutaway{background-image:var(--shot1,var(--andes))}
+.sampleArt.reel.dynamic.frame2 .sampleCutaway{background-image:var(--shot4,var(--patagonia))}
+.sampleArt.reel.cinematic,.sampleArt.carousel{background-image:var(--shot2,var(--amazon))}
+.sampleArt.reel.cinematic.frame1,.sampleArt.carousel.frame1{background-image:var(--shot1,var(--andes))}
+.sampleArt.reel.cinematic.frame2,.sampleArt.carousel.frame2{background-image:var(--shot5,var(--patagonia))}
+.sampleArt.story{background-image:var(--shot3,var(--patagonia))}
+.sampleArt.quote{background-image:linear-gradient(0deg,#0b0807f5,#181007a0),var(--shot4,var(--editorial))}
+.sampleArt.carousel.frame1 .sampleCopy{background:#22221f;color:#f3e5ca}
+.sampleArt.carousel.frame1 .sampleCopy span{color:#ddd2be}
+.sampleArt.carousel.frame2 .sampleCopy{background:#b18a57;color:#15100a}
+.sampleArt.carousel.frame2 .sampleCopy span{color:#21150b}
+.sampleStage{background:radial-gradient(ellipse at 55% 35%,#5b473936,#15130f 65%,#090909)}
+@media(min-width:800px){#muestras .sampleStage{min-height:480px}}
+@media(max-width:700px){.deviceSelector{min-height:57px}.deviceHeader{min-height:42px}.deviceDay{grid-template-columns:23px minmax(0,1fr) 9px}.sampleStage{border-radius:20px}}
+:root{
+ --shot0:url('https://lordjeferies.github.io/silverwing-public/silverwinglanding/media/architecture-0.webp');--shot1:url('media/architecture-1.webp');
+ --shot2:url('media/architecture-2.webp');--shot3:url('media/architecture-3.webp');
+ --shot4:url('media/architecture-4.webp');--shot5:url('media/architecture-5.webp');
+}
+</style>
+<style id="silverwing-v18-premium">
+:root{--gold:#dfbb7c;--v18cream:#f2ede6;--v18red:#8d403b}
+body{background:#080808;color:#f6f3ee}
+.hero{min-height:min(90svh,930px)}
+.hero::before{background:linear-gradient(90deg,#000e 1%,#000a 42%,#0004 72%,#0005),linear-gradient(0deg,#000d,transparent 55%)!important}
+.hero h1{font-size:clamp(4rem,7.6vw,8.1rem);max-width:12ch;line-height:.99;letter-spacing:-.075em;text-shadow:0 8px 30px #0006}
+.hero h1 span{color:var(--v18cream)}
+.hero .sub{font-size:clamp(1rem,1.35vw,1.3rem);max-width:47ch}
+.heroCtas .action,.action{background:linear-gradient(145deg,#f1d6a1,#cda15c)!important;color:#111!important}
+#comparador{background:linear-gradient(155deg,#151515,#0a0a0a 55%,#16100f)}
+#comparador>.wrap{max-width:1330px}
+#comparador .sectionHead{margin-bottom:35px}
+#comparador .sectionHead h2{max-width:840px}
+.v18PainGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-bottom:34px}
+.v18Pain{position:relative;min-height:190px;overflow:hidden;border:1px solid #ffffff20;border-radius:20px;padding:24px;background:linear-gradient(155deg,#232323,#111)}
+.v18Pain:nth-child(2){background:linear-gradient(155deg,#2e241c,#121212)}
+.v18Pain:nth-child(3){background:linear-gradient(155deg,#261a1b,#111)}
+.v18Pain>span{font-size:10px;letter-spacing:.18em;font-weight:800;color:#e0b874}
+.v18Pain h3{font-size:clamp(19px,2.15vw,29px);line-height:1.09;letter-spacing:-.04em;margin:22px 0 10px}
+.v18Pain p{font-size:13px;color:#bcb7b1;line-height:1.6;margin:0}
+.v18ComparePromise{display:flex;align-items:baseline;justify-content:space-between;gap:15px;margin:22px 0 25px;flex-wrap:wrap}
+.v18ComparePromise strong{font-size:clamp(1.25rem,2.6vw,2.15rem);letter-spacing:-.04em}
+.v18ComparePromise span{font-size:12px;color:#b8afa5}
+#comparador .sliderCard{max-width:650px;margin:12px auto 25px;background:#191919;border:1px solid #ffffff24}
+.comparisonStage{max-width:850px;gap:clamp(12px,4vw,62px);margin:20px auto 12px}
+.deviceColumn{width:100%}.deviceSelector{max-width:330px;margin-bottom:15px;background:#1c1c1c}
+.device{width:min(100%,320px);border-radius:46px;background:#090909;border:5px solid #44413e;padding:11px 10px 17px;box-shadow:inset 0 0 0 1px #aaa4a0,0 24px 70px #000c}
+.silverDevice{border-color:#b9a17b;box-shadow:inset 0 0 0 1px #fff7,0 24px 70px #000c,0 0 50px #d5ad5720}
+.deviceIsland{height:19px;width:35%;max-width:94px;border-radius:40px;background:#000;margin:0 auto 13px}
+.deviceHeader{font-size:13px;min-height:30px;padding:0 5px 10px;border-color:#ffffff24}
+.deviceHeader span{font-size:10px;white-space:normal}
+.deviceWeek{min-height:370px;display:block}
+.v18IGMeta{display:flex;gap:6px;align-items:center;padding:12px 5px;color:#eee;font-size:11px}
+.v18IGMeta>span{background:#bda273;color:#111;width:22px;height:22px;border-radius:50%;display:grid;place-items:center}
+.v18IGMeta small{margin-left:auto}
+.v18IGStats{display:flex;align-items:baseline;gap:7px;font-size:11px;padding:8px 6px 10px;color:#c8c2bb}
+.v18IGStats b{font-size:28px;color:#f6ede0}
+.v18IGGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;overflow:hidden;border-radius:5px}
+.v18FeedPost{aspect-ratio:1;min-width:0;position:relative;background-size:cover;background-position:center;filter:saturate(.8);box-shadow:inset 0 0 18px #0004}
+.v18FeedPost:before{content:"";position:absolute;inset:22% 0 0;background:linear-gradient(transparent,#000c)}
+.v18FeedPost span{position:absolute;bottom:7px;left:6px;right:3px;font-size:clamp(6px,.8vw,9px);font-weight:900;letter-spacing:.08em;text-shadow:0 1px 5px #000}
+.v18FeedPost.v18Empty{background:#242321;border:1px solid #ffffff06;box-shadow:none}
+.v18FeedPost.v18Empty:before{display:none}
+.v18IGDock{text-align:center;border-top:1px solid #fff2;color:#f5f5f5;padding-top:12px;font-size:15px;letter-spacing:5px}
+.v18LiveDelta{text-align:center;margin:20px auto 5px;display:flex;gap:10px;justify-content:center;align-items:baseline;color:#bcb8b2}
+.v18LiveDelta strong{font-size:34px;color:#e9c98d}
+.phoneFoot{max-width:720px;margin:15px auto 0;text-align:center}
+#configurar{background:linear-gradient(180deg,#090909,#141414)}
+#configurar .glass{background:linear-gradient(145deg,#222,#141414);border-color:#ffffff2b}
+#configurar .selectCard:has(input:checked){border-color:#e4bf7d;background:linear-gradient(135deg,#302b25,#1d1c1b)}
+#priceStyles:not([hidden]){border:1px solid #e2bc7c;box-shadow:0 30px 100px #0009}
+#muestras{background:linear-gradient(180deg,#090909,#161616)}
+#muestras .sampleStage{border:1px solid #ffffff2e}
+#frecuencia{background:linear-gradient(180deg,#1b1b1b,#080808)}
+@media(max-width:760px){.hero{min-height:690px}.hero h1{font-size:clamp(3.2rem,12.5vw,5rem)}.v18PainGrid{grid-template-columns:1fr}.v18Pain{min-height:unset;padding:20px}.v18Pain h3{margin:12px 0 7px}.comparisonStage{gap:10px}.device{padding:8px 5px 12px;border-width:3px;border-radius:30px}.deviceIsland{height:11px;margin-bottom:8px}.v18IGStats b{font-size:21px}.v18IGMeta{font-size:8px}.v18IGMeta>span{height:16px;width:16px}.v18IGStats{font-size:8px}.v18FeedPost span{font-size:6px;bottom:4px;left:3px}.v18IGDock{font-size:10px}.deviceWeek{min-height:300px}.deviceHeader{font-size:10px}.deviceSelector{min-height:65px}.v18PainGrid{margin-bottom:20px}}
+@media(max-width:440px){.comparisonStage{grid-template-columns:repeat(2,minmax(0,1fr))}.device{width:100%}.v18IGMeta b{font-size:8px}.deviceIsland{max-width:55px}.v18FeedPost span{font-size:5px}.v18LiveDelta{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.heroSlidePhoto,.heroPhotoBase{transition:none!important}}
+</style></head><body><header class="top"><div class="wrap nav"><a class="brand" href="#inicio">SILVERWING <em>✦</em></a><nav class="links"><a data-en="Why it matters" data-es="Por qué importa" href="#problema">Por qué importa</a><a data-en="Compare" data-es="Comparador" href="#comparador">Comparador</a><a data-en="Samples" data-es="Muestras" href="#muestras">Muestras</a><a class="action navCta" data-en="Configure" data-es="Configurar" href="#configurar">Configurar</a><button aria-label="Switch language" class="lang" id="langBtn">EN</button></nav></div></header><section class="hero" id="inicio"><div aria-label="Águila en vuelo sobre un paisaje oscuro" class="heroPhoto heroPhotoBase" role="img"></div><div aria-hidden="true" class="heroGlassNote"><span class="heroSeries">01 / 03</span><span>DAILY CONTENT SYSTEM · SILVERWING</span></div><div aria-hidden="true" class="heroSlidePhoto heroSlideVista"></div><div aria-hidden="true" class="heroSlidePhoto heroSlideMountain"></div><div class="wrap heroContent"><div class="eyebrow">SILVERWING · DAILY CONTENT SYSTEM</div><h1 data-en="Your brand shouldn’t have to wait. &lt;span&gt;Neither should your content.&lt;/span&gt;" data-es="Tu marca no tiene que esperar. &lt;span&gt;Tu contenido tampoco.&lt;/span&gt;" id="heroHeadline">Tu marca no tiene que esperar. <span>Tu contenido tampoco.</span></h1><p class="sub" data-en="Daily presence starts with a sustainable content system. We turn your expertise into content ready to publish." data-es="Una presencia diaria empieza con un sistema de producción que puedas sostener. Nosotros convertimos lo que sabes en contenido listo para publicar." id="heroSub">Una presencia diaria empieza con un sistema de producción que puedas sostener. Nosotros convertimos lo que sabes en contenido listo para publicar.</p><div class="heroCtas"><a class="action" data-en="I want to post every day" data-es="Quiero publicar todos los días" href="#configurar">Quiero publicar todos los días</a><a class="outline" data-en="See the difference" data-es="Ver la diferencia" href="#comparador">Ver la diferencia</a></div><div class="proof"><span><b>28</b> <span data-en="posts · 28 days" data-es="publicaciones · 28 días">publicaciones · 28 días</span></span><span>✦ <span data-en="Recording guidance included" data-es="Grabación guiada incluida">Grabación guiada incluida</span></span><span>✦ <span data-en="Batch production" data-es="Producción por lotes">Producción por lotes</span></span></div><div class="heroRotatorControls"><button aria-label="Anterior banner" class="heroPrev" type="button">←</button><div aria-label="Banners destacados" class="heroDots" id="heroDots" role="group"></div><button aria-label="Siguiente banner" class="heroNext" type="button">→</button><button id="heroPause" class="heroPause" type="button" aria-label="Pausar banners">Ⅱ</button></div></div></section>
+<section class="section alt" id="comparador"><div class="wrap"><div class="sectionHead" id="problema"><div class="eyebrow" data-en="THE OPPORTUNITY" data-es="LA OPORTUNIDAD">LA OPORTUNIDAD</div><h2 data-en="If you have more to say, why show up so rarely?" data-es="Si tienes más que decir, ¿por qué aparecer tan poco?">Si tienes más que decir, ¿por qué aparecer tan poco?</h2><p data-en="You don't need to post just to post. You need enough useful content to stay present, cover different ideas, and keep a sustainable rhythm." data-es="No necesitas publicar por publicar. Necesitas suficientes piezas útiles para estar presente, mostrar distintas ideas y sostener el ritmo.">No necesitas publicar por publicar. Necesitas suficientes piezas útiles para estar presente, mostrar distintas ideas y sostener el ritmo.</p></div><div class="v18PainGrid" aria-label="Por qué importa la constancia">
+<article class="v18Pain"><span>01 / PRESENCIA</span><h3 data-es="Si no apareces, te olvidan." data-en="Out of sight. Out of mind.">Si no apareces, te olvidan.</h3><p data-es="Los silencios entre publicaciones reducen las ocasiones de recordarles que existes." data-en="Long gaps leave fewer chances to remind people you exist.">Los silencios entre publicaciones reducen las ocasiones de recordarles que existes.</p></article>
+<article class="v18Pain"><span>02 / EXPOSICIÓN</span><h3 data-es="Tus ideas merecen más pantalla." data-en="Your ideas deserve more airtime.">Tus ideas merecen más pantalla.</h3><p data-es="Cada pieza útil es otra oportunidad de responder preguntas y mostrar tu experiencia." data-en="Each useful post is another chance to answer questions and show expertise.">Cada pieza útil es otra oportunidad de responder preguntas y mostrar tu experiencia.</p></article>
+<article class="v18Pain"><span>03 / TIEMPO</span><h3 data-es="No tienes que editar cada día." data-en="You don't need to edit every day.">No tienes que editar cada día.</h3><p data-es="Producimos por lotes para que tu calendario avance incluso cuando estás trabajando." data-en="We batch-produce so your schedule keeps moving while you focus on work.">Producimos por lotes para que tu calendario avance incluso cuando estás trabajando.</p></article>
+</div><div class="v18ComparePromise"><strong data-es="Imagina las posibilidades si aumentas tu frecuencia." data-en="Imagine what becomes possible when you show up more often.">Imagina las posibilidades si aumentas tu frecuencia.</strong><span data-es="Dos semanas. Una diferencia visible." data-en="Two weekly feeds. A visible difference.">Dos semanas. Una diferencia visible.</span></div><div class="glass sliderCard"><label data-en="How many times do you post per week?" data-es="¿Cuántas veces publicas por semana?" for="currentFrequency">¿Cuántas veces publicas por semana?</label><input class="range" id="currentFrequency" max="7" min="0" step="1" type="range" value="2"/><output id="freqOutput">2</output></div><div class="comparisonStage">
+ <div class="deviceColumn">
+  <div class="deviceSelector currentSelector"><span data-es="Tu ritmo actual" data-en="Your current pace">Tu ritmo actual</span></div>
+  <div class="device"><div class="deviceIsland" aria-hidden="true"></div><div class="deviceHeader"><strong data-es="Tu semana" data-en="Your week">Tu semana</strong><span id="beforeLabel" aria-live="polite"></span></div><div class="deviceWeek" id="beforeFeed"></div></div>
+ </div>
+ <div class="deviceColumn">
+  <div class="deviceSelector" role="group" aria-label="Silverwing">
+   <button type="button" class="phoneTab active" data-phone-plan="daily" aria-pressed="true">Daily Authority</button>
+   <button type="button" class="phoneTab" data-phone-plan="max" aria-pressed="false">Maximum Visibility</button>
+  </div>
+  <div class="device silverDevice"><div class="deviceIsland" aria-hidden="true"></div><div class="deviceHeader"><strong>Silverwing</strong><span id="afterLabel" aria-live="polite"></span></div><div class="deviceWeek" id="afterFeed"></div></div>
+ </div>
+</div>
+<div class="v18LiveDelta" id="liveDelta" aria-live="polite"></div><p class="quiet phoneFoot" data-es="Cada miniatura representa una publicación. La distribución por día es ilustrativa." data-en="Each thumbnail represents one post. The daily distribution is illustrative.">Cada miniatura representa una publicación. La distribución por día es ilustrativa.</p>
+</div>
+</section>
+<section class="section alt" id="configurar"><div class="wrap"><div class="sectionHead"><div class="eyebrow" data-en="BUILD YOUR SILVERWING" data-es="CONFIGURA SILVERWING">CONFIGURA SILVERWING</div><h2 data-en="Choose your rhythm. We handle the rest." data-es="Elige tu ritmo. Nosotros hacemos el resto.">Elige tu ritmo. Nosotros hacemos el resto.</h2><p data-en="Three decisions and transparent pricing. Prompts, recording guidance and existing footage are already included." data-es="Tres decisiones y un precio claro. Las preguntas, guía de grabación y el uso de videos existentes ya están incluidos.">Tres decisiones y un precio claro. Las preguntas, guía de grabación y el uso de videos existentes ya están incluidos.</p></div><div class="configLayout"><div class="configMain"><section aria-labelledby="q1" class="glass configStep"><div class="stepHeading"><span class="stepNum">1</span><h3 data-en="How much would you like to post?" data-es="¿Cuánto quieres publicar?" id="q1">¿Cuánto quieres publicar?</h3></div><div class="options"><label class="selectCard"><input name="plan" type="radio" value="stay"/><div class="cardLine"><span class="cardTitle">Stay Present</span><span class="cardPrice">$399</span></div><p class="cardDesc" data-en="3 posts per week · A starting point." data-es="3 publicaciones por semana · Un punto de partida.">3 publicaciones por semana · Un punto de partida.</p></label><label class="selectCard"><input checked="" name="plan" type="radio" value="daily"/><span class="optionTag" data-en="OUR RECOMMENDED STANDARD" data-es="NUESTRO ESTÁNDAR RECOMENDADO">NUESTRO ESTÁNDAR RECOMENDADO</span><div class="cardLine"><span class="cardTitle">Daily Authority</span><span class="cardPrice">$799</span></div><p class="cardDesc" data-en="28 posts · One every day." data-es="28 publicaciones · Una todos los días.">28 publicaciones · Una todos los días.</p></label><label class="selectCard"><input name="plan" type="radio" value="max"/><div class="cardLine"><span class="cardTitle">Maximum Visibility</span><span class="cardPrice">$999</span></div><p class="cardDesc" data-en="64 posts · 16 each week." data-es="64 publicaciones · 16 por semana.">64 publicaciones · 16 por semana.</p></label></div><div class="miniStats" id="planStats"></div><p class="quiet" data-en="Four-week cycles. Original Stories are additional to feed posts." data-es="Cantidades para ciclos de cuatro semanas. Stories originales adicionales al feed.">Cantidades para ciclos de cuatro semanas. Stories originales adicionales al feed.</p></section>
+<section aria-labelledby="q2" class="glass configStep"><div class="stepHeading"><span class="stepNum">2</span><h3 data-en="What should it look like?" data-es="¿Cómo quieres que se vea?" id="q2">¿Cómo quieres que se vea?</h3></div><p class="quiet" data-en="Choose a combination. We distribute the editing styles across your Reels." data-es="Elige una combinación. Nosotros repartimos los acabados entre los Reels.">Elige una combinación. Nosotros repartimos los acabados entre los Reels.</p><div class="options"><label class="selectCard"><input checked="" name="style" type="radio" value="clean"/><div class="cardLine"><span class="cardTitle">Clean &amp; Professional</span><span class="cardPrice" data-en="Included" data-es="Incluido">Incluido</span></div><p class="cardDesc" data-en="Cuts, captions and text emphasis. No B-roll or SFX." data-es="Cortes, captions y texto de énfasis. Sin B-roll ni SFX.">Cortes, captions y texto de énfasis. Sin B-roll ni SFX.</p></label><label class="selectCard"><input name="style" type="radio" value="dynamic"/><div class="cardLine"><span class="cardTitle">Clean + Dynamic</span><span class="cardPrice" id="dynamicPrice">+$349</span></div><p class="cardDesc" data-en="Half Clean, half with animated photos and digital sound. No overlays." data-es="Mitad Clean, mitad con fotos animadas y sonidos digitales. Sin overlays.">Mitad Clean, mitad con fotos animadas y sonidos digitales. Sin overlays.</p></label><label class="selectCard"><input name="style" type="radio" value="cinematic"/><div class="cardLine"><span class="cardTitle">Clean + Cinematic</span><span class="cardPrice" id="cinematicPrice">+$699</span></div><p class="cardDesc" data-en="Half Clean, half with editorial X-rolls, textures and cinematic sound." data-es="Mitad Clean, mitad con X-rolls editoriales, texturas y sonido cinematográfico.">Mitad Clean, mitad con X-rolls editoriales, texturas y sonido cinematográfico.</p></label><label class="selectCard"><input name="style" type="radio" value="mix"/><div class="cardLine"><span class="cardTitle">Dynamic + Cinematic</span><span class="cardPrice" id="mixPrice">+$1,048</span></div><p class="cardDesc" data-en="Half Dynamic, half Cinematic. No Clean Reels." data-es="Mitad Dynamic, mitad Cinematic. Sin Reels Clean.">Mitad Dynamic, mitad Cinematic. Sin Reels Clean.</p></label></div><button class="previewLink" id="showStyles" type="button" aria-expanded="false" aria-controls="priceStyles" data-es="Ver estilos" data-en="View styles">Ver estilos</button><div class="styleMix clean" id="styleMix"><i></i><i></i></div><p class="styleText" id="mixSummary"></p></section>
+<section aria-labelledby="q3" class="glass configStep"><div class="stepHeading"><span class="stepNum">3</span><h3 data-en="Want to add something special?" data-es="¿Quieres añadir algo especial?" id="q3">¿Quieres añadir algo especial?</h3></div><p class="quiet" data-en="Select as many extras as you need. They can be combined." data-es="Marca todos los extras que necesites. Puedes combinarlos.">Marca todos los extras que necesites. Puedes combinarlos.</p><div class="addons"><label class="addon"><input id="scripts" type="checkbox"/><div><b data-en="Custom scripts" data-es="Guiones personalizados">Guiones personalizados</b><p data-en="Up to 8 scripts with hooks and example answers." data-es="Hasta 8 guiones con hooks y ejemplos de respuestas.">Hasta 8 guiones con hooks y ejemplos de respuestas.</p></div><strong>+$500</strong></label><label class="addon"><input id="interviews" type="checkbox"/><div><b data-en="Guided interviews" data-es="Entrevistas guiadas">Entrevistas guiadas</b><p data-en="Up to 2 remote interviews with Silverwing." data-es="Hasta 2 entrevistas remotas con Silverwing.">Hasta 2 entrevistas remotas con Silverwing.</p></div><strong>+$1,000</strong></label><label class="addon" id="aiRow"><input id="ai" type="checkbox"/><div><b>AI Creative + VFX</b><p data-en="A-roll overlays, video B-roll and authorized generative X-rolls." data-es="Overlays en A-roll, B-roll en video y X-rolls generativos con autorización.">Overlays en A-roll, B-roll en video y X-rolls generativos con autorización.</p><p class="quiet" id="aiHint"></p></div><strong data-en="+$499 / 4 Reels" data-es="+$499 / 4 Reels">+$499 / 4 Reels</strong></label><div hidden="" id="aiPacksWrap"><label class="quiet" data-en="How many AI-enhanced Reels?" data-es="¿Cuántos Reels con IA?" for="aiPacks">¿Cuántos Reels con IA?</label><select id="aiPacks"></select></div></div></section></div>
+<aside class="glass priceSticky" id="planPrice"><div class="eyebrow" data-en="YOUR SILVERWING" data-es="TU SILVERWING">TU SILVERWING</div><div class="amount" id="totalPrice" aria-live="polite">$799</div><p class="quiet" data-en="USD · every 4 weeks" data-es="USD · cada 4 semanas">USD · cada 4 semanas</p><div class="sep"></div><div class="break"><span data-en="Plan" data-es="Plan">Plan</span><b id="sumPlan">Daily Authority</b></div><div class="break"><span data-en="Editing" data-es="Acabado">Acabado</span><b id="sumStyle">Clean &amp; Professional</b></div><div class="break"><span data-en="Extras" data-es="Extras">Extras</span><b id="sumExtras">—</b></div><div class="sep"></div><p class="quiet" id="sumOutput"></p><button class="action" data-en="Copy my configuration" data-es="Copiar mi configuración" id="copyProposal">Copiar mi configuración</button><p class="quiet" id="copyStatus" role="status"></p><p class="quiet" data-en="Volume editing and AI fees are pilot estimates pending validation; this simulation is not a binding quote." data-es="Los suplementos por volumen y la IA son tarifas piloto pendientes de validar; esta simulación no es una oferta vinculante.">Los suplementos por volumen y la IA son tarifas piloto pendientes de validar; esta simulación no es una oferta vinculante.</p><div id="priceStyles" hidden><h3  data-es="Compara los acabados" data-en="Compare finishes">Compara los acabados</h3><div class="miniStyleTabs" role="group" aria-label="Estilos"><button type="button" data-mini="clean" aria-pressed="true">Clean</button><button type="button" data-mini="dynamic" aria-pressed="false">Dynamic</button><button type="button" data-mini="cinematic" aria-pressed="false">Cinematic</button></div><div id="miniStyleArt" class="sampleArt reel clean" role="img"><div class="sampleCutaway" aria-hidden="true"></div><div class="sampleCopy"><strong data-es="La luz también diseña." data-en="Light shapes a room.">La luz también diseña.</strong></div></div><strong id="miniStyleTitle"></strong><p id="miniStyleText" class="quiet"></p><button type="button" id="closeStyles" class="closeStyles" data-es="Cerrar estilos" data-en="Close styles">Cerrar estilos</button><a href="#muestras" class="previewLink" data-es="Explorar todos los formatos ↓" data-en="Explore all formats ↓">Explorar todos los formatos ↓</a></div></aside></div></div></section>
+<section class="section dark" id="muestras">
+  <div class="wrap">
+    <div class="sectionHead">
+      <div class="eyebrow" data-es="MUESTRAS DE CONTENIDO" data-en="CONTENT SAMPLES">MUESTRAS DE CONTENIDO</div>
+      <h2 data-es="Una idea. Distintas formas de publicarla." data-en="One idea. Different ways to publish it.">Una idea. Distintas formas de publicarla.</h2>
+      <p data-es="Una arquitecta explica cómo la luz cambia un espacio. Explora cómo la misma idea se adapta a un Reel, un carrusel, una Story y una frase." data-en="An architect explains how light changes a space. Explore how the same idea adapts to a Reel, carousel, Story and quote.">Una arquitecta explica cómo la luz cambia un espacio. Explora cómo la misma idea se adapta a un Reel, un carrusel, una Story y una frase.</p>
+    </div>
+    <div class="sampleTabs glass" role="group" aria-label="Formatos de contenido" id="sampleFormats">
+      <button type="button" data-format="reel" aria-pressed="true">Reel</button>
+      <button type="button" data-format="carousel" aria-pressed="false" data-es="Carrusel" data-en="Carousel">Carrusel</button>
+      <button type="button" data-format="story" aria-pressed="false">Story</button>
+      <button type="button" data-format="quote" aria-pressed="false" data-es="Frase" data-en="Quote">Frase</button>
+    </div>
+    <div class="sampleLayout">
+      <div class="sampleStage">
+        <div id="sampleArt" class="sampleArt" role="img">
+          <span id="sampleStamp" class="sampleStamp"></span>
+          <div id="sampleCutaway" class="sampleCutaway" aria-hidden="true"></div>
+          <div class="sampleCopy"><strong id="sampleHeadline"></strong><span id="sampleCaption"></span></div>
+        </div>
+      </div>
+      <div class="sampleDetails">
+        <div class="sampleTabs glass" id="sampleFinishes" role="group" aria-label="Acabados de edición">
+          <button type="button" data-finish="clean" aria-pressed="true">Clean</button>
+          <button type="button" data-finish="dynamic" aria-pressed="false">Dynamic</button>
+          <button type="button" data-finish="cinematic" aria-pressed="false">Cinematic</button>
+        </div>
+        <div aria-live="polite"><h3 id="sampleTitle"></h3><p id="sampleDescription"></p></div>
+        <div id="sampleNavigation" class="sampleNavigation">
+          <button type="button" id="samplePrev" aria-label="Anterior">‹</button>
+          <span id="samplePosition" aria-live="polite"></span>
+          <button type="button" id="sampleNext" aria-label="Siguiente">›</button>
+        </div>
+        <p class="quiet" id="sampleNote"></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section dark"><div class="wrap"><div class="sectionHead"><div class="eyebrow" data-en="HOW IT WORKS" data-es="CÓMO FUNCIONA">CÓMO FUNCIONA</div><h2 data-en="From your ideas to a full content calendar." data-es="De tus ideas a un calendario completo.">De tus ideas a un calendario completo.</h2><p data-en="Have videos? We multiply them. No videos? We give you prompts and a recording guide." data-es="¿Tienes videos? Los multiplicamos. ¿No tienes? Te damos preguntas y una guía para grabarlos.">¿Tienes videos? Los multiplicamos. ¿No tienes? Te damos preguntas y una guía para grabarlos.</p></div><div class="grid3"><div class="glass stepsTile"><span class="bigNum">01</span><h3 data-en="Share" data-es="Comparte">Comparte</h3><p data-en="Existing videos or answers recorded on your phone." data-es="Videos existentes o respuestas grabadas con tu teléfono.">Videos existentes o respuestas grabadas con tu teléfono.</p></div><div class="glass stepsTile"><span class="bigNum">02</span><h3 data-en="We create" data-es="Creamos">Creamos</h3><p data-en="Reels, carousels, memes/quotes and Stories with your brand's identity." data-es="Reels, carruseles, memes/frases y Stories con la identidad de tu marca.">Reels, carruseles, memes/frases y Stories con la identidad de tu marca.</p></div><div class="glass stepsTile"><span class="bigNum">03</span><h3 data-en="You publish" data-es="Publicas">Publicas</h3><p data-en="Get reviewable batches and a calendar that helps you stay consistent." data-es="Recibes lotes revisables y un calendario que te ayuda a mantener el ritmo.">Recibes lotes revisables y un calendario que te ayuda a mantener el ritmo.</p></div></div><p class="glass editorialNote" data-es="Con guiones personalizados, trabajamos también lo que dices: afinamos el gancho, ordenamos las ideas y buscamos ejemplos que hagan el mensaje más claro antes de grabar. Esa dirección editorial continúa en la edición." data-en="With custom scripts, we also shape what you say: we refine the hook, organize the ideas and find examples that make the message clearer before you record. That editorial direction carries through to the edit.">Con guiones personalizados, trabajamos también lo que dices: afinamos el gancho, ordenamos las ideas y buscamos ejemplos que hagan el mensaje más claro antes de grabar. Esa dirección editorial continúa en la edición.</p></div></section>
+<section class="section alt"><div class="wrap innerDemo"><div><div class="eyebrow">INNER CIRCLE</div><h2 data-en="Ready-to-post content. Stay in control." data-es="Contenido listo. Sin perder el control.">Contenido listo. Sin perder el control.</h2><p data-en="Your deliverables library, original Stories, content calendar and approval status in one place. Share that day's post to Stories when relevant." data-es="Tu biblioteca de entregas, Stories originales, calendario y estado de cada pieza en un mismo lugar. Comparte el post del día en Stories cuando corresponda.">Tu biblioteca de entregas, Stories originales, calendario y estado de cada pieza en un mismo lugar. Comparte el post del día en Stories cuando corresponda.</p><div class="pills"><span data-en="Existing or guided recordings" data-es="Grabaciones existentes o guiadas">Grabaciones existentes o guiadas</span><span data-en="Original Stories included" data-es="Stories originales incluidas">Stories originales incluidas</span><span data-en="Organized deliveries" data-es="Entregas organizadas">Entregas organizadas</span></div></div><div class="glass dashboard"><div class="eyebrow" data-en="CONCEPT PREVIEW" data-es="VISTA CONCEPTUAL">VISTA CONCEPTUAL</div><h3 data-en="Your calendar this week" data-es="Tu calendario de esta semana">Tu calendario de esta semana</h3><div class="dashRow"><b data-en="Mon · Reel" data-es="Lun · Reel">Lun · Reel</b><span data-en="Ready to post" data-es="Listo para publicar">Listo para publicar</span></div><div class="dashRow"><b data-en="Tue · Carousel" data-es="Mar · Carrusel">Mar · Carrusel</b><span data-en="Needs review" data-es="Para revisión">Para revisión</span></div><div class="dashRow"><b data-en="Wed · Reel" data-es="Mié · Reel">Mié · Reel</b><span data-en="In production" data-es="En producción">En producción</span></div><div class="dashRow"><b data-en="Original Stories" data-es="Stories originales">Stories originales</b><span data-en="5 this week" data-es="5 esta semana">5 esta semana</span></div><p class="quiet" data-en="Interface preview; not a connected account." data-es="Demostración de interfaz; no representa una cuenta conectada.">Demostración de interfaz; no representa una cuenta conectada.</p></div></div><div class="wrap"><div class="glass appBenefits"><h3  data-es="Herramientas incluidas con Inner Circle" data-en="Tools included with Inner Circle">Herramientas incluidas con Inner Circle</h3><p  data-es="Acceso sin costo adicional para clientes activos cuando las herramientas estén disponibles." data-en="Active clients get access at no extra cost when the tools become available.">Acceso sin costo adicional para clientes activos cuando las herramientas estén disponibles.</p><p  data-es="Grabación guiada · Guiones, teleprompter y tomas organizadas desde el teléfono." data-en="Guided recording · Scripts, teleprompter and organized takes from your phone.">Grabación guiada · Guiones, teleprompter y tomas organizadas desde el teléfono.</p><p  data-es="Coach de programación · Prioridades semanales, calendario y recordatorios para mantener el ritmo." data-en="Scheduling coach · Weekly priorities, a calendar and reminders to keep you on track.">Coach de programación · Prioridades semanales, calendario y recordatorios para mantener el ritmo.</p><small  data-es="Ambas aplicaciones están en desarrollo." data-en="Both apps are in development.">Ambas aplicaciones están en desarrollo.</small></div></div></section>
+<section class="section dark" id="frecuencia"><div class="wrap">
+<div class="sectionHead"><h2 data-es="Qué cambia cuando publicas más seguido" data-en="What changes when you post more often">Qué cambia cuando publicas más seguido</h2><p data-es="Más frecuencia te da más ocasiones de mostrar tu trabajo. Estos gráficos distinguen los datos observados del espacio que ganas en tu calendario." data-en="Posting more often gives you more opportunities to show your work. These charts distinguish observed data from the room you gain in your calendar.">Más frecuencia te da más ocasiones de mostrar tu trabajo. Estos gráficos distinguen los datos observados del espacio que ganas en tu calendario.</p></div>
+<div class="evidenceGrid">
+<figure class="glass"><figcaption data-es="Alcance por publicación en Instagram" data-en="Reach per Instagram feed post">Alcance por publicación en Instagram</figcaption>
+<p data-es="Diferencia frente a cuentas que publicaron 1–2 veces por semana, según Buffer." data-en="Difference versus accounts posting 1–2 times a week, according to Buffer.">Diferencia frente a cuentas que publicaron 1–2 veces por semana, según Buffer.</p>
+<ul class="evidenceBars"><li><span>1–2</span><i aria-hidden="true" style="--fill:0%"></i><b>0%</b></li><li><span>3–5</span><i aria-hidden="true" style="--fill:50%"></i><b>+12%</b></li><li><span>6–9</span><i aria-hidden="true" style="--fill:75%"></i><b>+18%</b></li><li><span>10+</span><i aria-hidden="true" style="--fill:100%"></i><b>+24%</b></li></ul>
+<p data-es="Publicaciones por semana. Resultados observacionales del feed, con rendimientos decrecientes." data-en="Posts per week. Observational feed results with diminishing returns.">Publicaciones por semana. Resultados observacionales del feed, con rendimientos decrecientes.</p>
+<a href="https://buffer.com/resources/how-often-to-post-on-instagram/" data-es="Estudio de Buffer · 2,1 millones de publicaciones" data-en="Buffer study · 2.1 million posts">Estudio de Buffer · 2,1 millones de publicaciones</a></figure>
+<figure class="glass"><figcaption data-es="Días sin un mensaje nuevo en el feed" data-en="Days without a new feed message">Días sin un mensaje nuevo en el feed</figcaption>
+<p data-es="Ejemplo de calendario de cuatro semanas, con cada publicación en un día distinto." data-en="Four-week calendar example, with each post on a different day.">Ejemplo de calendario de cuatro semanas, con cada publicación en un día distinto.</p>
+<ul class="evidenceBars"><li><span data-es="1 / sem." data-en="1 / wk">1 / sem.</span><i aria-hidden="true" style="--fill:85.7%"></i><b>24</b></li><li><span data-es="3 / sem." data-en="3 / wk">3 / sem.</span><i aria-hidden="true" style="--fill:57.1%"></i><b>16</b></li><li><span data-es="7 / sem." data-en="7 / wk">7 / sem.</span><i aria-hidden="true" style="--fill:0%"></i><b>0</b></li></ul>
+<p data-es="Menos días de publicación dejan menos espacios para probar ganchos, responder dudas o mostrar casos. La frecuencia adecuada depende de la plataforma y el formato." data-en="Fewer posting days leave fewer opportunities to test hooks, answer questions or share examples. The right cadence depends on platform and format.">Menos días de publicación dejan menos espacios para probar ganchos, responder dudas o mostrar casos. La frecuencia adecuada depende de la plataforma y el formato.</p>
+<a href="https://buffer.com/resources/when-is-the-best-time-to-post-on-instagram/" data-es="Buffer · Frecuencia de feed y Stories" data-en="Buffer · Feed and Stories cadence">Buffer · Frecuencia de feed y Stories</a></figure></div></div></section>
+
+<div class="finalCta"><div class="eyebrow" data-en="POST WITHOUT STARTING OVER" data-es="PUBLICAR SIN EMPEZAR DE CERO">PUBLICAR SIN EMPEZAR DE CERO</div><h2 data-en="A month of presence. A fraction of the time." data-es="Un mes de presencia. Una fracción del tiempo.">Un mes de presencia. Una fracción del tiempo.</h2><p data-en="We turn what you already know into a consistent content system, with quality and visual direction." data-es="Aprovechamos lo que ya sabes y lo convertimos en un sistema de publicaciones constante, con calidad y dirección visual.">Aprovechamos lo que ya sabes y lo convertimos en un sistema de publicaciones constante, con calidad y dirección visual.</p><a class="action" data-en="Configure Silverwing" data-es="Configurar Silverwing" href="#configurar">Configurar Silverwing</a></div><footer class="foot"><div class="wrap">© Silverwing · Powered by Abraxas · <span data-en="Daily Content System" data-es="Daily Content System">Daily Content System</span></div></footer><script>(()=>{'use strict';const $=id=>document.getElementById(id);const money=n=>'$'+n.toLocaleString('en-US');const plans={stay:{name:'Stay Present',base:399,reels:8,carousels:4,quotes:0,stories:12,posts:12,dynamic:199,cinematic:399,weekly:3},daily:{name:'Daily Authority',base:799,reels:16,carousels:8,quotes:4,stories:20,posts:28,dynamic:349,cinematic:699,weekly:7},max:{name:'Maximum Visibility',base:999,reels:48,carousels:8,quotes:8,stories:28,posts:64,dynamic:799,cinematic:1499,weekly:16}};const themes={es:{posts:'publicaciones',reels:'Reels',carousel:'Carruseles',quotes:'Frases',stories:'Stories',included:'Incluido',needs:'Requiere Dynamic o Cinematic',available:'Paquete de 4 Reels',copied:'Configuración copiada.',copyfail:'Selecciona y copia el texto de la propuesta.',none:'Ninguno'},en:{posts:'posts',reels:'Reels',carousel:'Carousels',quotes:'Quotes',stories:'Stories',included:'Included',needs:'Requires Dynamic or Cinematic',available:'Bundle of 4 Reels',copied:'Configuration copied.',copyfail:'Select and copy the proposal text.',none:'None'}};let lang='es',previousPacks=1,phonePlanFrequency=7;const picked=name=>document.querySelector('input[name="'+name+'"]:checked').value;const fmt=(n)=>money(n);function recalc(){const key=picked('plan'),p=plans[key],sty=picked('style'),half=p.reels/2,price=sty==='dynamic'?p.dynamic:sty==='cinematic'?p.cinematic:sty==='mix'?p.dynamic+p.cinematic:0;const labels={clean:['Clean','Clean'],dynamic:['Clean','Dynamic'],cinematic:['Clean','Cinematic'],mix:['Dynamic','Cinematic']};$('dynamicPrice').textContent='+'+fmt(p.dynamic);$('cinematicPrice').textContent='+'+fmt(p.cinematic);$('mixPrice').textContent='+'+fmt(p.dynamic+p.cinematic);$('planStats').innerHTML=[[p.reels,themes[lang].reels],[p.carousels,themes[lang].carousel],[p.quotes,themes[lang].quotes],[p.stories,themes[lang].stories]].map(a=>'<div><b>'+a[0]+'</b><span>'+a[1]+'</span></div>').join('');$('styleMix').className='styleMix '+sty;$('mixSummary').textContent=sty==='clean'?p.reels+' Reels Clean':half+' '+labels[sty][0]+' + '+half+' '+labels[sty][1]+' Reels';$('ai').disabled=sty==='clean';if(sty==='clean')$('ai').checked=false;$('aiRow').style.opacity=sty==='clean'?'.48':'1';$('aiHint').textContent=sty==='clean'?themes[lang].needs:themes[lang].available;const max=sty==='mix'?p.reels:sty==='clean'?0:half;const count=Math.floor(max/4);const old=Number($('aiPacks').value)||previousPacks||1;$('aiPacks').replaceChildren();for(let i=1;i<=count;i++){const op=document.createElement('option');op.value=i;op.textContent=i*4+' Reels · +'+fmt(i*499);$('aiPacks').append(op)}if(count){$('aiPacks').value=Math.min(old,count)}const packs=$('ai').checked?Math.max(1,Number($('aiPacks').value)||1):0;previousPacks=Number($('aiPacks').value)||1;$('aiPacksWrap').hidden=!$('ai').checked||!count;let total=p.base+price+($('scripts').checked?500:0)+($('interviews').checked?1000:0)+packs*499;$('totalPrice').textContent=fmt(total);$('sumPlan').textContent=p.name;$('sumStyle').textContent=sty==='clean'?'Clean & Professional':sty==='mix'?'Dynamic + Cinematic':'Clean + '+(sty==='dynamic'?'Dynamic':'Cinematic');const extra=[ $('scripts').checked?(lang==='es'?'Guiones':'Scripts'):null,$('interviews').checked?(lang==='es'?'Entrevistas':'Interviews'):null,packs?packs*4+(lang==='es'?' Reels con IA':' AI Reels'):null].filter(Boolean);$('sumExtras').textContent=extra.length?extra.join(' · '):'—';$('sumOutput').textContent=p.posts+' '+themes[lang].posts+' + '+p.stories+' '+themes[lang].stories+' / 4 '+(lang==='es'?'semanas':'weeks');$('afterLabel').textContent=phonePlanFrequency+' '+themes[lang].posts;$('beforeLabel').textContent=$('currentFrequency').value+' '+themes[lang].posts;renderWeekly();window.silverwingProposal=(lang==='es'?[
+ 'SILVERWING · '+p.name,
+ p.posts+' publicaciones de feed + '+p.stories+' Stories originales / 4 semanas',
+ p.reels+' Reels, '+p.carousels+' carruseles, '+p.quotes+' frases/memes',
+ 'Acabado: '+$('sumStyle').textContent+' · '+$('mixSummary').textContent,
+ 'Guiones personalizados: '+($('scripts').checked?'sí (+$500)':'no'),
+ 'Entrevistas guiadas: '+($('interviews').checked?'sí (+$1,000)':'no'),
+ 'AI Creative + VFX: '+(packs?packs*4+' Reels (+'+fmt(packs*499)+')':'no'),
+ 'Estimación: '+fmt(total)+' USD / 4 semanas',
+ 'Suplementos de edición e IA sujetos a validación.'
+ ]:['SILVERWING — '+p.name,p.posts+' feed posts + '+p.stories+' original Stories / 4 weeks',p.reels+' Reels, '+p.carousels+' carousels, '+p.quotes+' quotes/memes', 'Editing: '+$('sumStyle').textContent+' · '+$('mixSummary').textContent, 'Custom scripts: '+($('scripts').checked?'yes (+$500)':'no'), 'Guided interviews: '+($('interviews').checked?'yes (+$1000)':'no'),'AI Creative + VFX: '+(packs?packs*4+' Reels (+$'+packs*499+')':'no'),'Pilot estimate: '+fmt(total)+' USD / 4 weeks','Editing and AI rates are pilot estimates, not a binding offer']).join('\n');}function renderWeekly(){
+ const current=Number($('currentFrequency').value);
+ const daily=[1,1,1,1,1,1,1];
+ const maximum=[2,3,2,2,3,2,2];
+ const days=lang==='es'?['Lun','Mar','Mié','Jue','Vie','Sáb','Dom']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+ const spread=[0,3,5,2,6,1,4];
+ const currentWeek=days.map((_,day)=>Number(spread.indexOf(day)<current));
+ function paint(id,counts){
+  const countTotal=counts.reduce((a,b)=>a+b,0);
+  const formats=lang==='es'?['REEL','IDEA','GUÍA','REEL','FRASE','TIP','REEL','CARRUSEL']:['REEL','IDEA','GUIDE','REEL','QUOTE','TIP','REEL','CAROUSEL'];
+  let art=0;
+  let tiles=[];
+  counts.forEach((count,day)=>{
+   for(let n=0;n<count;n++){
+    let k=(art++%6);
+    tiles.push('<div class="v18FeedPost art'+k+'" title="'+days[day]+' — '+formats[(art-1)%formats.length]+'" aria-label="'+days[day]+' — '+formats[(art-1)%formats.length]+'"><span>'+formats[(art-1)%formats.length]+'</span></div>');
+   }
+  });
+  const slots=Math.max(18,Math.ceil(countTotal/3)*3);
+  while(tiles.length<slots)tiles.push('<div class="v18FeedPost v18Empty" aria-hidden="true"></div>');
+  $(id).innerHTML='<div class="v18IGMeta"><span>✦</span> <b>'+ (id==='beforeFeed'?'tu.marca':'silverwing.studio') +'</b><small>•••</small></div><div class="v18IGStats"><b>'+countTotal+'</b><span>'+(lang==='es'?'publicaciones esta semana':'posts this week')+'</span></div><div class="v18IGGrid">'+tiles.join('')+'</div><div class="v18IGDock" aria-hidden="true">⌂　⌕　▦　♡</div>';
+ }
+ $('beforeLabel').textContent=current+' '+(lang==='es'?(current===1?'publicación':'publicaciones'):(current===1?'post':'posts'));
+ paint('beforeFeed',currentWeek);
+ paint('afterFeed',phonePlanFrequency===7?daily:maximum);
+ const proposed=phonePlanFrequency;const difference=proposed-current;
+ const delta=$('liveDelta');if(delta)delta.innerHTML='<strong>'+ (difference>=0?'+':'')+difference+'</strong> <span>'+(lang==='es'?'publicaciones por semana frente a tu ritmo actual':'weekly posts compared with your current pace')+'</span>';
+
+}
+function renderHeroPause(){
+ const b=$('heroPause');
+ b.textContent=heroPaused?'▶':'Ⅱ';
+ b.setAttribute('aria-label',lang==='es'?(heroPaused?'Reanudar banners':'Pausar banners'):(heroPaused?'Resume banners':'Pause banners'));
+ document.querySelector('.heroPrev').setAttribute('aria-label',lang==='es'?'Banner anterior':'Previous banner');
+ document.querySelector('.heroNext').setAttribute('aria-label',lang==='es'?'Banner siguiente':'Next banner');
+}
+function setLang(next){lang=next;document.documentElement.lang=next;document.querySelectorAll('[data-es][data-en]').forEach(el=>{el.innerHTML=el.dataset[next]});$('langBtn').textContent=next==='es'?'EN':'ES';showHero(heroIndex);renderHeroPause();renderSample();renderMini();recalc()}document.querySelectorAll('input[name="plan"],input[name="style"],#scripts,#interviews,#ai').forEach(e=>e.addEventListener('change',()=>{previousPacks=1;recalc()}));$('aiPacks').addEventListener('change',recalc);$('currentFrequency').addEventListener('input',()=>{$('freqOutput').textContent=$('currentFrequency').value;recalc()});$('langBtn').addEventListener('click',()=>setLang(lang==='es'?'en':'es'));$('copyProposal').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(window.silverwingProposal);$('copyStatus').textContent=themes[lang].copied}catch(e){const t=document.createElement('textarea');t.value=window.silverwingProposal;document.body.append(t);t.select();const ok=document.execCommand('copy');t.remove();$('copyStatus').textContent=ok?themes[lang].copied:themes[lang].copyfail}});const heroSlides=[...document.querySelectorAll('.heroPhotoBase,.heroSlidePhoto')];const heroContent=[
+ {es:['Tu marca <span>aparece poco.</span>','Una publicación diaria te da más ocasiones de mostrar lo que sabes. Silverwing convierte tus ideas en contenido listo para publicar.'],en:['Your brand <span>shows up rarely.</span>','One post a day gives you more chances to share your expertise. Silverwing turns your ideas into content ready to publish.']},
+ {es:['Tus ideas <span>merecen verse.</span>','Una idea puede responder una duda, demostrar tu experiencia o abrir una conversación. Dale un lugar en el calendario.'],en:['Give your ideas <span>room to be seen.</span>','An idea can answer a question, demonstrate expertise or start a conversation. Give it a place on the calendar.']},
+ {es:['Tu agenda <span>no da más.</span>','Usamos tus videos o te guiamos para grabarlos. Producimos por lotes para que puedas publicar todos los días.'],en:['Your calendar <span>is already full.</span>','We use your videos or help you record them. We produce in batches so you can post every day.']}
+];let heroIndex=0,heroTimer,heroPaused=false;const showHero=i=>{heroIndex=(i+heroContent.length)%heroContent.length;heroSlides.forEach((x,n)=>x.classList.toggle('isActive',n===heroIndex));$('heroHeadline').innerHTML=heroContent[heroIndex][lang][0];$('heroSub').textContent=heroContent[heroIndex][lang][1];document.querySelectorAll('.heroDots button').forEach((x,n)=>{x.classList.toggle('active',n===heroIndex);x.setAttribute('aria-pressed',String(n===heroIndex))});document.querySelector('.heroSeries').textContent=String(heroIndex+1).padStart(2,'0')+' / 03'};for(let i=0;i<heroContent.length;i++){let b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Banner '+(i+1));b.onclick=()=>{showHero(i);restartHero()};$('heroDots').append(b)}const restartHero=()=>{clearInterval(heroTimer);if(!heroPaused&&!matchMedia('(prefers-reduced-motion: reduce)').matches)heroTimer=setInterval(()=>{if(!document.hidden)showHero(heroIndex+1)},8500)};document.querySelector('.heroPrev').onclick=()=>{showHero(heroIndex-1);restartHero()};document.querySelector('.heroNext').onclick=()=>{showHero(heroIndex+1);restartHero()};document.querySelector('.hero').addEventListener('mouseenter',()=>clearInterval(heroTimer));document.querySelector('.hero').addEventListener('mouseleave',restartHero);document.querySelector('.hero').addEventListener('focusin',()=>clearInterval(heroTimer));document.querySelector('.hero').addEventListener('focusout',restartHero);document.querySelectorAll('.phoneTab').forEach(b=>b.addEventListener('click',()=>{phonePlanFrequency=b.dataset.phonePlan==='max'?16:7;document.querySelectorAll('.phoneTab').forEach(t=>{const active=t===b;t.classList.toggle('active',active);t.setAttribute('aria-pressed',String(active))});recalc()}));const samples={
+  reel:{
+    clean:{es:['Clean & Professional','Plano principal, subtítulos y énfasis puntual en el mensaje.'],en:['Clean & Professional','Main shot, captions and selective text emphasis.']},
+    dynamic:{es:['Dynamic','El mismo mensaje gana ritmo con cortes, fotos animadas y efectos de sonido digitales.'],en:['Dynamic','The same message gains pace with cuts, animated photos and digital sound effects.']},
+    cinematic:{es:['Cinematic','Un X-roll convierte la imagen y la tipografía en una composición editorial. El sonido acompaña el cambio de escena.'],en:['Cinematic','An X-roll combines imagery and typography in an editorial composition. Sound supports the scene change.']}
+  },
+  carousel:{es:['Carrusel de 3 láminas','Desliza una idea completa: portada, explicación y cierre.'],en:['3-slide carousel','Step through a complete idea: cover, explanation and takeaway.']},
+  story:{es:['Story original','Un consejo breve en vertical, diseñado como pieza propia.'],en:['Original Story','A short vertical tip designed as a standalone piece.']},
+  quote:{es:['Frase para el feed','Una idea memorable que puede leerse en un vistazo.'],en:['Feed quote','A memorable thought you can read at a glance.']}
+};
+const travel={
+ es:[['La luz también diseña.','Antes de elegir materiales, mira cómo entra el sol.'],['Dibuja el recorrido de la luz.','Marca en el plano qué cambia entre mañana y tarde.'],['Un espacio cambia con el día.','Vuelve a la misma habitación a otra hora.']],
+ en:[['Light shapes a room.','Before choosing materials, see how the sun enters.'],['Trace the path of light.','Mark what changes between morning and afternoon.'],['A room changes through the day.','Visit the same room again at a different hour.']]
+};
+let sampleFormat='reel',sampleFinish='clean',sampleFrame=0;
+function renderSample(){
+ const isReel=sampleFormat==='reel', isCarousel=sampleFormat==='carousel';
+ const multiple=isReel||isCarousel;
+ const info=(isReel?samples.reel[sampleFinish]:samples[sampleFormat])[lang];
+ const line=travel[lang][sampleFormat==='story'?1:sampleFormat==='quote'?2:sampleFrame];
+ const art=$('sampleArt');
+ art.className='sampleArt '+sampleFormat+' '+(isReel?sampleFinish:'')+' frame'+sampleFrame;
+ $('sampleTitle').textContent=info[0];
+ $('sampleDescription').textContent=info[1];
+ $('sampleStamp').textContent=isReel?'REEL':(isCarousel?'0'+(sampleFrame+1)+' / 03':sampleFormat==='story'?'STORY':lang==='es'?'FRASE':'QUOTE');
+ $('sampleHeadline').textContent=line[0];
+ $('sampleCaption').textContent=sampleFormat==='quote'?'':line[1];
+ art.setAttribute('aria-label',info[0]+' · '+line.join(' '));
+ $('sampleFinishes').hidden=!isReel;
+ $('sampleNavigation').hidden=!multiple;
+ $('samplePrev').disabled=sampleFrame===0;
+ $('sampleNext').disabled=sampleFrame===2;
+ $('samplePrev').setAttribute('aria-label',lang==='es'?'Anterior':'Previous');
+ $('sampleNext').setAttribute('aria-label',lang==='es'?'Siguiente':'Next');
+ $('samplePosition').textContent=(isCarousel?(lang==='es'?'Lámina ':'Slide '):(lang==='es'?'Escena ':'Scene '))+(sampleFrame+1)+' / 3';
+ $('sampleNote').textContent=isReel?(lang==='es'?'Muestra visual por escenas. El audio se describe en cada acabado.':'Visual scene preview. Audio is described for each finish.'):(lang==='es'?'Caso ilustrativo de Silverwing · Arquitectura':'Silverwing sample project · Architecture');
+ document.querySelectorAll('[data-format]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.format===sampleFormat)));
+ document.querySelectorAll('[data-finish]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.finish===sampleFinish)));
+}
+document.querySelectorAll('[data-format]').forEach(b=>b.addEventListener('click',()=>{sampleFormat=b.dataset.format;sampleFrame=0;renderSample()}));
+document.querySelectorAll('[data-finish]').forEach(b=>b.addEventListener('click',()=>{sampleFinish=b.dataset.finish;renderSample()}));
+$('samplePrev').addEventListener('click',()=>{sampleFrame--;renderSample()});
+$('sampleNext').addEventListener('click',()=>{sampleFrame++;renderSample()});
+
+$('heroPause').hidden=matchMedia('(prefers-reduced-motion: reduce)').matches;
+$('heroPause').addEventListener('click',()=>{heroPaused=!heroPaused;renderHeroPause();restartHero()});
+let miniFinish='clean';
+function renderMini(){
+ const info=samples.reel[miniFinish][lang];
+ $('miniStyleArt').className='sampleArt reel '+miniFinish+' frame0';
+ $('miniStyleArt').setAttribute('aria-label',info.join(' · '));
+ $('miniStyleTitle').textContent=info[0];
+ $('miniStyleText').textContent=info[1];
+ document.querySelectorAll('[data-mini]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mini===miniFinish)));
+}
+document.querySelectorAll('[data-mini]').forEach(button=>button.addEventListener('click',()=>{miniFinish=button.dataset.mini;renderMini()}));
+$('showStyles').addEventListener('click',()=>{
+ const panel=$('priceStyles'), opening=panel.hidden;
+ panel.hidden=!opening;
+ $('showStyles').setAttribute('aria-expanded',String(opening));
+ if(opening){
+  (matchMedia('(max-width: 950px)').matches?panel:$('planPrice')).scrollIntoView({block:'start'});
+  panel.querySelector('button').focus({preventScroll:true});
+ }
+});
+
+$('closeStyles').addEventListener('click',()=>{
+ $('priceStyles').hidden=true;
+ $('showStyles').setAttribute('aria-expanded','false');
+ $('showStyles').focus();
+});
+setLang('es');restartHero();})();</script></body></html>
